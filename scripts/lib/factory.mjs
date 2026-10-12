@@ -75,6 +75,7 @@ export function validateRegistry(){
   for(const q of readCaptions(c))if(!(q.end>q.start&&q.start>=0&&q.end<=expectedSeconds(c)+.05))throw Error(`字幕时间越界: ${c.id}/${q.id||q.text}`);
   if(c.narrated&&['published','archived','preview'].includes(c.stage)&&!audioReady(c))throw Error(`案例缺配音: ${c.id}`);
  }
+ const extras=new Set();for(const c of allCompositions())for(const id of [c.cover,...(c.reservedStills||[])].filter(Boolean)){if(!ID_PATTERN.test(id)||seen.has(id)||extras.has(id))throw Error(`封面或Still ID非法或重复: ${id}`);extras.add(id);}
  return seen.size;
 }
 

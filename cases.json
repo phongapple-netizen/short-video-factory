@@ -21,7 +21,10 @@
     "previewCover": "previews/cube-cover.png",
     "subtitles": "previews/cube.srt",
     "sourceRoot": "src/videos/cube",
-    "assets": "assets/cube"
+    "assets": "assets/cube",
+    "reservedStills": [
+      "CheckStill"
+    ]
   },
   {
     "id": "TrapezoidExplainer",
