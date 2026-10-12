@@ -1,0 +1,2 @@
+zh-CN-XiaoxiaoNeural
+记住两个结论：斜边中线等于斜边一半；

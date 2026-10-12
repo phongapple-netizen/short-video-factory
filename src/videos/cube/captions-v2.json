@@ -1,0 +1,173 @@
+[
+  {
+    "id": "c1_01",
+    "text": "棱长五厘米，体积是多少？",
+    "scene": "question",
+    "start": 0.904,
+    "end": 3.328,
+    "duration": 2.424,
+    "audio": "assets/cube/audio/c1_01.mp3"
+  },
+  {
+    "id": "c1_02",
+    "text": "从六个面各打通一个十字孔，每个占五格。",
+    "scene": "question",
+    "start": 4.232,
+    "end": 7.664,
+    "duration": 3.432,
+    "audio": "assets/cube/audio/c1_02.mp3"
+  },
+  {
+    "id": "c1_03",
+    "text": "挖后还剩多少？我们用一厘米方格来数。",
+    "scene": "question",
+    "start": 8.568,
+    "end": 12.096,
+    "duration": 3.528,
+    "audio": "assets/cube/audio/c1_03.mp3"
+  },
+  {
+    "id": "c2_01",
+    "text": "第一个十字孔贯穿五层，每层挖去五格，共二十五个小方块。",
+    "scene": "drill",
+    "start": 13.385,
+    "end": 17.993,
+    "duration": 4.608,
+    "audio": "assets/cube/audio/c2_01.mp3"
+  },
+  {
+    "id": "c2_02",
+    "text": "第二个孔与已有空洞重叠，只新增挖去十四个。",
+    "scene": "drill",
+    "start": 18.379,
+    "end": 22.171,
+    "duration": 3.792,
+    "audio": "assets/cube/audio/c2_02.mp3"
+  },
+  {
+    "id": "c2_03",
+    "text": "还剩一百二十五减二十五减十四，等于八十六。",
+    "scene": "drill",
+    "start": 22.556,
+    "end": 26.276,
+    "duration": 3.72,
+    "audio": "assets/cube/audio/c2_03.mp3"
+  },
+  {
+    "id": "c2_04",
+    "text": "第三个方向再新增挖去十个小方块。",
+    "scene": "drill",
+    "start": 26.661,
+    "end": 29.613,
+    "duration": 2.952,
+    "audio": "assets/cube/audio/c2_04.mp3"
+  },
+  {
+    "id": "c2_05",
+    "text": "三个方向合计挖去四十九个。",
+    "scene": "drill",
+    "start": 29.999,
+    "end": 32.615,
+    "duration": 2.616,
+    "audio": "assets/cube/audio/c2_05.mp3"
+  },
+  {
+    "id": "c3_01",
+    "text": "把剩下的部分按高度分成五层。",
+    "scene": "layers",
+    "start": 33.032,
+    "end": 35.384,
+    "duration": 2.352,
+    "audio": "assets/cube/audio/c3_01.mp3"
+  },
+  {
+    "id": "c3_02",
+    "text": "五层依次是二十、十六、四、十六、二十格。",
+    "scene": "layers",
+    "start": 35.416,
+    "end": 38.968,
+    "duration": 3.552,
+    "audio": "assets/cube/audio/c3_02.mp3"
+  },
+  {
+    "id": "c4_01",
+    "text": "第一层，二十个。",
+    "scene": "count",
+    "start": 39.439,
+    "end": 41.311,
+    "duration": 1.872,
+    "audio": "assets/cube/audio/c4_01.mp3"
+  },
+  {
+    "id": "c4_02",
+    "text": "第二层，十六个。",
+    "scene": "count",
+    "start": 41.75,
+    "end": 43.622,
+    "duration": 1.872,
+    "audio": "assets/cube/audio/c4_02.mp3"
+  },
+  {
+    "id": "c4_03",
+    "text": "第三层，四个。",
+    "scene": "count",
+    "start": 44.061,
+    "end": 45.933,
+    "duration": 1.872,
+    "audio": "assets/cube/audio/c4_03.mp3"
+  },
+  {
+    "id": "c4_04",
+    "text": "第四层，十六个。",
+    "scene": "count",
+    "start": 46.371,
+    "end": 48.243,
+    "duration": 1.872,
+    "audio": "assets/cube/audio/c4_04.mp3"
+  },
+  {
+    "id": "c4_05",
+    "text": "第五层，二十个。",
+    "scene": "count",
+    "start": 48.682,
+    "end": 50.554,
+    "duration": 1.872,
+    "audio": "assets/cube/audio/c4_05.mp3"
+  },
+  {
+    "id": "c4_06",
+    "text": "按层数清楚，再把五层相加。",
+    "scene": "count",
+    "start": 50.993,
+    "end": 53.561,
+    "duration": 2.568,
+    "audio": "assets/cube/audio/c4_06.mp3"
+  },
+  {
+    "id": "c5_01",
+    "text": "二十加十六加四加十六加二十，等于七十六。",
+    "scene": "answer",
+    "start": 54.73,
+    "end": 58.474,
+    "duration": 3.744,
+    "audio": "assets/cube/audio/c5_01.mp3"
+  },
+  {
+    "id": "c5_02",
+    "text": "验算：原来一百二十五个小方块，挖去四十九个，剩下七十六个。",
+    "scene": "answer",
+    "start": 59.204,
+    "end": 64.22,
+    "duration": 5.016,
+    "audio": "assets/cube/audio/c5_02.mp3"
+  },
+  {
+    "id": "c5_03",
+    "text": "每个小方块是一立方厘米，所以答案是七十六立方厘米。",
+    "scene": "answer",
+    "start": 64.95,
+    "end": 69.27,
+    "duration": 4.32,
+    "audio": "assets/cube/audio/c5_03.mp3"
+  }
+]

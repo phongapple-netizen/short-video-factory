@@ -1,0 +1,8 @@
+{
+  "question": {"start": 0, "end": 6},
+  "drill": {"start": 6, "end": 26},
+  "layers": {"start": 26, "end": 32},
+  "count": {"start": 32, "end": 47},
+  "answer": {"start": 47, "end": 58},
+  "ending": {"start": 58, "end": 63}
+}

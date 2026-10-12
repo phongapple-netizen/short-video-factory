@@ -1,0 +1,9 @@
+{
+  "question": {"start":0,"end":7},
+  "step1": {"start":7,"end":17},
+  "step2": {"start":17,"end":27},
+  "step3": {"start":27,"end":38},
+  "area": {"start":38,"end":48},
+  "verify": {"start":48,"end":56},
+  "ending": {"start":56,"end":62}
+}

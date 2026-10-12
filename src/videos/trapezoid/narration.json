@@ -1,0 +1,116 @@
+[
+  {
+    "id": "q1",
+    "scene": "question",
+    "voiceText": "对角线垂直于腰，",
+    "text": "对角线垂直于腰，"
+  },
+  {
+    "id": "q2",
+    "scene": "question",
+    "voiceText": "角 AOB 一百三十五度，AB 二十，",
+    "text": "∠AOB 135°，AB 20，"
+  },
+  {
+    "id": "q3",
+    "scene": "question",
+    "voiceText": "求三角形 ABC 的面积。",
+    "text": "求△ABC的面积。"
+  },
+  {
+    "id": "a1",
+    "scene": "step1",
+    "voiceText": "角 AOD 与一百三十五度互补，是四十五度。",
+    "text": "∠AOD与135°互补，是45°。"
+  },
+  {
+    "id": "a2",
+    "scene": "step1",
+    "voiceText": "又 AC 垂直 AD，所以三角形 AOD 等腰直角，",
+    "text": "又AC垂直AD，所以△AOD等腰直角，"
+  },
+  {
+    "id": "a3",
+    "scene": "step1",
+    "voiceText": "AD 等于 AO。",
+    "text": "AD等于AO。"
+  },
+  {
+    "id": "b1",
+    "scene": "step2",
+    "voiceText": "取长底 CD 的中点 M。",
+    "text": "取长底CD的中点M。"
+  },
+  {
+    "id": "b2",
+    "scene": "step2",
+    "voiceText": "直角三角形斜边上的中线，等于斜边的一半，",
+    "text": "直角三角形斜边上的中线，等于斜边的一半，"
+  },
+  {
+    "id": "b3",
+    "scene": "step2",
+    "voiceText": "所以 MA、MB、MC、MD 都相等。",
+    "text": "所以MA、MB、MC、MD都相等。"
+  },
+  {
+    "id": "c1",
+    "scene": "step3",
+    "voiceText": "看，四个顶点都在以 M 为圆心的圆上。",
+    "text": "看，四个顶点都在以M为圆心的圆上。"
+  },
+  {
+    "id": "c2",
+    "scene": "step3",
+    "voiceText": "角 ADB 是四十五度，",
+    "text": "∠ADB是45°，"
+  },
+  {
+    "id": "c3",
+    "scene": "step3",
+    "voiceText": "圆心角 AMB 就是它的两倍，九十度。",
+    "text": "圆心角∠AMB就是它的两倍，90°。"
+  },
+  {
+    "id": "d0",
+    "scene": "area",
+    "voiceText": "所以三角形 AMB 是等腰直角三角形。",
+    "text": "所以△AMB是等腰直角三角形。"
+  },
+  {
+    "id": "d1",
+    "scene": "area",
+    "voiceText": "AB 二十，取中点 N，MN 就是高，等于十。",
+    "text": "AB 20，取中点N，MN就是高，等于10。"
+  },
+  {
+    "id": "d2",
+    "scene": "area",
+    "voiceText": "面积二十乘十除以二，一百。",
+    "text": "面积20×10÷2，100。"
+  },
+  {
+    "id": "e1",
+    "scene": "verify",
+    "voiceText": "记住两个结论：斜边中线等于斜边一半；",
+    "text": "记住两个结论：斜边中线等于斜边一半；"
+  },
+  {
+    "id": "e2",
+    "scene": "verify",
+    "voiceText": "同弧所对，圆心角是圆周角的两倍。",
+    "text": "同弧所对，圆心角是圆周角的两倍。"
+  },
+  {
+    "id": "f1",
+    "scene": "ending",
+    "voiceText": "看清是哪两条线垂直，答案就不一样。",
+    "text": "看清是哪两条线垂直，答案就不一样。"
+  },
+  {
+    "id": "f2",
+    "scene": "ending",
+    "voiceText": "你算对了吗？评论区告诉我。",
+    "text": "你算对了吗？评论区告诉我。"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "MathExplainer",
+    "title": "正方体打三个十字孔",
+    "seconds": 63,
+    "cover": "DouyinCover",
+    "preview": "previews/cube.mp4",
+    "status": "成片"
+  },
+  {
+    "id": "TrapezoidExplainer",
+    "title": "等腰梯形隐藏图形求面积",
+    "seconds": 62,
+    "cover": "Cover",
+    "preview": "previews/trapezoid.mp4",
+    "status": "成片"
+  },
+  {
+    "id": "ChibiHistory",
+    "title": "赤壁之战：曹操为什么会输？",
+    "seconds": 77.7333,
+    "cover": "ChibiCover",
+    "preview": "previews/chibi.mp4",
+    "status": "图片版成片；地图版04/05镜头另见ChibiMapPreview"
+  }
+]

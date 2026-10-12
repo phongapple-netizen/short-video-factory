@@ -1,0 +1,2 @@
+zh-CN-XiaoxiaoNeural
+直角三角形斜边上的中线，等于斜边的一半，

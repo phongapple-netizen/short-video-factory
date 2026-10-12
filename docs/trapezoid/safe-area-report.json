@@ -1,0 +1,120 @@
+{
+  "safe": {
+    "left": 60,
+    "right": 930,
+    "top": 160,
+    "bottom": 1500
+  },
+  "frames": [
+    {
+      "frame": "elementary-22.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1459
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-0.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1298
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-12.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1459
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-47.png",
+      "foreground_bounds": [
+        71,
+        168,
+        926,
+        1459
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-52.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1460
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-33.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1459
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-5.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1458
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-60.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1458
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-46.png",
+      "foreground_bounds": [
+        71,
+        168,
+        926,
+        1459
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "elementary-40.png",
+      "foreground_bounds": [
+        71,
+        168,
+        919,
+        1458
+      ],
+      "within_safe_area": true
+    },
+    {
+      "frame": "cover.png",
+      "foreground_bounds": [
+        71,
+        168,
+        912,
+        1242
+      ],
+      "within_safe_area": true
+    }
+  ]
+}

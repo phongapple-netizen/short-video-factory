@@ -2,9 +2,13 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {PirateCoins} from './videos/PirateCoins';
 import {FactoryDemo} from './videos/FactoryDemo';
+import {RemotionRoot as CubeCases} from './videos/cube/root';
+import {Root as TrapezoidAndHistoryCases} from './videos/trapezoid/root';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <CubeCases />
+    <TrapezoidAndHistoryCases />
     <Composition
       id="PirateCoins"
       component={PirateCoins}

@@ -1,0 +1,15 @@
+import profile from './profile.json';
+export const W=profile.video.width;
+export const H=profile.video.height;
+export const FPS=profile.video.fps;
+export const SAFE=profile.safe_area;
+export const SAFE_TOP=SAFE.top;
+export const SAFE_BOTTOM=SAFE.bottom;
+export const SAFE_LEFT=SAFE.left;
+export const SAFE_RIGHT=SAFE.right;
+export const LEFT=SAFE.left+profile.layout.inner_margin;
+export const RIGHT=SAFE.right-profile.layout.inner_margin;
+export const WIDTH=RIGHT-LEFT;
+export const SIDES={left:LEFT,right:W-RIGHT};
+export const SUBTITLE_HEIGHT=profile.layout.subtitle_height;
+export const BODY_BOTTOM=SAFE.bottom-SUBTITLE_HEIGHT-profile.layout.content_to_subtitle_gap;

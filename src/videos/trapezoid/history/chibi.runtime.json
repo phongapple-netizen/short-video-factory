@@ -1,0 +1,238 @@
+{
+  "source": "chibi.json",
+  "provider": "Azure Speech",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "-5%",
+  "duration": 77.73333333333333,
+  "durationInFrames": 2332,
+  "scenes": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 6.866666666666666,
+      "duration": 6.866666666666666,
+      "durationInFrames": 206,
+      "audioDuration": 6.048,
+      "audioStart": 0.3,
+      "audioEnd": 6.348,
+      "audio": "assets/chibi/audio/01.mp3",
+      "characters": 23,
+      "charactersPerSecond": 3.8
+    },
+    {
+      "id": "02",
+      "start": 6.866666666666666,
+      "end": 19.166666666666668,
+      "duration": 12.3,
+      "durationInFrames": 369,
+      "audioDuration": 11.496,
+      "audioStart": 7.166666666666666,
+      "audioEnd": 18.662666666666667,
+      "audio": "assets/chibi/audio/02.mp3",
+      "characters": 38,
+      "charactersPerSecond": 3.31
+    },
+    {
+      "id": "03",
+      "start": 19.166666666666668,
+      "end": 32.833333333333336,
+      "duration": 13.666666666666666,
+      "durationInFrames": 410,
+      "audioDuration": 12.864,
+      "audioStart": 19.46666666666667,
+      "audioEnd": 32.33066666666667,
+      "audio": "assets/chibi/audio/03.mp3",
+      "characters": 48,
+      "charactersPerSecond": 3.73
+    },
+    {
+      "id": "04",
+      "start": 32.833333333333336,
+      "end": 45.46666666666667,
+      "duration": 12.633333333333333,
+      "durationInFrames": 379,
+      "audioDuration": 11.808,
+      "audioStart": 33.13333333333333,
+      "audioEnd": 44.94133333333333,
+      "audio": "assets/chibi/audio/04.mp3",
+      "characters": 42,
+      "charactersPerSecond": 3.56
+    },
+    {
+      "id": "05",
+      "start": 45.46666666666667,
+      "end": 58.1,
+      "duration": 12.633333333333333,
+      "durationInFrames": 379,
+      "audioDuration": 11.808,
+      "audioStart": 45.766666666666666,
+      "audioEnd": 57.574666666666666,
+      "audio": "assets/chibi/audio/05.mp3",
+      "characters": 42,
+      "charactersPerSecond": 3.56
+    },
+    {
+      "id": "06",
+      "start": 58.1,
+      "end": 69.46666666666667,
+      "duration": 11.366666666666667,
+      "durationInFrames": 341,
+      "audioDuration": 10.56,
+      "audioStart": 58.4,
+      "audioEnd": 68.96,
+      "audio": "assets/chibi/audio/06.mp3",
+      "characters": 33,
+      "charactersPerSecond": 3.12
+    },
+    {
+      "id": "07",
+      "start": 69.46666666666667,
+      "end": 77.73333333333333,
+      "duration": 8.266666666666667,
+      "durationInFrames": 248,
+      "audioDuration": 7.44,
+      "audioStart": 69.76666666666667,
+      "audioEnd": 77.20666666666666,
+      "audio": "assets/chibi/audio/07.mp3",
+      "characters": 25,
+      "charactersPerSecond": 3.36
+    }
+  ],
+  "captions": [
+    {
+      "scene": "01",
+      "start": 0.3,
+      "end": 3.192521739130435,
+      "text": "曹操号称80万大军南下，"
+    },
+    {
+      "scene": "01",
+      "start": 3.192521739130435,
+      "end": 6.348,
+      "text": "为什么却在赤壁，输得这么惨？"
+    },
+    {
+      "scene": "02",
+      "start": 7.166666666666666,
+      "end": 12.13790990990991,
+      "text": "公元208年，曹操拿下荆州，顺江东下。"
+    },
+    {
+      "scene": "02",
+      "start": 12.13790990990991,
+      "end": 16.79845045045045,
+      "text": "孙权和刘备，在诸葛亮、鲁肃的促成下，"
+    },
+    {
+      "scene": "02",
+      "start": 16.79845045045045,
+      "end": 18.662666666666667,
+      "text": "决定联手抗曹。"
+    },
+    {
+      "scene": "03",
+      "start": 19.46666666666667,
+      "end": 22.95066666666667,
+      "text": "曹军号称80万，实际20多万，"
+    },
+    {
+      "scene": "03",
+      "start": 22.95066666666667,
+      "end": 25.63066666666667,
+      "text": "孙刘联军只有5万左右。"
+    },
+    {
+      "scene": "03",
+      "start": 25.63066666666667,
+      "end": 28.84666666666667,
+      "text": "可曹军多是北方兵，不习水战，"
+    },
+    {
+      "scene": "03",
+      "start": 28.84666666666667,
+      "end": 32.33066666666667,
+      "text": "又长途奔袭，军中还闹起了瘟疫。"
+    },
+    {
+      "scene": "04",
+      "start": 33.13333333333333,
+      "end": 37.06933333333333,
+      "text": "曹军把战船首尾相连，看上去稳当，"
+    },
+    {
+      "scene": "04",
+      "start": 37.06933333333333,
+      "end": 41.00533333333333,
+      "text": "其实藏着隐患。黄盖一眼看出破绽："
+    },
+    {
+      "scene": "04",
+      "start": 41.00533333333333,
+      "end": 44.94133333333333,
+      "text": "船连成一片，一把火，就能全烧起来。"
+    },
+    {
+      "scene": "05",
+      "start": 45.766666666666666,
+      "end": 48.8592380952381,
+      "text": "黄盖假意投降，趁着东南风，"
+    },
+    {
+      "scene": "05",
+      "start": 48.8592380952381,
+      "end": 51.38952380952381,
+      "text": "带火船直冲曹军船阵。"
+    },
+    {
+      "scene": "05",
+      "start": 51.38952380952381,
+      "end": 54.763238095238094,
+      "text": "周瑜趁势猛攻，大火顺风蔓延，"
+    },
+    {
+      "scene": "05",
+      "start": 54.763238095238094,
+      "end": 57.574666666666666,
+      "text": "连岸上的营寨也烧着了。"
+    },
+    {
+      "scene": "06",
+      "start": 58.4,
+      "end": 63.839999999999996,
+      "text": "曹操败退，路上又遇泥泞和瘟疫，死伤惨重。"
+    },
+    {
+      "scene": "06",
+      "start": 63.839999999999996,
+      "end": 67.03999999999999,
+      "text": "据记载，他自己说，是瘟疫，"
+    },
+    {
+      "scene": "06",
+      "start": 67.03999999999999,
+      "end": 68.96,
+      "text": "逼他烧船退兵。"
+    },
+    {
+      "scene": "07",
+      "start": 69.76666666666667,
+      "end": 72.86666666666666,
+      "text": "兵力虚、火攻准、瘟疫+联盟，"
+    },
+    {
+      "scene": "07",
+      "start": 72.86666666666666,
+      "end": 77.20666666666666,
+      "text": "赤壁之战，为三国鼎立打下了基础。"
+    }
+  ],
+  "assets": {
+    "assets/chibi/images/01.png": true,
+    "assets/chibi/images/02.png": true,
+    "assets/chibi/images/03.png": true,
+    "assets/chibi/images/04.png": true,
+    "assets/chibi/images/05.png": true,
+    "assets/chibi/images/06.png": true
+  },
+  "bgmExists": false
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "c1_01",
+    "text": "棱长5厘米，体积是多少？",
+    "voiceText": "棱长五厘米，体积是多少？",
+    "scene": "question",
+    "start": 0.1,
+    "end": 2.285063,
+    "duration": 2.185063,
+    "playbackRate": 1.1,
+    "audio": "assets/cube/audio/douyin/c1_01.wav"
+  },
+  {
+    "id": "c1_03",
+    "text": "挖后还剩多少？用1厘米方格来数。",
+    "voiceText": "挖后还剩多少？我们用一厘米方格来数。",
+    "scene": "question",
+    "start": 2.493778,
+    "end": 5.68257,
+    "duration": 3.188792,
+    "playbackRate": 1.1,
+    "audio": "assets/cube/audio/douyin/c1_03.wav"
+  },
+  {
+    "id": "c2_01",
+    "text": "第1个孔贯穿5层，每层挖去5格，共25个小方块。",
+    "voiceText": "第一个十字孔贯穿五层，每层挖去五格，共二十五个小方块。",
+    "scene": "drill",
+    "start": 6.403111,
+    "end": 10.989778,
+    "duration": 4.586667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c2_01.wav"
+  },
+  {
+    "id": "c2_02",
+    "text": "第2个孔与已有空洞重叠，只新增挖去14个。",
+    "voiceText": "第二个孔与已有空洞重叠，只新增挖去十四个。",
+    "scene": "drill",
+    "start": 11.392889,
+    "end": 15.163556,
+    "duration": 3.770667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c2_02.wav"
+  },
+  {
+    "id": "c2_03",
+    "text": "还剩：125−25−14=86。",
+    "voiceText": "还剩一百二十五减二十五减十四，等于八十六。",
+    "scene": "drill",
+    "start": 15.566667,
+    "end": 19.265334,
+    "duration": 3.698667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c2_03.wav"
+  },
+  {
+    "id": "c2_04",
+    "text": "第3个方向再新增挖去10个小方块。",
+    "voiceText": "第三个方向再新增挖去十个小方块。",
+    "scene": "drill",
+    "start": 19.668444,
+    "end": 22.599111,
+    "duration": 2.930667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c2_04.wav"
+  },
+  {
+    "id": "c2_05",
+    "text": "3个方向合计挖去49个。",
+    "voiceText": "三个方向合计挖去四十九个。",
+    "scene": "drill",
+    "start": 23.002222,
+    "end": 25.596889,
+    "duration": 2.594667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c2_05.wav"
+  },
+  {
+    "id": "c3_01",
+    "text": "把剩余部分按高度分成5层。",
+    "voiceText": "把剩下的部分按高度分成五层。",
+    "scene": "layers",
+    "start": 26.046222,
+    "end": 28.376889,
+    "duration": 2.330667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c3_01.wav"
+  },
+  {
+    "id": "c3_02",
+    "text": "5层依次是20、16、4、16、20格。",
+    "voiceText": "五层依次是二十、十六、四、十六、二十格。",
+    "scene": "layers",
+    "start": 28.423111,
+    "end": 31.953778,
+    "duration": 3.530667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c3_02.wav"
+  },
+  {
+    "id": "c4_01",
+    "text": "第1层，20个。",
+    "voiceText": "第一层，二十个。",
+    "scene": "count",
+    "start": 32.447089,
+    "end": 34.307881,
+    "duration": 1.860792,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c4_01.wav"
+  },
+  {
+    "id": "c4_02",
+    "text": "第2层，16个。",
+    "voiceText": "第二层，十六个。",
+    "scene": "count",
+    "start": 34.75497,
+    "end": 36.618803,
+    "duration": 1.863833,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c4_02.wav"
+  },
+  {
+    "id": "c4_03",
+    "text": "第3层，4个。",
+    "voiceText": "第三层，四个。",
+    "scene": "count",
+    "start": 37.065892,
+    "end": 38.932934,
+    "duration": 1.867042,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c4_03.wav"
+  },
+  {
+    "id": "c4_04",
+    "text": "第4层，16个。",
+    "voiceText": "第四层，十六个。",
+    "scene": "count",
+    "start": 39.380024,
+    "end": 41.245587,
+    "duration": 1.865563,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c4_04.wav"
+  },
+  {
+    "id": "c4_05",
+    "text": "第5层，20个。",
+    "voiceText": "第五层，二十个。",
+    "scene": "count",
+    "start": 41.692676,
+    "end": 43.559155,
+    "duration": 1.866479,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c4_05.wav"
+  },
+  {
+    "id": "c4_06",
+    "text": "按层数清楚，再把5层相加。",
+    "voiceText": "按层数清楚，再把五层相加。",
+    "scene": "count",
+    "start": 44.006244,
+    "end": 46.552911,
+    "duration": 2.546667,
+    "playbackRate": 1.0,
+    "audio": "assets/cube/audio/douyin/c4_06.wav"
+  },
+  {
+    "id": "c5_01",
+    "text": "20+16+4+16+20=76。",
+    "voiceText": "二十加十六加四加十六加二十，等于七十六。",
+    "scene": "answer",
+    "start": 47.145333,
+    "end": 50.126666,
+    "duration": 2.981333,
+    "playbackRate": 1.25,
+    "audio": "assets/cube/audio/douyin/c5_01.wav"
+  },
+  {
+    "id": "c5_02",
+    "text": "验算：原有125个，挖去49个，剩余76个。",
+    "voiceText": "验算：原来一百二十五个小方块，挖去四十九个，剩下七十六个。",
+    "scene": "answer",
+    "start": 50.272,
+    "end": 54.269333,
+    "duration": 3.997333,
+    "playbackRate": 1.25,
+    "audio": "assets/cube/audio/douyin/c5_02.wav"
+  },
+  {
+    "id": "c5_03",
+    "text": "每格1立方厘米，剩余体积是76立方厘米。",
+    "voiceText": "每个小方块是一立方厘米，所以答案是七十六立方厘米。",
+    "scene": "answer",
+    "start": 54.414666,
+    "end": 57.854666,
+    "duration": 3.44,
+    "playbackRate": 1.25,
+    "audio": "assets/cube/audio/douyin/c5_03.wav"
+  }
+]
