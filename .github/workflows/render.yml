@@ -11,6 +11,7 @@ on:
         options:
           - MathExplainer
           - TrapezoidExplainer
+          - ChibiMapFull
           - ChibiMapPreview
           - ChibiHistory
           - PirateCoins

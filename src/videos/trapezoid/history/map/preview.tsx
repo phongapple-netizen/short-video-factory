@@ -25,7 +25,7 @@ export const cameraFor=(stage:4|5,time:number,duration:number):Camera=>{
  return {cx:620,cy:1185,scale:interpolate(time,[0,duration],[3.4,2.6],EASE)};
 };
 
-const MapLabel:React.FC<{point:Point;camera:Camera;text:string;color?:string;dx?:number;dy?:number}>=({point,camera,text,color='#493C2B',dx=0,dy=0})=>{
+export const MapLabel:React.FC<{point:Point;camera:Camera;text:string;color?:string;dx?:number;dy?:number}>=({point,camera,text,color='#493C2B',dx=0,dy=0})=>{
  const x=point.x+dx/camera.scale,y=point.y+dy/camera.scale;
  const screen=screenPoint({x,y},camera);const width=text.length*34+20;
  if(screen.x-width/2<SAFE_LEFT+5||screen.x+width/2>SAFE_RIGHT-5||screen.y<535||screen.y>captionBottom-36)return null;
@@ -56,7 +56,7 @@ const Flame:React.FC<{point:Point;scale:number;time:number;seed:string;strength?
  </g>;
 };
 
-const ArrowPath:React.FC<{path:string;progress:number;color:string;scale:number}>=({path,progress,color,scale})=>{
+export const ArrowPath:React.FC<{path:string;progress:number;color:string;scale:number}>=({path,progress,color,scale})=>{
  const p=Math.max(0,Math.min(1,progress)),length=getLength(path),head=getPointAtLength(path,p*length)!;
  const tangent=getTangentAtLength(path,Math.max(.01,p*length))??{x:1,y:0};
  return <>
@@ -106,7 +106,7 @@ const Wind:React.FC<{camera:Camera;time:number}>=({camera,time})=> <g opacity={i
  })}
 </g>;
 
-const WorldMap:React.FC<{camera:Camera;stage:4|5;time:number}>=({camera,stage,time})=>
+export const WorldMap:React.FC<{camera:Camera;stage:4|5;time:number}>=({camera,stage,time})=>
  <>
   <Img src={staticFile('assets/chibi/map/base.png')} style={{position:'absolute',width:1,height:1,opacity:0}}/>
   <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{position:'absolute',inset:0}}>

@@ -16,16 +16,23 @@
     "status": "成片"
   },
   {
-    "id": "ChibiMapPreview",
-    "title": "赤壁之战：地图推演版（最新改版）",
-    "seconds": 25.266666666666666,
-    "preview": "previews/chibi-map.mp4",
-    "status": "最新地图改版：第04、05镜头预览；尚未完成全片",
+    "id": "ChibiMapFull",
+    "title": "赤壁之战：地图推演版（完整新版）",
+    "seconds": 77.73333333333333,
+    "cover": "ChibiMapCover",
+    "preview": "previews/chibi-map-full.mp4",
+    "status": "完整地图版成片",
+    "draftVersion": {
+      "id": "ChibiMapPreview",
+      "preview": "previews/chibi-map.mp4",
+      "seconds": 25.266666666666666
+    },
     "previousVersion": {
       "id": "ChibiHistory",
       "preview": "previews/chibi.mp4",
       "seconds": 77.73333333333333,
-      "status": "旧图片卡片版成片"
-    }
+      "status": "旧图片卡片版"
+    },
+    "smallPreview": "previews/chibi-map-full-small.mp4"
   }
 ]
