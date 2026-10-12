@@ -1,0 +1,73 @@
+name: Render MP4 video
+
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: 'Composition ID (e.g. PirateCoins or FactoryDemo)'
+        required: true
+        default: 'PirateCoins'
+        type: string
+      quality:
+        description: 'final = 1080x1920 CRF16; draft = half scale CRF22'
+        required: true
+        default: final
+        type: choice
+        options:
+          - final
+          - draft
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: Render ${{ inputs.composition }} (${{ inputs.quality }})
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chinese subtitle fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk libnss3 libgbm1 libatk-bridge2.0-0
+          fc-cache -f
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Type-check project
+        run: npm run typecheck
+      - name: Ensure Chrome Headless Shell
+        run: npx remotion browser ensure
+      - name: List compositions
+        run: npm run compositions
+      - name: Render chosen composition
+        shell: bash
+        env:
+          COMPOSITION: ${{ inputs.composition }}
+          QUALITY: ${{ inputs.quality }}
+        run: |
+          set -euo pipefail
+          if [[ ! "$COMPOSITION" =~ ^[A-Za-z][A-Za-z0-9_-]*$ ]]; then
+            echo 'Invalid Composition ID. Use letters, numbers, _ or -, starting with a letter.'
+            exit 1
+          fi
+          mkdir -p out
+          if [[ "$QUALITY" == 'draft' ]]; then
+            OPTIONS=(--scale=0.5 --crf=22)
+          else
+            OPTIONS=(--crf=16)
+          fi
+          npx remotion render src/index.ts "$COMPOSITION" "out/${COMPOSITION}.mp4" \
+            --codec=h264 --pixel-format=yuv420p --concurrency=2 "${OPTIONS[@]}"
+      - name: Upload MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ inputs.composition }}-${{ inputs.quality }}
+          path: out/*.mp4
+          if-no-files-found: error
+          retention-days: 14

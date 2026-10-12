@@ -1,0 +1,25 @@
+{
+  "name": "short-video-factory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Remotion short-video factory with GitHub Actions cloud rendering",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "compositions": "remotion compositions src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render:pirates": "remotion render src/index.ts PirateCoins out/PirateCoins.mp4 --codec=h264 --pixel-format=yuv420p --crf=16",
+    "render:demo": "remotion render src/index.ts FactoryDemo out/FactoryDemo.mp4 --codec=h264 --pixel-format=yuv420p --crf=16"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "remotion": "4.0.534",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {"node": ">=20"}
+}
