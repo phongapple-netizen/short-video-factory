@@ -8,6 +8,7 @@ if(!['math','history','physics','chemistry'].includes(subject))throw Error('不�
 const registered=new Set(allCompositions().flatMap(c=>[c.id,c.cover,...(c.reservedStills||[])].filter(Boolean)));
 if(registered.has(id)||registered.has(id+'Cover'))throw Error(`ID已登记: ${id}`);
 const slug=id.replace(/([a-z0-9])([A-Z])/g,'$1-$2').replace(/_/g,'-').toLowerCase(),dir=`src/videos/${slug}`;
+if(loadCases().some(c=>c.key===slug))throw Error(`案例key已登记，保留现有入口: ${slug}`);
 if(existsSync(dir)||existsSync(`public/assets/${slug}`))throw Error(`目录已存在，保留现有内容: ${slug}`);
 const content=readJSON(`templates/${subject}.json`);content.id=id;
 const json=data=>JSON.stringify(data,null,2)+'\n';

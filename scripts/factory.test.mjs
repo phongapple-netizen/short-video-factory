@@ -32,7 +32,7 @@ test('Scaffolding registers each subject; cached speech is measured and failures
   for(const subject of ['math','history','physics','chemistry'])run(process.execPath,['scripts/new-video.mjs',`Fixture${subject}`,'--subject',subject]);
   run(process.execPath,['scripts/check-factory.mjs']);run('npm',['run','typecheck']);run(process.execPath,['scripts/sync-registry.mjs','--check']);
   const noVoice=spawnSync(process.execPath,['scripts/render-case.mjs','Fixturemath','final'],{cwd:directory,encoding:'utf8'});assert.notEqual(noVoice.status,0);assert.match(noVoice.stderr,/真实配音时间轴/);
-  for(const id of ['Cover','CheckStill','FixturemathCover']){const conflict=spawnSync(process.execPath,['scripts/new-video.mjs',id],{cwd:directory,encoding:'utf8'});assert.notEqual(conflict.status,0);}
+  for(const id of ['Cover','CheckStill','FixturemathCover','CubeCrossHoles']){const conflict=spawnSync(process.execPath,['scripts/new-video.mjs',id],{cwd:directory,encoding:'utf8'});assert.notEqual(conflict.status,0);}
   const duplicate=spawnSync(process.execPath,['scripts/new-video.mjs','Fixturemath'],{cwd:directory,encoding:'utf8'});assert.notEqual(duplicate.status,0);
   if(process.env.FACTORY_RENDER_TEST==='1'){
    const saved=path.join(ROOT,'out','factory-template-review');mkdirSync(saved,{recursive:true});

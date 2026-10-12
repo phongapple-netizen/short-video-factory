@@ -44,7 +44,7 @@ for scene in content['scenes']:
  start=cursor;cursor+=duration;at=start+settings['lead_in_seconds'];characters=sum(sum(ch.isalnum() for ch in c[1]['voiceText']) for c in clips);cps=characters/max(.001,sum(c[3] for c in clips))
  scenes.append({'id':scene['id'],'start':start,'end':cursor,'durationInFrames':round(duration*fps),'audioDuration':sum(c[3] for c in clips),'charactersPerSecond':round(cps,2)})
  for _,cue,path,length,actual_provider in clips:
-  captions.append({**cue,'scene':scene['id'],'start':at,'end':at+length,'duration':length,'provider':actual_provider,'audio':str(path.relative_to(root/'public'))});at+=length+settings['cue_gap_seconds']
+  captions.append({**cue,'scene':scene['id'],'start':at,'end':at+length,'duration':length,'provider':actual_provider,'audio':path.relative_to(root/'public').as_posix()});at+=length+settings['cue_gap_seconds']
  print(f'{scene["id"]}: {start:.2f}–{cursor:.2f}s | 配音 {voice_seconds:.2f}s | {cps:.2f}字/秒'+(' WARNING: 超过4.8字/秒' if cps>settings['warn_characters_per_second'] else ''))
 narration_source={'voice':voice,'rate':rate,'scenes':[{'id':s['id'],'plannedSeconds':s['plannedSeconds'],'cues':[{k:c[k] for k in ['id','text','voiceText']} for c in s['cues']]} for s in content['scenes']]}
 runtime={'providers':sorted({c[4] for c in cache}),'narrationSource':narration_source,'timingMode':'measured','duration':cursor,'durationInFrames':round(cursor*fps),'voice':voice,'rate':rate,'scenes':scenes,'captions':captions}
