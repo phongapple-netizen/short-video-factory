@@ -1,0 +1,6 @@
+interface:
+  display_name: "短视频工厂"
+  short_description: "复用数学与历史案例制作抖音知识视频，检查并交付成片"
+  default_prompt: "使用 $short-video-factory，按仓库的稳定流程制作这个选题，复用合适案例并完成验证和交付。"
+policy:
+  allow_implicit_invocation: true

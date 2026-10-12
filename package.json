@@ -9,14 +9,26 @@
     "typecheck": "tsc --noEmit",
     "render:pirates": "remotion render src/index.ts PirateCoins out/PirateCoins.mp4 --codec=h264 --pixel-format=yuv420p --crf=16",
     "render:demo": "remotion render src/index.ts FactoryDemo out/FactoryDemo.mp4 --codec=h264 --pixel-format=yuv420p --crf=16",
-    "render:case": "node scripts/render-case.mjs"
+    "render:case": "node scripts/render-case.mjs",
+    "cases": "node scripts/list-cases.mjs",
+    "new:video": "node scripts/new-video.mjs",
+    "registry:sync": "node scripts/sync-registry.mjs",
+    "registry:check": "node scripts/sync-registry.mjs --check",
+    "check:factory": "node scripts/check-factory.mjs",
+    "review:case": "node scripts/review-case.mjs",
+    "voice:case": "python3 scripts/prepare-voice.py",
+    "deliver:case": "node scripts/deliver-case.mjs",
+    "skill:install": "node scripts/install-skill.mjs",
+    "test:factory": "node --test scripts/factory.test.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.534",
     "remotion": "4.0.534",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "@remotion/paths": "4.0.534"
+    "@remotion/paths": "4.0.534",
+    "@remotion/bundler": "4.0.534",
+    "@remotion/renderer": "4.0.534"
   },
   "devDependencies": {
     "@types/react": "^19.1.0",

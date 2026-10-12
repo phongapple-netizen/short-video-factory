@@ -1,0 +1,24 @@
+---
+name: short-video-factory
+description: 在 short-video-factory 仓库中制作、修改、核查和交付抖音竖屏知识视频。适用于数学、奥数、历史地图、物理和化学讲解；复用成功案例的安全区、配音、动画、封面和响度流程，并按用户要求导出或推送 GitHub。用户说“用短视频工厂”“沿用之前数学/历史视频流程”或指定本仓库制作视频时使用。
+---
+
+# Short Video Factory
+
+This skill routes production; the repository owns the settings and executable workflow. Reply in the user's language, normally Chinese.
+
+1. Locate the repository from the current workspace, an ancestor, or `SHORT_VIDEO_FACTORY_ROOT`. Confirm `package.json.name === "short-video-factory"`. The default repository is https://github.com/phongapple-netizen/short-video-factory. If absent, clone it into an available workspace; never overwrite another checkout. Read its `AGENTS.md`, `standards/WORKFLOW.md`, `standards/douyin-profile.json` and `cases.json` before editing.
+2. Select a reference via `npm run cases`. Stable keys `cube-cross-holes`, `trapezoid-hidden-shapes`, and `chibi-map` resolve to current versions. `ChibiMapFull` is the current complete history reference; `ChibiMapPreview` and `ChibiHistory` are older versions. Never substitute an archived or preview video for the requested current final.
+3. For edits, preserve the existing Composition ID and successful implementation. For a new topic, use `npm run new:video -- <UniqueId> --subject math|history|physics|chemistry`. Read `templates/README.md`. The scaffold is a design starter, not an automatic solution or a finished film. Replace its sample content and `Diagram.tsx` with the topic's actual proof, model or map.
+4. Establish the one learning goal, audience/grade, facts, calculation, conditions and sources before narration. Read the subject section of `standards/WORKFLOW.md`. Use assertions for known geometry, units, counts, chronology and coordinate relationships. Do not silently introduce advanced techniques into elementary explanations or treat illustrative maps as precise boundaries.
+5. Keep display text and narration separate. Use numeric subtitles and natural spoken Chinese. Keep existing working audio when the narration is unchanged. For new templates run `npm run voice:case -- <Id>`; cache is keyed by text, voice and rate. The measured audio determines timing. Report when the requested duration conflicts with unmodified narration; do not silently over-speed or claim the planned duration. Credentials come only from environment/Secrets and are never echoed, committed or embedded in content JSON.
+6. Use frame-based animations, shared settings, and actual diagram/map movement. Run `npm run typecheck`, `npm run check:factory`, and `npm run review:case -- <Id>`. Open the exported actual images (including start, scene middles, transitions, end and cover). Check readability, semantic accuracy, occlusion and rhythm. Automated coordinates do not prove content correctness; an uninstrumented reference still requires visual inspection. Fix the images before rendering.
+7. When the user requests a video export or complete delivery, run `npm run render:case -- <Id> final`. It performs CRF16 H.264/yuv420p/AAC rendering, two-pass loudnorm and encoded-file verification. Use `REMOTION_BROWSER_EXECUTABLE` only when the environment needs a local browser; default concurrency is 1. Never rerender all successful reference films for an unrelated change.
+8. Once you have visually inspected the frames and verified the final output, run `npm run deliver:case -- <Id> --reviewed`. This records your completed visual review, creates a smaller download copy, and packages cover/SRT/reports. Write topic-specific Douyin copy in the generated copy file; do not leave a generic draft as the finished caption. Set the appropriate current version through the registry and run `npm run registry:sync`.
+9. Push to GitHub only within the user's authorized scope; preserve existing work, do not force-push, and exclude credentials, dependencies and redundant raw renders. After a requested push, verify the actual raw video/PNG/SRT links using `npm run deliver:case -- <Id> --verify-links`. Report the current ID, actual duration, file size, measured loudness, links, reproducible command and any incomplete item. Use a small GitHub-hosted copy first for downloads; do not invent temporary file links.
+
+## Working with the user
+
+Keep progressing through already authorized work. Do not introduce a universal user-approval gate. Pause at preview only when the user explicitly requested preview confirmation, or when a required answer changes the result and cannot reasonably be inferred. Optional preferences may be asked while independent work continues. A self-recorded `--reviewed` flag is evidence of your own image inspection, not a request for user permission.
+
+For tools and command examples, use [references/commands.md](references/commands.md). The repository's settings and current user instructions override defaults in this skill.

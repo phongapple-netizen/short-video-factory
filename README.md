@@ -8,11 +8,13 @@
 
 点击 **Run workflow**，在 `composition` 下拉菜单选一个，再选 `final`，启动即可。完成后在运行详情的 **Artifacts** 下载视频、封面和字幕 ZIP（保留14天）。
 
-| 案例 | composition 下拉选项 | 时长 | 成片下载 | 封面 |
+<!-- cases:start -->
+| 案例 | Composition ID | 时长 | 成片 | 状态 |
 | --- | --- | --- | --- | --- |
-| 正方体打三个十字孔，剩余体积76 | `MathExplainer` | 63秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/cube.mp4) | [查看](previews/cube-cover.png) |
-| 等腰梯形：发现隐藏图形，面积100 | `TrapezoidExplainer` | 62秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/trapezoid.mp4) | [查看](previews/trapezoid-cover.png) |
-| 赤壁之战：地图推演版（完整新版） | `ChibiMapFull` | 77.73秒 | [下载最新地图版 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full.mp4) | [查看封面](previews/chibi-map-full-cover.png) |
+| 正方体打三个十字孔 | `MathExplainer` | 63秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/cube.mp4) | 正式版 |
+| 等腰梯形隐藏图形求面积 | `TrapezoidExplainer` | 62秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/trapezoid.mp4) | 正式版 |
+| 赤壁之战：地图推演版（完整新版） | `ChibiMapFull` | 77.73秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full.mp4) | 正式版 |
+<!-- cases:end -->
 
 **下载较慢时：[赤壁地图版较小文件](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full-small.mp4)**（同为1080×1920、30fps，音频保持相同，仅降低视频码率）。
 
@@ -64,7 +66,7 @@ npx remotion still src/index.ts ChibiMapCover out/chibi-map-cover.png
 - `previews/`：现有成片、封面、历史SRT、地图预览。
 - `docs/`：原项目制作记录与已有检验报告；原记录的命令和路径以本 README 为准。报告对应原制作输出，不代表本次迁移重新渲染了全片。
 
-新增题材沿用 `src/videos/`、结构化JSON内容、安全区 x=60..930 / y=160..1500；再注册唯一ID、添加 `cases.json` 和工作流选项。
+新增题材使用下方模板入口，登记和Actions选项自动同步。
 
 ## 重新生成配音（可选）
 
@@ -80,3 +82,34 @@ python3 scripts/trapezoid/prepare_map_regions.py
 ```
 
 正方体用 Edge-TTS 晓晓；梯形现有配音是 Azure 晓晓；历史配置是 Edge-TTS 云希、语速−5%，现有缓存来自 Azure 云希（此前 Edge 接口不可用）。Azure 重生成只读取环境变量 `AZURE_SPEECH_KEY`、`AZURE_SPEECH_REGION`、可选 `AZURE_SPEECH_VOICE`；请在本机环境或 GitHub Secrets 设置，勿提交密钥。脚本改写字幕/时间轴后请重新导出与检查。
+
+
+## 稳定制作模板与Skill
+
+规范唯一来源：[工作流](standards/WORKFLOW.md)、[平台参数](standards/douyin-profile.json)、[制作模板](templates/README.md)。
+
+```bash
+npm run cases
+npm run new:video -- MyLesson --subject math  # history / physics / chemistry
+# 替换content.json和Diagram.tsx里的示例，先验证模型
+npm run voice:case -- MyLesson
+npm run check:factory
+npm run review:case -- MyLesson
+# 查看实际帧后导出
+npm run render:case -- MyLesson final
+npm run deliver:case -- MyLesson --reviewed
+# 按用户授权推送后测试实际链接
+npm run deliver:case -- MyLesson --verify-links
+```
+
+模板尚未生成声音时只能预览计划时间轴，正式渲染会拒绝它。新模板不能自动解决任意几何题，也不会自动证明史实；数学/历史成功案例和物理/化学起步模板各有自己的图解与核查方法。
+
+[short-video-factory Skill](skills/short-video-factory/SKILL.md)已随仓库提供，项目入口在`.agents/skills/`。本机安装：
+
+```bash
+npm run skill:install -- --global
+# 其他机器也可安装：
+npx -y skills@latest add phongapple-netizen/short-video-factory --skill short-video-factory -g -y
+```
+
+以后可说：“用短视频工厂做这道奥数题，沿用梯形案例，完成后推送仓库。” Skill会读取仓库当前规范，不另复制参数。安装后如当前会话未识别，请新开会话，或直接要求读取仓库SKILL.md；环境和密钥仍需在实际执行机器配置。

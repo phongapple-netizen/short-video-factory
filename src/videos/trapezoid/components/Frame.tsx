@@ -2,7 +2,8 @@ import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {W,H,SAFE,LEFT,RIGHT,SIDES} from '../layout';
 export const C={paper:'#F7F5EF',ink:'#172D3D',muted:'#60727D',line:'#DADDD7',blue:'#386AA9',teal:'#147E75',orange:'#BF5434',gold:'#956E17'};
-export const FONT="'Noto Sans CJK SC', sans-serif";
+export {FONT} from '../../../shared/profile';
+import {FONT} from '../../../shared/profile';
 export const Frame:React.FC<{step:number;eyebrow:string;title:React.ReactNode;children:React.ReactNode;titleSize?:number;cover?:boolean;brand?:string;totalSteps?:number}>=({step,eyebrow,title,children,titleSize=64,cover=false,brand='几何实验室',totalSteps=7})=><AbsoluteFill style={{background:C.paper,color:C.ink,fontFamily:FONT}}>
   <svg width={W} height={H} style={{position:'absolute',inset:0}}>
     <path d={`M${LEFT} ${SAFE.top+62}H${RIGHT}`} stroke={C.line}/>

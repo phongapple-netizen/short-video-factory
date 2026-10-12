@@ -1,0 +1,21 @@
+import {existsSync,mkdirSync,writeFileSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {ROOT,loadCases,allCompositions,readJSON,ID_PATTERN,profile,repositoryPath} from './lib/factory.mjs';
+process.chdir(ROOT);
+const id=process.argv[2],index=process.argv.indexOf('--subject'),subject=index<0?'math':process.argv[index+1];
+if(!id||!ID_PATTERN.test(id))throw Error('用法: npm run new:video -- MyVideo --subject math|history|physics|chemistry');
+if(!['math','history','physics','chemistry'].includes(subject))throw Error('不支持的subject');
+if(allCompositions().some(c=>c.id===id||c.cover===id+'Cover'))throw Error(`ID已登记: ${id}`);
+const slug=id.replace(/([a-z0-9])([A-Z])/g,'$1-$2').replace(/_/g,'-').toLowerCase(),dir=`src/videos/${slug}`;
+if(existsSync(dir)||existsSync(`public/assets/${slug}`))throw Error(`目录已存在，保留现有内容: ${slug}`);
+const content=readJSON(`templates/${subject}.json`);content.id=id;
+const json=data=>JSON.stringify(data,null,2)+'\n';
+let cursor=0;const scenes=[],captions=[];
+for(const s of content.scenes){const start=cursor,end=start+s.plannedSeconds;scenes.push({id:s.id,start,end,durationInFrames:Math.round(s.plannedSeconds*profile.video.fps)});for(const [i,c] of s.cues.entries())captions.push({...c,scene:s.id,start:start+.3+i*(s.plannedSeconds-.8)/s.cues.length,end:start+.3+(i+1)*(s.plannedSeconds-.8)/s.cues.length,audio:null});cursor=end;}
+mkdirSync(dir,{recursive:true});mkdirSync(`public/assets/${slug}/audio`,{recursive:true});
+writeFileSync(`${dir}/content.json`,json(content));writeFileSync(`${dir}/runtime.json`,json({timingMode:'planned',duration:cursor,durationInFrames:Math.round(cursor*profile.video.fps),scenes,captions}));
+writeFileSync(`${dir}/Diagram.tsx`,"// Replace this component with this topic's geometry, map or experiment model.\nexport {SampleDiagram as Diagram} from '../../shared/SampleDiagram';\n");
+writeFileSync(`${dir}/Registration.tsx`,"import {Composition,Still} from 'remotion';\nimport {StoryVideo,StoryCover,type StoryContent,type StoryRuntime} from '../../shared/story';\nimport {W,H,FPS} from '../../shared/profile';\nimport content from './content.json';\nimport runtime from './runtime.json';\nimport {Diagram} from './Diagram';\nconst Video=(props:{debugAudit?:boolean;showSafeArea?:boolean})=><StoryVideo content={content as StoryContent} runtime={runtime as StoryRuntime} Diagram={Diagram} {...props}/>;\nconst Cover=()=><StoryCover content={content as StoryContent} Diagram={Diagram}/>;\nexport const Registration=()=> <>\n <Composition id={content.id} component={Video} durationInFrames={runtime.durationInFrames} fps={FPS} width={W} height={H} defaultProps={{debugAudit:false,showSafeArea:false}}/>\n <Still id={content.id+'Cover'} component={Cover} width={W} height={H}/>\n</>;\n");
+const rows=loadCases();rows.push({key:slug,id,title:content.title.replaceAll('\n',''),subject,template:content.template,stage:'draft',status:'模板草稿；需替换内容并生成真实配音',seconds:cursor,cover:id+'Cover',narrated:true,registration:`${dir}/Registration.tsx`,content:`${dir}/content.json`,assets:`assets/${slug}`,captions:{file:`${dir}/runtime.json`},timeline:{file:`${dir}/runtime.json`,format:'scenes'}});writeFileSync('cases.json',json(rows));
+const result=spawnSync(process.execPath,['scripts/sync-registry.mjs'],{stdio:'inherit'});if(result.status)process.exit(result.status);
+console.log(`已建立 ${id}；编辑 ${dir}/content.json 和 Diagram.tsx。当前时间轴为计划值，不是配音测量值。`);

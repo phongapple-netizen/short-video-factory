@@ -1,0 +1,58 @@
+{
+  "id": "__ID__",
+  "subject": "physics",
+  "template": "explanation",
+  "title": "物体静止，\n为什么还受力？",
+  "coverSubtitle": "先明确研究对象和条件",
+  "brand": "科学实验室",
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-5%"
+  },
+  "model": {
+    "kind": "forces",
+    "mass": 1,
+    "gravity": 10
+  },
+  "sources": [],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "物体静止，\n为什么还受力？",
+      "plannedSeconds": 6,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "静止在水平桌面上的物体，仍然受到力。",
+          "voiceText": "静止在水平桌面上的物体，仍然受到力。"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "看清方向与大小",
+      "plannedSeconds": 12,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "重力向下，桌面的支持力向上。",
+          "voiceText": "重力向下，桌面的支持力向上。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "静止时，两力平衡",
+      "plannedSeconds": 6,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "物体静止时，这两个力大小相等、方向相反。",
+          "voiceText": "物体静止时，这两个力大小相等、方向相反。"
+        }
+      ]
+    }
+  ]
+}

@@ -49,6 +49,8 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Type-check project
         run: npm run typecheck
+      - name: Check registry and workflow
+        run: npm run check:factory && npm run registry:check
       - name: Ensure Chrome Headless Shell
         run: npx remotion browser ensure
       - name: List compositions
@@ -70,5 +72,8 @@ jobs:
             out/${{ inputs.composition }}/cover.png
             out/${{ inputs.composition }}/captions.srt
             out/${{ inputs.composition }}/audio-report.json
+            out/${{ inputs.composition }}/verification.json
+            out/${{ inputs.composition }}/ffprobe.json
+            out/${{ inputs.composition }}/delivery.json
           if-no-files-found: error
           retention-days: 14

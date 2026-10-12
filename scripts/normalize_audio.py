@@ -6,6 +6,10 @@ import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
+audio_profile = json.loads((root / 'standards/douyin-profile.json').read_text())['audio']
+target_i = audio_profile['integrated_lufs']
+max_peak = audio_profile['maximum_true_peak_dbtp']
+lra = audio_profile['lra_target']
 input_path = root / (sys.argv[1] if len(sys.argv) > 1 else "out/raw.mp4")
 output_path = root / (sys.argv[2] if len(sys.argv) > 2 else "out/final.mp4")
 
@@ -25,12 +29,12 @@ def measured(log):
     peak = float(re.search(r"True peak:\s*Peak:\s*(-?[\d.]+)", summary).group(1))
     return integrated, peak
 
-for target_peak in (-1.8, -2.2, -2.6):
+for target_peak in (audio_profile['normalization_peak_target_dbtp'] - i * 0.4 for i in range(3)):
     first = stats(run(["-i", str(input_path), "-vn", "-af",
-                       f"loudnorm=I=-15:TP={target_peak}:LRA=7:print_format=json",
+                       f"loudnorm=I={target_i}:TP={target_peak}:LRA={lra}:print_format=json",
                        "-f", "null", "-"]))
     loudnorm = (
-        f"loudnorm=I=-15:TP={target_peak}:LRA=7:"
+        f"loudnorm=I={target_i}:TP={target_peak}:LRA={lra}:"
         f"measured_I={first['input_i']}:measured_TP={first['input_tp']}:"
         f"measured_LRA={first['input_lra']}:measured_thresh={first['input_thresh']}:"
         f"offset={first['target_offset']}:linear=true:print_format=json"
@@ -44,8 +48,8 @@ for target_peak in (-1.8, -2.2, -2.6):
     correction = 0.0
     # Measure the encoded AAC rather than trusting loudnorm's own estimate.
     # Re-encode from the original input when a small gain correction fits the peak budget.
-    gain = -15 - integrated
-    if abs(gain) > 0.3 and abs(gain) <= 1.5 and peak + gain <= -1.6:
+    gain = target_i - integrated
+    if abs(gain) > 0.3 and abs(gain) <= 1.5 and peak + gain <= max_peak - 0.1:
         correction = gain
         second = stats(run(["-y", "-i", str(input_path), "-map", "0:v:0", "-map", "0:a:0",
                             "-c:v", "copy", "-af", loudnorm + f",volume={gain}dB",
@@ -54,7 +58,7 @@ for target_peak in (-1.8, -2.2, -2.6):
         log = run(["-i", str(output_path), "-vn", "-af", "ebur128=peak=true", "-f", "null", "-"])
         (report_dir / "ebur128.log").write_text(log, encoding="utf-8")
         integrated, peak = measured(log)
-    if abs(integrated + 15) <= 0.3 and peak <= -1.5:
+    if abs(integrated - target_i) <= audio_profile['lufs_tolerance'] and peak <= max_peak:
         report = {"integrated_lufs": integrated, "true_peak_dbtp": peak,
                   "target_true_peak": target_peak, "encoded_gain_correction_db": correction,
                   "first_pass": first, "second_pass": second}

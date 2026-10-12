@@ -1,0 +1,56 @@
+{
+  "id": "__ID__",
+  "subject": "chemistry",
+  "template": "explanation",
+  "title": "化学反应，\n原子去哪儿了？",
+  "coverSubtitle": "用粒子示意理解守恒",
+  "brand": "科学实验室",
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-5%"
+  },
+  "model": {
+    "kind": "molecules"
+  },
+  "sources": [],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "化学反应，\n原子去哪儿了？",
+      "plannedSeconds": 6,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "化学反应前后，原子的种类和数目不变。",
+          "voiceText": "化学反应前后，原子的种类和数目不变。"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "变化的是组合方式",
+      "plannedSeconds": 12,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "图中用氢和氧组成水，表示原子重新组合。",
+          "voiceText": "图中用氢和氧组成水，表示原子重新组合。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "反应式需要配平",
+      "plannedSeconds": 6,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "2H₂+O₂→2H₂O，两边氢原子和氧原子数相等。",
+          "voiceText": "两个氢分子与一个氧分子重新组合成两个水分子。图中两边的原子数相等。"
+        }
+      ]
+    }
+  ]
+}

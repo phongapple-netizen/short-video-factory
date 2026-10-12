@@ -1,0 +1,44 @@
+import {existsSync,readFileSync,mkdirSync,copyFileSync,writeFileSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {ROOT,loadCases,getCase,profile,expectedSeconds,srt,readCaptions,repositoryPath,sourceSignature} from './lib/factory.mjs';
+process.chdir(ROOT);
+const entry=getCase(process.argv[2]),dir=`out/${entry.id}`;
+const run=(cmd,args)=>{const r=spawnSync(cmd,args,{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1);};
+if(process.argv.includes('--verify-links')){
+ const remote=spawnSync('git',['remote','get-url','origin'],{encoding:'utf8'}).stdout?.trim();
+ const match=remote?.match(/github\.com[:/]([^/]+)\/([^/.]+)(?:\.git)?$/);if(!match)throw Error('需要GitHub origin');
+ const branch=spawnSync('git',['branch','--show-current'],{encoding:'utf8'}).stdout.trim();
+ const results=[];
+ for(const f of [entry.smallPreview,entry.preview,entry.previewCover,entry.subtitles].filter(Boolean)){
+  const url=`https://raw.githubusercontent.com/${match[1]}/${match[2]}/${encodeURIComponent(branch)}/${f}`;
+  const r=await fetch(url);if(!r.ok)throw Error(`链接不可用 HTTP${r.status}: ${url}`);
+  const reader=r.body.getReader(),{value}=await reader.read();await reader.cancel();
+  if(f.endsWith('.mp4')&&!Buffer.from(value||[]).subarray(0,64).includes(Buffer.from('ftyp')))throw Error(`返回内容不是MP4: ${url}`);
+  if(f.endsWith('.srt')&&!/^\d+\r?\n\d{2}:\d{2}:/.test(Buffer.from(value||[]).toString('utf8')))throw Error(`返回内容不是SRT: ${url}`);
+  if(f.endsWith('.png')&&!Buffer.from(value||[]).subarray(0,4).equals(Buffer.from([137,80,78,71])))throw Error(`返回内容不是PNG: ${url}`);
+  results.push({file:f,url,status:r.status});console.log('已验证',url);
+ }
+ if(!results.length)throw Error('该案例还没有登记交付文件');
+ mkdirSync(dir,{recursive:true});writeFileSync(`${dir}/links.json`,JSON.stringify(results,null,2)+'\n');process.exit(0);
+}
+if(!process.argv.includes('--reviewed'))throw Error('先查看实际关键帧；用 --reviewed 记录你已完成画面检查，无需额外向用户申请批准。');
+if(!loadCases().some(c=>c.id===entry.id))throw Error('此命令交付当前版本；旧版与预览版请明确更新登记表，避免覆盖正式入口。');
+const video=`${dir}/${entry.id}.mp4`;if(!existsSync(video))throw Error(`先渲染 ${entry.id}`);
+if(!existsSync(`${dir}/review/safe-area-report.json`))throw Error('缺少本次关键帧导出报告；先运行 npm run review:case');
+const signature=sourceSignature(entry);
+const review=JSON.parse(readFileSync(`${dir}/review/safe-area-report.json`,'utf8'));
+const render=existsSync(`${dir}/delivery.json`)?JSON.parse(readFileSync(`${dir}/delivery.json`,'utf8')):null;
+if(review.sourceSignature!==signature||render?.sourceSignature!==signature||render?.quality!=='final')throw Error('当前素材/文案/代码已变化，或输出只是draft；需重新预览并正式渲染，避免交付旧片。');
+run('python3',['scripts/verify-video.py',video,'--seconds',String(expectedSeconds(entry)),...(!entry.narrated?['--silent']:[])]);
+const target=entry.preview||`previews/${entry.key}.mp4`,small=entry.smallPreview||target.replace(/\.mp4$/,'-small.mp4');mkdirSync('previews',{recursive:true});
+copyFileSync(video,repositoryPath(target));
+run('ffmpeg',['-hide_banner','-loglevel','error','-y','-i',video,'-map','0:v:0',...(!entry.narrated?[]:['-map','0:a:0']),'-c:v','libx264','-preset','fast','-crf','27','-pix_fmt',profile.encoding.pixel_format,'-threads','2','-c:a','copy','-movflags','+faststart',repositoryPath(small)]);
+const cover=entry.cover?target.replace(/\.mp4$/,'-cover.png'):null,subtitles=readCaptions(entry).length?target.replace(/\.mp4$/,'.srt'):null;
+if(cover)copyFileSync(`${dir}/cover.png`,cover);if(subtitles)writeFileSync(subtitles,srt(readCaptions(entry)));
+const reports=`docs/${entry.key}`;mkdirSync(reports,{recursive:true});
+for(const f of ['ffprobe.json','verification.json','audio-report.json'])if(existsSync(`${dir}/${f}`))copyFileSync(`${dir}/${f}`,`${reports}/${f}`);
+copyFileSync(`${dir}/review/safe-area-report.json`,`${reports}/safe-area-report.json`);
+const rows=loadCases(),current=rows.find(c=>c.id===entry.id);Object.assign(current,{preview:target,smallPreview:small,previewCover:cover,subtitles,stage:'published',status:'正式版',seconds:expectedSeconds(entry)});writeFileSync('cases.json',JSON.stringify(rows,null,2)+'\n');
+writeFileSync(`${reports}/delivery.json`,JSON.stringify({id:entry.id,current:true,visualReviewRecorded:true,files:{video:target,small,cover,subtitles},renderCommand:`npm run render:case -- ${entry.id} final`},null,2)+'\n');
+const copy=`${reports}/douyin-copy.md`;if(!existsSync(copy))writeFileSync(copy,`# ${entry.title}\n\n请按本期具体内容填写发布文案、评论引导和话题标签；这是待填写的交付草稿。\n`);
+run(process.execPath,['scripts/sync-registry.mjs']);console.log(`交付文件已准备好：${target}；请完善 ${copy}，并在授权范围内推送。`);

@@ -1,0 +1,80 @@
+{
+  "id": "__ID__",
+  "subject": "history",
+  "template": "history-map",
+  "title": "沿着地图，\n看清事件经过",
+  "coverSubtitle": "地点、路线与时间",
+  "brand": "图说历史",
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-5%"
+  },
+  "model": {
+    "kind": "route",
+    "points": [
+      {
+        "name": "江陵",
+        "x": 100,
+        "y": 250
+      },
+      {
+        "name": "乌林",
+        "x": 350,
+        "y": 370
+      },
+      {
+        "name": "赤壁",
+        "x": 430,
+        "y": 530
+      },
+      {
+        "name": "柴桑",
+        "x": 730,
+        "y": 565
+      }
+    ],
+    "river": "M90,300 C180,350 240,410 400,450 S630,490 750,620",
+    "route": "M100,250 C190,300 290,350 350,370"
+  },
+  "sources": [],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "沿着地图，\n看清事件经过",
+      "plannedSeconds": 6,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "先看地点，再看路线，最后看时间顺序。",
+          "voiceText": "先看地点，再看路线，最后看时间顺序。"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "地图帮助理清关系",
+      "plannedSeconds": 12,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "这是示意图，用来表示地点的相对关系。",
+          "voiceText": "这是示意图，用来表示地点的相对关系。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "按证据还原过程",
+      "plannedSeconds": 6,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "具体事件要结合可靠资料，核对人物和时间。",
+          "voiceText": "具体事件要结合可靠资料，核对人物和时间。"
+        }
+      ]
+    }
+  ]
+}

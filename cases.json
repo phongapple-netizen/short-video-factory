@@ -5,7 +5,23 @@
     "seconds": 63,
     "cover": "DouyinCover",
     "preview": "previews/cube.mp4",
-    "status": "成片"
+    "status": "成片",
+    "key": "cube-cross-holes",
+    "subject": "math",
+    "template": "voxel-layers",
+    "stage": "published",
+    "narrated": true,
+    "captions": {
+      "file": "src/videos/cube/captions.json"
+    },
+    "timeline": {
+      "file": "src/videos/cube/timeline.json",
+      "format": "windows"
+    },
+    "previewCover": "previews/cube-cover.png",
+    "subtitles": "previews/cube.srt",
+    "sourceRoot": "src/videos/cube",
+    "assets": "assets/cube"
   },
   {
     "id": "TrapezoidExplainer",
@@ -13,7 +29,23 @@
     "seconds": 62,
     "cover": "Cover",
     "preview": "previews/trapezoid.mp4",
-    "status": "成片"
+    "status": "成片",
+    "key": "trapezoid-hidden-shapes",
+    "subject": "math",
+    "template": "geometry-proof",
+    "stage": "published",
+    "narrated": true,
+    "captions": {
+      "file": "src/videos/trapezoid/captions.json"
+    },
+    "timeline": {
+      "file": "src/videos/trapezoid/timeline.json",
+      "format": "windows"
+    },
+    "previewCover": "previews/trapezoid-cover.png",
+    "subtitles": "previews/trapezoid.srt",
+    "sourceRoot": "src/videos/trapezoid",
+    "assets": "assets/trapezoid"
   },
   {
     "id": "ChibiMapFull",
@@ -22,17 +54,88 @@
     "cover": "ChibiMapCover",
     "preview": "previews/chibi-map-full.mp4",
     "status": "完整地图版成片",
-    "draftVersion": {
-      "id": "ChibiMapPreview",
-      "preview": "previews/chibi-map.mp4",
-      "seconds": 25.266666666666666
+    "smallPreview": "previews/chibi-map-full-small.mp4",
+    "key": "chibi-map",
+    "subject": "history",
+    "template": "history-map",
+    "stage": "published",
+    "narrated": true,
+    "captions": {
+      "file": "src/videos/trapezoid/history/chibi.runtime.json"
     },
-    "previousVersion": {
-      "id": "ChibiHistory",
-      "preview": "previews/chibi.mp4",
-      "seconds": 77.73333333333333,
-      "status": "旧图片卡片版"
+    "timeline": {
+      "file": "src/videos/trapezoid/history/chibi.runtime.json",
+      "format": "scenes"
     },
-    "smallPreview": "previews/chibi-map-full-small.mp4"
+    "versions": [
+      {
+        "id": "ChibiMapPreview",
+        "preview": "previews/chibi-map.mp4",
+        "seconds": 25.266666666666666,
+        "stage": "preview",
+        "narrated": true,
+        "captions": {
+          "file": "src/videos/trapezoid/history/chibi.runtime.json",
+          "scenes": [
+            "04",
+            "05"
+          ],
+          "rebase": true
+        },
+        "timeline": {
+          "file": "src/videos/trapezoid/history/chibi.runtime.json",
+          "format": "scenes",
+          "scenes": [
+            "04",
+            "05"
+          ],
+          "rebase": true
+        }
+      },
+      {
+        "id": "ChibiHistory",
+        "preview": "previews/chibi.mp4",
+        "seconds": 77.73333333333333,
+        "status": "旧图片卡片版",
+        "stage": "archived",
+        "narrated": true,
+        "cover": "ChibiCover",
+        "captions": {
+          "file": "src/videos/trapezoid/history/chibi.runtime.json"
+        },
+        "timeline": {
+          "file": "src/videos/trapezoid/history/chibi.runtime.json",
+          "format": "scenes"
+        }
+      }
+    ],
+    "previewCover": "previews/chibi-map-full-cover.png",
+    "subtitles": "previews/chibi-map-full.srt",
+    "sourceRoot": "src/videos/trapezoid",
+    "assets": "assets/chibi"
+  },
+  {
+    "key": "pirate-coins-example",
+    "id": "PirateCoins",
+    "title": "五个海盗分金币（无配音示例）",
+    "subject": "math",
+    "template": "explanation",
+    "seconds": 60,
+    "stage": "example",
+    "status": "无配音示例",
+    "narrated": false,
+    "sourceRoot": "src/videos/PirateCoins.tsx"
+  },
+  {
+    "key": "factory-demo",
+    "id": "FactoryDemo",
+    "title": "工厂测试动画",
+    "subject": "demo",
+    "template": "explanation",
+    "seconds": 12,
+    "stage": "example",
+    "status": "无配音测试",
+    "narrated": false,
+    "sourceRoot": "src/videos/FactoryDemo.tsx"
   }
 ]

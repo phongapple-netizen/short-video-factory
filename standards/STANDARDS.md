@@ -69,21 +69,9 @@
 学科专用：几何布尔模型、受力图、物理数据曲线、分子/反应模型、历史事件与地图。
 保持通用组件读取配置，学科场景读取内容数据；不要把答案、日期、计算结果复制硬编码到多个视图。
 
-建议每个新项目保留以下结构，不要求立即重构已有项目：
+本仓库已接入共享配置：`src/shared/profile.ts`直接读取`standards/douyin-profile.json`，旧数学/历史layout沿用同一来源。不要另复制一份profile。
 
-```
-src/profile.json       # 从本配置复制，作为本项目唯一的平台参数来源
-src/content.json       # 问题/事实/模型输入/结论/来源
-src/captions.json      # text、voiceText、audio、start、end、duration
-src/timeline.json      # 场景时间，依据音频与讲解步骤确定
-src/scenes/            # 学科场景
-src/components/        # 共用画面组件
-public/audio/          # 每句配音、可选音乐
-out/                   # 成品、封面、实际帧、检查报告
-```
-
-当前数学项目仍使用自己的 `src/layout.ts`，数值与本配置一致；本规范没有改变它的运行代码。
-新项目可复制本配置并从单一文件读取。这个JSON目前是默认参数清单，不宣称已接入跨项目自动流水线。
+新选题使用`npm run new:video`，结构见`templates/README.md`，可执行流程见`WORKFLOW.md`。当前/旧版登记见`cases.json`；不要另起一套手写菜单。
 
 ## 6. 验收与复现
 
@@ -93,7 +81,7 @@ out/                   # 成品、封面、实际帧、检查报告
 推荐导出参数：
 
 ```
-npx remotion render src/index.tsx <CompositionId> out/raw.mp4 --crf=16 --pixel-format=yuv420p --codec=h264 --audio-codec=aac --color-space=bt709
+npx remotion render src/index.ts <CompositionId> out/raw.mp4 --crf=16 --pixel-format=yuv420p --codec=h264 --audio-codec=aac --color-space=bt709
 ```
 
 浏览器路径按运行环境选择，不把 `/usr/bin/chromium` 当成跨平台固定值。

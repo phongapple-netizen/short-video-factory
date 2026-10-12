@@ -1,4 +1,4 @@
-import profile from './profile.json';
+import profile from '../../shared/profile';
 export const W=profile.video.width;
 export const H=profile.video.height;
 export const FPS=profile.video.fps;
