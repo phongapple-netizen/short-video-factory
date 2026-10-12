@@ -1,0 +1,40 @@
+name: Smoke render (FactoryDemo)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/smoke.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chinese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk libnss3 libgbm1 libatk-bridge2.0-0
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Prepare Remotion
+        run: npx remotion browser ensure
+      - name: Render 12-second sample
+        run: |
+          mkdir -p out
+          npx remotion render src/index.ts FactoryDemo out/FactoryDemo-smoke.mp4 --codec=h264 --pixel-format=yuv420p --scale=0.5 --crf=22 --concurrency=2
+      - name: Upload sample MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: FactoryDemo-smoke
+          path: out/FactoryDemo-smoke.mp4
+          if-no-files-found: error
+          retention-days: 14
