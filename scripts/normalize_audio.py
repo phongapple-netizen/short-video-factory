@@ -40,8 +40,8 @@ for target_peak in (audio_profile['normalization_peak_target_dbtp'] - i * 0.4 fo
         f"offset={first['target_offset']}:linear=true:print_format=json"
     )
     second = stats(run(["-y", "-i", str(input_path), "-map", "0:v:0", "-map", "0:a:0",
-                        "-c:v", "copy", "-af", loudnorm, "-ar", "48000", "-c:a", "aac",
-                        "-b:a", "192k", "-movflags", "+faststart", str(output_path)]))
+                        "-c:v", "copy", "-af", loudnorm, "-ar", str(audio_profile["sample_rate"]), "-c:a", audio_profile["codec"],
+                        "-b:a", str(audio_profile["bitrate_kbps"])+"k", "-movflags", "+faststart", str(output_path)]))
     log = run(["-i", str(output_path), "-vn", "-af", "ebur128=peak=true", "-f", "null", "-"])
     (report_dir / "ebur128.log").write_text(log, encoding="utf-8")
     integrated, peak = measured(log)
@@ -53,7 +53,7 @@ for target_peak in (audio_profile['normalization_peak_target_dbtp'] - i * 0.4 fo
         correction = gain
         second = stats(run(["-y", "-i", str(input_path), "-map", "0:v:0", "-map", "0:a:0",
                             "-c:v", "copy", "-af", loudnorm + f",volume={gain}dB",
-                            "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
+                            "-ar", str(audio_profile["sample_rate"]), "-c:a", audio_profile["codec"], "-b:a", str(audio_profile["bitrate_kbps"])+"k",
                             "-movflags", "+faststart", str(output_path)]))
         log = run(["-i", str(output_path), "-vn", "-af", "ebur128=peak=true", "-f", "null", "-"])
         (report_dir / "ebur128.log").write_text(log, encoding="utf-8")

@@ -8,18 +8,10 @@ if(process.argv.includes('--verify-links')){
  const remote=spawnSync('git',['remote','get-url','origin'],{encoding:'utf8'}).stdout?.trim();
  const match=remote?.match(/github\.com[:/]([^/]+)\/([^/.]+)(?:\.git)?$/);if(!match)throw Error('需要GitHub origin');
  const branch=spawnSync('git',['branch','--show-current'],{encoding:'utf8'}).stdout.trim();
- const results=[];
- for(const f of [entry.smallPreview,entry.preview,entry.previewCover,entry.subtitles].filter(Boolean)){
-  const url=`https://raw.githubusercontent.com/${match[1]}/${match[2]}/${encodeURIComponent(branch)}/${f}`;
-  const r=await fetch(url);if(!r.ok)throw Error(`链接不可用 HTTP${r.status}: ${url}`);
-  const reader=r.body.getReader(),{value}=await reader.read();await reader.cancel();
-  if(f.endsWith('.mp4')&&!Buffer.from(value||[]).subarray(0,64).includes(Buffer.from('ftyp')))throw Error(`返回内容不是MP4: ${url}`);
-  if(f.endsWith('.srt')&&!/^\d+\r?\n\d{2}:\d{2}:/.test(Buffer.from(value||[]).toString('utf8')))throw Error(`返回内容不是SRT: ${url}`);
-  if(f.endsWith('.png')&&!Buffer.from(value||[]).subarray(0,4).equals(Buffer.from([137,80,78,71])))throw Error(`返回内容不是PNG: ${url}`);
-  results.push({file:f,url,status:r.status});console.log('已验证',url);
- }
- if(!results.length)throw Error('该案例还没有登记交付文件');
- mkdirSync(dir,{recursive:true});writeFileSync(`${dir}/links.json`,JSON.stringify(results,null,2)+'\n');process.exit(0);
+ const files=[entry.smallPreview,entry.preview,entry.previewCover,entry.subtitles].filter(Boolean);
+ if(!files.length)throw Error('该案例还没有登记交付文件');
+ run('python3',['scripts/verify-links.py','--repository',match[1]+'/'+match[2],'--branch',branch,'--files',JSON.stringify(files),'--output',`${dir}/links.json`]);
+ process.exit(0);
 }
 if(!process.argv.includes('--reviewed'))throw Error('先查看实际关键帧；用 --reviewed 记录你已完成画面检查，无需额外向用户申请批准。');
 if(!loadCases().some(c=>c.id===entry.id))throw Error('此命令交付当前版本；旧版与预览版请明确更新登记表，避免覆盖正式入口。');

@@ -2,7 +2,7 @@ import {mkdirSync,writeFileSync} from 'node:fs';
 import path from 'node:path';
 import {bundle} from '@remotion/bundler';
 import {openBrowser,selectComposition,renderStill} from '@remotion/renderer';
-import {ROOT,getCase,reviewFrames,sourceSignature} from './lib/factory.mjs';
+import {ROOT,getCase,reviewFrames,sourceSignature,profile} from './lib/factory.mjs';
 process.chdir(ROOT);
 const entry=getCase(process.argv[2]||'MathExplainer'),dir=`out/${entry.id}/review`;mkdirSync(dir,{recursive:true});
 const flag=process.argv.indexOf('--frames'),frames=flag>=0?process.argv[flag+1].split(',').map(Number):reviewFrames(entry);
@@ -19,7 +19,7 @@ try{
   await renderStill({serveUrl,composition,inputProps,frame,output:`${dir}/${filename}`,puppeteerInstance:browser,logLevel:'error',onBrowserLog:log=>{const m=log.text.match(/(?:MAP|FACTORY)_AUDIT (\{.*\})/);if(m)try{logs.push(JSON.parse(m[1]));}catch{}}});
   const audit=logs.find(r=>r.frame===frame);
   if(audit){
-   if(audit.titleCount!==1||audit.labels.some(l=>!l.withinSafe||l.screenFont<29.9)||audit.caption&&audit.caption[3]>1500.1)throw Error(`安全区或字号检查失败: ${entry.id} / frame ${frame}`);
+   if(audit.titleCount!==1||audit.labels.some(l=>!l.withinSafe||l.screenFont<profile.typography.minimum_visible_px-.1)||audit.caption&&audit.caption[3]>profile.safe_area.bottom+.1)throw Error(`安全区或字号检查失败: ${entry.id} / frame ${frame}`);
   }
   reports.push({frame,image:filename,audit:audit||null,requiresVisualReview:true});
  }
