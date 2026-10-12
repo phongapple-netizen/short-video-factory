@@ -12,11 +12,13 @@
 | --- | --- | --- | --- | --- |
 | 正方体打三个十字孔，剩余体积76 | `MathExplainer` | 63秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/cube.mp4) | [查看](previews/cube-cover.png) |
 | 等腰梯形：发现隐藏图形，面积100 | `TrapezoidExplainer` | 62秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/trapezoid.mp4) | [查看](previews/trapezoid-cover.png) |
-| 赤壁之战：曹操为什么会输？图片版 | `ChibiHistory` | 77.7秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi.mp4) | [查看](previews/chibi-cover.png) |
+| 赤壁之战：地图推演版（最新改版，第04、05镜头） | `ChibiMapPreview` | 25.27秒 | [下载最新地图版 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map.mp4) | [查看六帧](previews/chibi-map-review.jpg) |
 
-以上 MP4 放在仓库中，不依赖临时网盘。浏览器若直接播放，可右键链接“另存为”。赤壁仓库预览采用压缩视频，方便下载；Actions 的 final 选项会从源码重新导出 CRF16 原画质。
+以上 MP4 放在仓库中，不依赖临时网盘。浏览器若直接播放，可右键链接“另存为”。赤壁旧图片版仓库预览采用压缩视频，方便下载；Actions 的 final 选项会从源码重新导出 CRF16 原画质。
 
-**赤壁地图版另有 `ChibiMapPreview` 选项**：目前只包含第04、05镜头（25.27秒），是待确认的地图动画草稿，不是全片。[查看六帧预览](previews/chibi-map-review.jpg)。原来约64秒是计划时长，现有实际配音按照 `max(计划时长, 配音时长+0.8秒)` 得到77.7秒；本次入库保留已有口播和时序。
+**赤壁主入口已改为最新地图版 `ChibiMapPreview`**：镜头在地图上推拉，曹军连船、黄盖火船移动、东南风和火势传播均为动画。目前是第04、05镜头的25.27秒预览，尚未完成其余镜头与全片。[六帧预览](previews/chibi-map-review.jpg)。
+
+旧“图片卡片+字幕”版明确保留为 `ChibiHistory`（77.7秒），[旧版MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi.mp4)、[旧版封面](previews/chibi-cover.png)。它不是最新地图改版。原来约64秒是计划时长，现有口播按 `max(计划时长, 配音时长+0.8秒)` 得到77.7秒，本次不改变口播。
 
 原有 `PirateCoins`（60秒、无配音示例）和 `FactoryDemo`（12秒）也保留，ID 未改。
 

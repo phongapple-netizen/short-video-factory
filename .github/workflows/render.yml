@@ -11,8 +11,8 @@ on:
         options:
           - MathExplainer
           - TrapezoidExplainer
-          - ChibiHistory
           - ChibiMapPreview
+          - ChibiHistory
           - PirateCoins
           - FactoryDemo
       quality:
