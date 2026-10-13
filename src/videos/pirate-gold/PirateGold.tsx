@@ -432,7 +432,7 @@ const ROUNDS: Record<string, RoundCfg> = {
     resultCard: '三人局：C 99，D 0，E 1',
     timing: {bubbleAt: speechAt('08', 'C要拿到两票', -0.2), pricesAt: speechAt('08', 'E呢？'),
       planAt: speechAt('08', '方案：', -0.15), votesAt: speechAt('08', '两票，通过。', -0.2),
-      verdictAt: speechAt('08', '两票，通过。', 0.2), cardAt: speechAt('08', '两票，通过。', 0.7)},
+      verdictAt: speechAt('08', '两票，通过。', 0.75), cardAt: speechAt('08', '两票，通过。', 1.15)},
   },
   '09': {
     key: 's09', title: '四人局', countText: '当前：B、C、D、E',
@@ -444,7 +444,7 @@ const ROUNDS: Record<string, RoundCfg> = {
     resultCard: '四人局：B 99，C 0，D 1，E 0',
     timing: {bubbleAt: speechAt('09', 'B要两票', -0.15), pricesAt: speechAt('09', '收买价'),
       planAt: speechAt('09', '方案：', -0.15), votesAt: speechAt('09', '两票，通过。', -0.2),
-      verdictAt: speechAt('09', '两票，通过。', 0.2), cardAt: speechAt('09', '两票，通过。', 0.7)},
+      verdictAt: speechAt('09', '两票，通过。', 1.0), cardAt: speechAt('09', '两票，通过。', 1.4)},
   },
   '10': {
     key: 's10', title: '五人局', countText: '当前：A、B、C、D、E',
@@ -460,7 +460,7 @@ const ROUNDS: Record<string, RoundCfg> = {
     resultCard: '五人局：A 98，B 0，C 1，D 0，E 1',
     timing: {bubbleAt: speechAt('10', '如果A被扔下海', -0.2), pricesAt: speechAt('10', 'D是一枚', -0.2),
       planAt: speechAt('10', '方案：', -0.15), votesAt: speechAt('10', '三票，通过。', -0.2),
-      verdictAt: speechAt('10', '三票，通过。', 0.2), cardAt: speechAt('10', '三票，通过。', 0.7)},
+      verdictAt: speechAt('10', '三票，通过。', 1.4), cardAt: speechAt('10', '三票，通过。', 1.75)},
   },
 };
 
