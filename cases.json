@@ -140,5 +140,32 @@
     "status": "无配音测试",
     "narrated": false,
     "sourceRoot": "src/videos/FactoryDemo.tsx"
+  },
+  {
+    "key": "pirate-gold",
+    "id": "PirateGold",
+    "title": "五个海盗分金币（13镜讲解版）",
+    "seconds": 227.56666666666663,
+    "cover": "PirateGoldCover",
+    "preview": "previews/pirate-gold.mp4",
+    "status": "旧版成片供对比；修复版可重新渲染",
+    "subject": "math",
+    "template": "explanation",
+    "stage": "published",
+    "narrated": true,
+    "content": "src/videos/pirate-gold/content.json",
+    "captions": {
+      "file": "src/videos/pirate-gold/runtime.json"
+    },
+    "sentenceCaptions": "src/videos/pirate-gold/sentences.json",
+    "timeline": {
+      "file": "src/videos/pirate-gold/runtime.json",
+      "format": "scenes"
+    },
+    "registration": "src/videos/pirate-gold/Registration.tsx",
+    "previewCover": "previews/pirate-gold-cover.png",
+    "subtitles": "previews/pirate-gold.srt",
+    "sourceRoot": "src/videos/pirate-gold",
+    "assets": "assets/pirate-gold"
   }
 ]

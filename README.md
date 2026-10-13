@@ -14,6 +14,7 @@
 | 正方体打三个十字孔 | `MathExplainer` | 63秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/cube.mp4) | 正式版 |
 | 等腰梯形隐藏图形求面积 | `TrapezoidExplainer` | 62秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/trapezoid.mp4) | 正式版 |
 | 赤壁之战：地图推演版（完整新版） | `ChibiMapFull` | 77.73秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full.mp4) | 正式版 |
+| 五个海盗分金币（13镜讲解版） | `PirateGold` | 227.57秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold.mp4) | 正式版 |
 <!-- cases:end -->
 
 **下载较慢时：[赤壁地图版较小文件](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full-small.mp4)**（同为1080×1920、30fps，音频保持相同，仅降低视频码率）。
@@ -27,6 +28,23 @@
 旧“图片卡片+字幕”版明确保留为 `ChibiHistory`（77.7秒），[旧版MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi.mp4)、[旧版封面](previews/chibi-cover.png)。它不是最新地图改版。原来约64秒是计划时长，现有口播按 `max(计划时长, 配音时长+0.8秒)` 得到77.7秒，本次不改变口播。
 
 原有 `PirateCoins`（60秒、无配音示例）和 `FactoryDemo`（12秒）也保留，ID 未改。
+
+### PirateGold 节奏修复
+
+`PirateGold` 为有配音的13镜动画（旧的 `PirateCoins` 是无配音示例）。
+仓库 `previews/pirate-gold.mp4` 保留旧版供对比；在 Actions 选择
+`PirateGold` 的 `final` 渲染会使用现有语音缓存重新压缩镜头间停顿，
+自动重建混音、场景时间轴和逐句字幕，使投票与结算跟随讲解。
+
+```bash
+npm run check:pirate
+npm run render:case -- PirateGold final
+npm run voice:case -- PirateGold --cached-only
+```
+
+注意：旧口播包含一句“B和D为什么不反对？”（实际两人投反对票），
+画面改为“B、D反对为什么没用？”，但音频仍为旧缓存；
+获得配音服务凭据后应重录这一句。
 
 ## 本地预览与导出
 

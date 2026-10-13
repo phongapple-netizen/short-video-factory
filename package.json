@@ -19,7 +19,8 @@
     "voice:case": "python3 scripts/prepare-voice.py",
     "deliver:case": "node scripts/deliver-case.mjs",
     "skill:install": "node scripts/install-skill.mjs",
-    "test:factory": "node --test scripts/factory.test.mjs"
+    "test:factory": "node --test scripts/factory.test.mjs",
+    "check:pirate": "node scripts/check-pirate-timing.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.534",

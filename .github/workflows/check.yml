@@ -23,6 +23,6 @@ jobs:
       - name: Install audio inspection tool
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Validate factory and registry
-        run: npm run check:factory && npm run registry:check && npm run test:factory
+        run: npm run check:factory && npm run registry:check && npm run test:factory && npm run check:pirate
       - name: Type-check
         run: npm run typecheck
