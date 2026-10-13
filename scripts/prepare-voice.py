@@ -40,7 +40,8 @@ scenes=[];captions=[];cursor=0
 for scene in content['scenes']:
  clips=[c for c in cache if c[0]['id']==scene['id']]
  voice_seconds=sum(c[3] for c in clips)+settings['cue_gap_seconds']*max(0,len(clips)-1)
- duration=math.ceil(max(scene['plannedSeconds'],settings['lead_in_seconds']+voice_seconds+settings['tail_seconds'])*fps)/fps
+ measured_seconds=settings['lead_in_seconds']+voice_seconds+settings['tail_seconds']
+ duration=math.ceil((measured_seconds if settings.get('align_to_voice') else max(scene['plannedSeconds'],measured_seconds))*fps)/fps
  start=cursor;cursor+=duration;at=start+settings['lead_in_seconds'];characters=sum(sum(ch.isalnum() for ch in c[1]['voiceText']) for c in clips);cps=characters/max(.001,sum(c[3] for c in clips))
  scenes.append({'id':scene['id'],'start':start,'end':cursor,'durationInFrames':round(duration*fps),'audioDuration':sum(c[3] for c in clips),'charactersPerSecond':round(cps,2)})
  for _,cue,path,length,actual_provider in clips:
@@ -49,4 +50,6 @@ for scene in content['scenes']:
 narration_source={'voice':voice,'rate':rate,'scenes':[{'id':s['id'],'plannedSeconds':s['plannedSeconds'],'cues':[{k:c[k] for k in ['id','text','voiceText']} for c in s['cues']]} for s in content['scenes']]}
 runtime={'providers':sorted({c[4] for c in cache}),'narrationSource':narration_source,'timingMode':'measured','duration':cursor,'durationInFrames':round(cursor*fps),'voice':voice,'rate':rate,'scenes':scenes,'captions':captions}
 (root/entry['captions']['file']).write_text(json.dumps(runtime,ensure_ascii=False,indent=2)+'\n');entry['seconds']=cursor;(root/'cases.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
+if entry['id']=='PirateGold':
+ subprocess.run(['python3','scripts/build-pirate-audio.py'],cwd=root,check=True)
 subprocess.run(['node','scripts/sync-registry.mjs'],cwd=root,check=True)

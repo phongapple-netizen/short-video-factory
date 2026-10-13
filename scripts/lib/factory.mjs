@@ -48,7 +48,9 @@ export function audioReady(entry){
  const data=entry.captions?readJSON(entry.captions.file):null;
  const grouped=data?.scenes?.filter(s=>s.audio&&(!entry.captions.scenes||entry.captions.scenes.includes(s.id)));
  const clips=grouped?.length?grouped:cues.filter(c=>c.audio);
- return clips.length>0&&clips.every(c=>existsSync(repositoryPath(`public/${c.audio}`)));
+ return clips.length>0&&clips.every(c=>existsSync(repositoryPath(`public/${c.audio}`)))&&
+  (!entry.sentenceCaptions || (existsSync(repositoryPath(entry.sentenceCaptions)) &&
+   existsSync(repositoryPath('public/assets/pirate-gold/audio-full.mp3'))));
 }
 export function srt(cues){
  const stamp=s=>{const ms=Math.round(s*1000);return `${String(Math.floor(ms/3600000)).padStart(2,'0')}:${String(Math.floor(ms/60000)%60).padStart(2,'0')}:${String(Math.floor(ms/1000)%60).padStart(2,'0')},${String(ms%1000).padStart(3,'0')}`};
