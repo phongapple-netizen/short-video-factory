@@ -17,6 +17,16 @@ const INK = '#1B2540';
 type Rt = {scenes: {id: string; start: number; end: number}[]; duration: number; durationInFrames: number;
   captions?: {id: string; scene: string; start: number; end: number; text: string; audio?: string | null}[]};
 const RT = runtime as unknown as Rt;
+type SpokenLine = {start: number; end: number; text: string};
+const spokenLines = sentences as SpokenLine[];
+/** 将动画节点绑定到口播句子；TTS重生成时无需手工修改动画秒数。 */
+const speechAt = (sceneId: string, fragment: string, offset = 0): number => {
+  const sc = RT.scenes.find(s => s.id === sceneId);
+  if (!sc) throw new Error(`PirateGold missing scene ${sceneId}`);
+  const line = spokenLines.find(s => s.start >= sc.start && s.start < sc.end && s.text.includes(fragment));
+  if (!line) throw new Error(`PirateGold missing spoken cue ${sceneId}/${fragment}`);
+  return Math.max(0, line.start - sc.start + offset);
+};
 
 // 全片单轨配音（时间轴已对齐，消除多 Audio 组件的同步/重叠风险）
 const GlobalAudio = () => (
@@ -417,10 +427,12 @@ const ROUNDS: Record<string, RoundCfg> = {
     present: [2, 3, 4], proposer: 2,
     expr: {2: 'smug', 3: 'worried', 4: 'happy'},
     thought: {title: '如果我下海…', mini: [['D', 100], ['E', 0]]},
-    prices: [{k: 3, text: '要100枚', selected: false}, {k: 4, text: '0+1=1枚', selected: true}],
+    prices: [{k: 3, text: '要101枚', selected: false}, {k: 4, text: '0+1=1枚', selected: true}],
     plan: [99, 0, 1], votes: [true, false, true], needed: 2,
     resultCard: '三人局：C 99，D 0，E 1',
-    timing: {bubbleAt: 4, pricesAt: 8, planAt: 13, votesAt: 15, verdictAt: 18, cardAt: 20},
+    timing: {bubbleAt: speechAt('08', 'C要拿到两票', -0.2), pricesAt: speechAt('08', 'E呢？'),
+      planAt: speechAt('08', '方案：', -0.15), votesAt: speechAt('08', '两票，通过。', -0.2),
+      verdictAt: speechAt('08', '两票，通过。', 0.75), cardAt: speechAt('08', '两票，通过。', 1.15)},
   },
   '09': {
     key: 's09', title: '四人局', countText: '当前：B、C、D、E',
@@ -430,7 +442,9 @@ const ROUNDS: Record<string, RoundCfg> = {
     prices: [{k: 3, text: '0+1=1枚', selected: true}, {k: 4, text: '1+1=2枚', selected: false}],
     plan: [99, 0, 1, 0], votes: [true, false, true, false], needed: 2,
     resultCard: '四人局：B 99，C 0，D 1，E 0',
-    timing: {bubbleAt: 4, pricesAt: 6, planAt: 12, votesAt: 13, verdictAt: 19, cardAt: 20},
+    timing: {bubbleAt: speechAt('09', 'B要两票', -0.15), pricesAt: speechAt('09', '收买价'),
+      planAt: speechAt('09', '方案：', -0.15), votesAt: speechAt('09', '两票，通过。', -0.2),
+      verdictAt: speechAt('09', '两票，通过。', 1.0), cardAt: speechAt('09', '两票，通过。', 1.4)},
   },
   '10': {
     key: 's10', title: '五人局', countText: '当前：A、B、C、D、E',
@@ -444,7 +458,9 @@ const ROUNDS: Record<string, RoundCfg> = {
     ],
     plan: [98, 0, 1, 0, 1], votes: [true, false, true, false, true], needed: 3,
     resultCard: '五人局：A 98，B 0，C 1，D 0，E 1',
-    timing: {bubbleAt: 4, pricesAt: 8, planAt: 13, votesAt: 15, verdictAt: 18, cardAt: 20},
+    timing: {bubbleAt: speechAt('10', '如果A被扔下海', -0.2), pricesAt: speechAt('10', 'D是一枚', -0.2),
+      planAt: speechAt('10', '方案：', -0.15), votesAt: speechAt('10', '三票，通过。', -0.2),
+      verdictAt: speechAt('10', '三票，通过。', 1.4), cardAt: speechAt('10', '三票，通过。', 1.75)},
   },
 };
 
@@ -588,9 +604,12 @@ const RoundScene = ({frame, fps, cfg}: {frame: number; fps: number; cfg: RoundCf
 
 // ---------- 场景 11：常见疑问 ----------
 const QAS = [
-  {q: 'C、E 为什么接受 1 枚？', a: '拒绝还是 0，1 枚 > 0 枚'},
-  {q: 'B、D 为什么不反对？', a: '反对也没用，3 票已过半'},
-  {q: 'A 为什么不多给？', a: '对聪明人，+1 枚就够了'},
+  {q: 'C、E 为什么接受 1 枚？', a: '拒绝还是 0，1 枚 > 0 枚',
+    ask: '有人会问：C和E', answer: '因为拒绝的话'},
+  {q: 'B、D 反对为什么没用？', a: '即使反对，A 仍有 3 票',
+    ask: 'B和D为什么不反对', answer: '他们反对也没用'},
+  {q: 'A 为什么不多给？', a: '对聪明人，+1 枚就够了',
+    ask: '还有人问：A为什么', answer: '不需要。'},
 ];
 const Scene11 = ({frame, fps}: {frame: number; fps: number}) => {
   const t = frame / fps;
@@ -598,8 +617,9 @@ const Scene11 = ({frame, fps}: {frame: number; fps: number}) => {
     <div>
       <ChapterHead label="复盘" title="常见疑问" frame={frame} />
       {QAS.map((qa, i) => {
-        const flipAt = 2 + i * 7;
-        if (t < flipAt) return null;
+        const askAt = speechAt('11', qa.ask);
+        const flipAt = speechAt('11', qa.answer);
+        if (t < askAt) return null;
         const rot = interpolate(frame, [flipAt * fps, (flipAt + 1) * fps],
           [0, 180], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: EASE});
         const back = rot > 90;

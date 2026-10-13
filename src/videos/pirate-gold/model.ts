@@ -94,8 +94,7 @@ export const RESULTS = {r2, r3, r4, r5, r5s};
 /** 某人在某轮的收买价文案，如 "0+1=1枚"；买不起显示 "要100枚" */
 export function priceLabel(price: number | null): string {
   if (price === null) return '';
-  if (price > TOTAL_COINS) return `要${TOTAL_COINS}枚`;
-  if (price === TOTAL_COINS + 1) return `要${TOTAL_COINS}枚`;
+  if (price > TOTAL_COINS) return `要${price}枚（无法收买）`;
   return `${price - 1}+1=${price}枚`;
 }
 

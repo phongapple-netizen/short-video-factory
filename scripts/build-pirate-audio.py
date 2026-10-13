@@ -2,7 +2,7 @@
 import json, subprocess
 from pathlib import Path
 
-root = Path('/home/hatch/workspace/short-video-factory')
+root = Path(__file__).resolve().parents[1]
 rt = json.loads((root / 'src/videos/pirate-gold/runtime.json').read_text())
 content = json.loads((root / 'src/videos/pirate-gold/content.json').read_text())
 
@@ -77,7 +77,9 @@ srt = ''
 for i, (s, e, txt) in enumerate(srt_entries, 1):
     srt += f"{i}\n{fmt(s)} --> {fmt(e)}\n{txt}\n\n"
 
+(root / 'out/PirateGold').mkdir(parents=True, exist_ok=True)
 (root / 'out/PirateGold/pirate-gold-sentences.srt').write_text(srt)
+(root / 'previews/pirate-gold.srt').write_text(srt)
 print(f'SRT: {len(srt_entries)} sentences', flush=True)
 
 # Save sentence timings for the component
