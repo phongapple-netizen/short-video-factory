@@ -1,0 +1,260 @@
+{
+  "timingMode": "measured",
+  "duration": 227.56666666666663,
+  "durationInFrames": 6827,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "scenes": [
+    {
+      "id": "01",
+      "start": 0.0,
+      "end": 16.2,
+      "durationInFrames": 486
+    },
+    {
+      "id": "02",
+      "start": 16.2,
+      "end": 28.866666666666667,
+      "durationInFrames": 380
+    },
+    {
+      "id": "03",
+      "start": 28.866666666666667,
+      "end": 39.9,
+      "durationInFrames": 331
+    },
+    {
+      "id": "04",
+      "start": 39.9,
+      "end": 48.099999999999994,
+      "durationInFrames": 246
+    },
+    {
+      "id": "05",
+      "start": 48.099999999999994,
+      "end": 60.73333333333333,
+      "durationInFrames": 379
+    },
+    {
+      "id": "06",
+      "start": 60.73333333333333,
+      "end": 70.96666666666665,
+      "durationInFrames": 307
+    },
+    {
+      "id": "07",
+      "start": 70.96666666666665,
+      "end": 89.26666666666665,
+      "durationInFrames": 549
+    },
+    {
+      "id": "08",
+      "start": 89.26666666666665,
+      "end": 118.06666666666665,
+      "durationInFrames": 864
+    },
+    {
+      "id": "09",
+      "start": 118.06666666666665,
+      "end": 146.73333333333332,
+      "durationInFrames": 860
+    },
+    {
+      "id": "10",
+      "start": 146.73333333333332,
+      "end": 172.73333333333332,
+      "durationInFrames": 780
+    },
+    {
+      "id": "11",
+      "start": 172.73333333333332,
+      "end": 199.96666666666664,
+      "durationInFrames": 817
+    },
+    {
+      "id": "12",
+      "start": 199.96666666666664,
+      "end": 212.96666666666664,
+      "durationInFrames": 390
+    },
+    {
+      "id": "13",
+      "start": 212.96666666666664,
+      "end": 227.56666666666663,
+      "durationInFrames": 438
+    }
+  ],
+  "captions": [
+    {
+      "id": "s01-01",
+      "scene": "01",
+      "text": "五个海盗，一百枚金币。",
+      "start": 0.6,
+      "end": 3.3360000000000003,
+      "duration": 2.736,
+      "audio": "assets/pirate-gold/audio/s01-01-4a050fa6b7e2c5c1.mp3"
+    },
+    {
+      "id": "s01-02",
+      "scene": "01",
+      "text": "A拿98枚，为什么？",
+      "start": 3.6860000000000004,
+      "end": 15.398,
+      "duration": 11.712,
+      "audio": "assets/pirate-gold/audio/s01-02-862e5455a6337fda.mp3"
+    },
+    {
+      "id": "s02-01",
+      "scene": "02",
+      "text": "按资历排序，A先提方案。",
+      "start": 16.8,
+      "end": 28.056,
+      "duration": 11.256,
+      "audio": "assets/pirate-gold/audio/s02-01-1aeec1cf55a55cab.mp3"
+    },
+    {
+      "id": "s03-01",
+      "scene": "03",
+      "text": "所有人投票，同意≥一半就通过。",
+      "start": 29.46666666666667,
+      "end": 39.09066666666667,
+      "duration": 9.624,
+      "audio": "assets/pirate-gold/audio/s03-01-568f053d3d74f76d.mp3"
+    },
+    {
+      "id": "s04-01",
+      "scene": "04",
+      "text": "不通过：提议者下海，下一位提。",
+      "start": 40.5,
+      "end": 47.268,
+      "duration": 6.768,
+      "audio": "assets/pirate-gold/audio/s04-01-d5c68b488159ce2f.mp3"
+    },
+    {
+      "id": "s05-01",
+      "scene": "05",
+      "text": "保命 > 金币 > 看别人下海。",
+      "start": 48.699999999999996,
+      "end": 59.907999999999994,
+      "duration": 11.208,
+      "audio": "assets/pirate-gold/audio/s05-01-fd7a6a64b01a4bb8.mp3"
+    },
+    {
+      "id": "s06-01",
+      "scene": "06",
+      "text": "别从A开始，从最后面倒着推。",
+      "start": 61.33333333333333,
+      "end": 70.16533333333334,
+      "duration": 8.832,
+      "audio": "assets/pirate-gold/audio/s06-01-dfecee3672810320.mp3"
+    },
+    {
+      "id": "s07-01",
+      "scene": "07",
+      "text": "只剩D、E：D 100，E 0。",
+      "start": 71.56666666666665,
+      "end": 88.46266666666665,
+      "duration": 16.896,
+      "audio": "assets/pirate-gold/audio/s07-01-9ab07ddf39c008b0.mp3"
+    },
+    {
+      "id": "s08-01",
+      "scene": "08",
+      "text": "C要拉一票，E最便宜。",
+      "start": 89.86666666666665,
+      "end": 111.15466666666664,
+      "duration": 21.288,
+      "audio": "assets/pirate-gold/audio/s08-01-74bd9fcf6b7a04c2.mp3"
+    },
+    {
+      "id": "s08-02",
+      "scene": "08",
+      "text": "三人局：C 99，D 0，E 1。",
+      "start": 111.50466666666665,
+      "end": 117.24066666666666,
+      "duration": 5.736,
+      "audio": "assets/pirate-gold/audio/s08-02-8ff8b0599cf9104b.mp3"
+    },
+    {
+      "id": "s09-01",
+      "scene": "09",
+      "text": "B买最便宜的D，一枚。",
+      "start": 118.66666666666664,
+      "end": 138.99466666666663,
+      "duration": 20.328,
+      "audio": "assets/pirate-gold/audio/s09-01-ef477033b28581b8.mp3"
+    },
+    {
+      "id": "s09-02",
+      "scene": "09",
+      "text": "四人局：B 99，C 0，D 1，E 0。",
+      "start": 139.34466666666665,
+      "end": 145.92066666666665,
+      "duration": 6.576,
+      "audio": "assets/pirate-gold/audio/s09-02-cf330b08757b025a.mp3"
+    },
+    {
+      "id": "s10-01",
+      "scene": "10",
+      "text": "A收买C和E，各一枚。",
+      "start": 147.33333333333331,
+      "end": 164.2773333333333,
+      "duration": 16.944,
+      "audio": "assets/pirate-gold/audio/s10-01-791663ce2a294e8d.mp3"
+    },
+    {
+      "id": "s10-02",
+      "scene": "10",
+      "text": "五人局：A 98，B 0，C 1，D 0，E 1。",
+      "start": 164.62733333333333,
+      "end": 171.92333333333332,
+      "duration": 7.296,
+      "audio": "assets/pirate-gold/audio/s10-02-6581b981462ba2a4.mp3"
+    },
+    {
+      "id": "s11-01",
+      "scene": "11",
+      "text": "C、E为什么接受1枚？",
+      "start": 173.33333333333331,
+      "end": 182.1893333333333,
+      "duration": 8.856,
+      "audio": "assets/pirate-gold/audio/s11-01-a62830973d843388.mp3"
+    },
+    {
+      "id": "s11-02",
+      "scene": "11",
+      "text": "B、D为什么不反对？",
+      "start": 182.5393333333333,
+      "end": 188.7313333333333,
+      "duration": 6.192,
+      "audio": "assets/pirate-gold/audio/s11-02-29b1fa8d49b15a45.mp3"
+    },
+    {
+      "id": "s11-03",
+      "scene": "11",
+      "text": "A为什么不多给？",
+      "start": 189.0813333333333,
+      "end": 199.16133333333332,
+      "duration": 10.08,
+      "audio": "assets/pirate-gold/audio/s11-03-be0ecbdf8356e356.mp3"
+    },
+    {
+      "id": "s12-01",
+      "scene": "12",
+      "text": "只买下一轮拿0枚的人，每人1枚。",
+      "start": 200.56666666666663,
+      "end": 211.34266666666664,
+      "duration": 10.776,
+      "audio": "assets/pirate-gold/audio/s12-01-064c34811a9451d7.mp3"
+    },
+    {
+      "id": "s13-01",
+      "scene": "13",
+      "text": "必须超过一半，A最多97枚。",
+      "start": 213.56666666666663,
+      "end": 226.76666666666662,
+      "duration": 13.2,
+      "audio": "assets/pirate-gold/audio/s13-01-1a6e7549db71a2c1.mp3"
+    }
+  ]
+}
