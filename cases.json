@@ -1,144 +1,191 @@
 [
-  {
-    "id": "MathExplainer",
-    "title": "正方体打三个十字孔",
-    "seconds": 63,
-    "cover": "DouyinCover",
-    "preview": "previews/cube.mp4",
-    "status": "成片",
-    "key": "cube-cross-holes",
-    "subject": "math",
-    "template": "voxel-layers",
-    "stage": "published",
+ {
+  "id": "MathExplainer",
+  "title": "正方体打三个十字孔",
+  "seconds": 63,
+  "cover": "DouyinCover",
+  "preview": "previews/cube.mp4",
+  "status": "成片",
+  "key": "cube-cross-holes",
+  "subject": "math",
+  "template": "voxel-layers",
+  "stage": "published",
+  "narrated": true,
+  "captions": {
+   "file": "src/videos/cube/captions.json"
+  },
+  "timeline": {
+   "file": "src/videos/cube/timeline.json",
+   "format": "windows"
+  },
+  "previewCover": "previews/cube-cover.png",
+  "subtitles": "previews/cube.srt",
+  "sourceRoot": "src/videos/cube",
+  "assets": "assets/cube",
+  "reservedStills": [
+   "CheckStill"
+  ]
+ },
+ {
+  "id": "TrapezoidExplainer",
+  "title": "等腰梯形隐藏图形求面积",
+  "seconds": 62,
+  "cover": "Cover",
+  "preview": "previews/trapezoid.mp4",
+  "status": "成片",
+  "key": "trapezoid-hidden-shapes",
+  "subject": "math",
+  "template": "geometry-proof",
+  "stage": "published",
+  "narrated": true,
+  "captions": {
+   "file": "src/videos/trapezoid/captions.json"
+  },
+  "timeline": {
+   "file": "src/videos/trapezoid/timeline.json",
+   "format": "windows"
+  },
+  "previewCover": "previews/trapezoid-cover.png",
+  "subtitles": "previews/trapezoid.srt",
+  "sourceRoot": "src/videos/trapezoid",
+  "assets": "assets/trapezoid"
+ },
+ {
+  "id": "ChibiMapFull",
+  "title": "赤壁之战：地图推演版（完整新版）",
+  "seconds": 77.73333333333333,
+  "cover": "ChibiMapCover",
+  "preview": "previews/chibi-map-full.mp4",
+  "status": "完整地图版成片",
+  "smallPreview": "previews/chibi-map-full-small.mp4",
+  "key": "chibi-map",
+  "subject": "history",
+  "template": "history-map",
+  "stage": "published",
+  "narrated": true,
+  "captions": {
+   "file": "src/videos/trapezoid/history/chibi.runtime.json"
+  },
+  "timeline": {
+   "file": "src/videos/trapezoid/history/chibi.runtime.json",
+   "format": "scenes"
+  },
+  "versions": [
+   {
+    "id": "ChibiMapPreview",
+    "preview": "previews/chibi-map.mp4",
+    "seconds": 25.266666666666666,
+    "stage": "preview",
     "narrated": true,
     "captions": {
-      "file": "src/videos/cube/captions.json"
+     "file": "src/videos/trapezoid/history/chibi.runtime.json",
+     "scenes": [
+      "04",
+      "05"
+     ],
+     "rebase": true
     },
     "timeline": {
-      "file": "src/videos/cube/timeline.json",
-      "format": "windows"
-    },
-    "previewCover": "previews/cube-cover.png",
-    "subtitles": "previews/cube.srt",
-    "sourceRoot": "src/videos/cube",
-    "assets": "assets/cube",
-    "reservedStills": [
-      "CheckStill"
-    ]
-  },
-  {
-    "id": "TrapezoidExplainer",
-    "title": "等腰梯形隐藏图形求面积",
-    "seconds": 62,
-    "cover": "Cover",
-    "preview": "previews/trapezoid.mp4",
-    "status": "成片",
-    "key": "trapezoid-hidden-shapes",
-    "subject": "math",
-    "template": "geometry-proof",
-    "stage": "published",
-    "narrated": true,
-    "captions": {
-      "file": "src/videos/trapezoid/captions.json"
-    },
-    "timeline": {
-      "file": "src/videos/trapezoid/timeline.json",
-      "format": "windows"
-    },
-    "previewCover": "previews/trapezoid-cover.png",
-    "subtitles": "previews/trapezoid.srt",
-    "sourceRoot": "src/videos/trapezoid",
-    "assets": "assets/trapezoid"
-  },
-  {
-    "id": "ChibiMapFull",
-    "title": "赤壁之战：地图推演版（完整新版）",
+     "file": "src/videos/trapezoid/history/chibi.runtime.json",
+     "format": "scenes",
+     "scenes": [
+      "04",
+      "05"
+     ],
+     "rebase": true
+    }
+   },
+   {
+    "id": "ChibiHistory",
+    "preview": "previews/chibi.mp4",
     "seconds": 77.73333333333333,
-    "cover": "ChibiMapCover",
-    "preview": "previews/chibi-map-full.mp4",
-    "status": "完整地图版成片",
-    "smallPreview": "previews/chibi-map-full-small.mp4",
-    "key": "chibi-map",
-    "subject": "history",
-    "template": "history-map",
-    "stage": "published",
+    "status": "旧图片卡片版",
+    "stage": "archived",
     "narrated": true,
+    "cover": "ChibiCover",
     "captions": {
-      "file": "src/videos/trapezoid/history/chibi.runtime.json"
+     "file": "src/videos/trapezoid/history/chibi.runtime.json"
     },
     "timeline": {
-      "file": "src/videos/trapezoid/history/chibi.runtime.json",
-      "format": "scenes"
-    },
-    "versions": [
-      {
-        "id": "ChibiMapPreview",
-        "preview": "previews/chibi-map.mp4",
-        "seconds": 25.266666666666666,
-        "stage": "preview",
-        "narrated": true,
-        "captions": {
-          "file": "src/videos/trapezoid/history/chibi.runtime.json",
-          "scenes": [
-            "04",
-            "05"
-          ],
-          "rebase": true
-        },
-        "timeline": {
-          "file": "src/videos/trapezoid/history/chibi.runtime.json",
-          "format": "scenes",
-          "scenes": [
-            "04",
-            "05"
-          ],
-          "rebase": true
-        }
-      },
-      {
-        "id": "ChibiHistory",
-        "preview": "previews/chibi.mp4",
-        "seconds": 77.73333333333333,
-        "status": "旧图片卡片版",
-        "stage": "archived",
-        "narrated": true,
-        "cover": "ChibiCover",
-        "captions": {
-          "file": "src/videos/trapezoid/history/chibi.runtime.json"
-        },
-        "timeline": {
-          "file": "src/videos/trapezoid/history/chibi.runtime.json",
-          "format": "scenes"
-        }
-      }
-    ],
-    "previewCover": "previews/chibi-map-full-cover.png",
-    "subtitles": "previews/chibi-map-full.srt",
-    "sourceRoot": "src/videos/trapezoid",
-    "assets": "assets/chibi"
+     "file": "src/videos/trapezoid/history/chibi.runtime.json",
+     "format": "scenes"
+    }
+   }
+  ],
+  "previewCover": "previews/chibi-map-full-cover.png",
+  "subtitles": "previews/chibi-map-full.srt",
+  "sourceRoot": "src/videos/trapezoid",
+  "assets": "assets/chibi"
+ },
+ {
+  "key": "pirate-coins-example",
+  "id": "PirateCoins",
+  "title": "五个海盗分金币（无配音示例）",
+  "subject": "math",
+  "template": "explanation",
+  "seconds": 60,
+  "stage": "example",
+  "status": "无配音示例",
+  "narrated": false,
+  "sourceRoot": "src/videos/PirateCoins.tsx"
+ },
+ {
+  "key": "factory-demo",
+  "id": "FactoryDemo",
+  "title": "工厂测试动画",
+  "subject": "demo",
+  "template": "explanation",
+  "seconds": 12,
+  "stage": "example",
+  "status": "无配音测试",
+  "narrated": false,
+  "sourceRoot": "src/videos/FactoryDemo.tsx"
+ },
+ {
+  "key": "pirate-gold",
+  "id": "PirateGold",
+  "title": "五个海盗分金币",
+  "subject": "math",
+  "template": "explanation",
+  "stage": "published",
+  "status": "正式版",
+  "seconds": 227.56666666666663,
+  "cover": "PirateGoldCover",
+  "narrated": true,
+  "registration": "src/videos/pirate-gold/Registration.tsx",
+  "content": "src/videos/pirate-gold/content.json",
+  "assets": "assets/pirate-gold",
+  "captions": {
+   "file": "src/videos/pirate-gold/runtime.json"
   },
-  {
-    "key": "pirate-coins-example",
-    "id": "PirateCoins",
-    "title": "五个海盗分金币（无配音示例）",
-    "subject": "math",
-    "template": "explanation",
-    "seconds": 60,
-    "stage": "example",
-    "status": "无配音示例",
-    "narrated": false,
-    "sourceRoot": "src/videos/PirateCoins.tsx"
+  "timeline": {
+   "file": "src/videos/pirate-gold/runtime.json",
+   "format": "scenes"
   },
-  {
-    "key": "factory-demo",
-    "id": "FactoryDemo",
-    "title": "工厂测试动画",
-    "subject": "demo",
-    "template": "explanation",
-    "seconds": 12,
-    "stage": "example",
-    "status": "无配音测试",
-    "narrated": false,
-    "sourceRoot": "src/videos/FactoryDemo.tsx"
+  "preview": "previews/pirate-gold.mp4",
+  "previewCover": "previews/pirate-gold-cover.png",
+  "subtitles": "previews/pirate-gold.srt"
+ },
+ {
+  "key": "sentence-structure",
+  "id": "SentenceStructure",
+  "title": "句子也有骨架？主谓宾定状补一次讲清",
+  "subject": "math",
+  "template": "explanation",
+  "stage": "draft",
+  "status": "代码已推送，成片未推",
+  "seconds": 239.23333333333335,
+  "cover": "SentenceStructureCover",
+  "narrated": true,
+  "registration": "src/videos/sentence-structure/Registration.tsx",
+  "content": "src/videos/sentence-structure/content.json",
+  "assets": "assets/sentence-structure",
+  "captions": {
+   "file": "src/videos/sentence-structure/runtime.json"
+  },
+  "timeline": {
+   "file": "src/videos/sentence-structure/runtime.json",
+   "format": "scenes"
   }
+ }
 ]

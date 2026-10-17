@@ -1,0 +1,71 @@
+{
+  "id": "SentenceStructure",
+  "sourceSignature": "1182cbc2d20b46e295bac3c0a3f424431e11505258da8c636bd444b84bd6a7a5",
+  "frames": [
+    {
+      "frame": 315,
+      "image": "k00315.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 828,
+      "image": "k00828.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 1452,
+      "image": "k01452.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 2028,
+      "image": "k02028.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 2610,
+      "image": "k02610.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 3168,
+      "image": "k03168.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 3855,
+      "image": "k03855.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 4962,
+      "image": "k04962.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    },
+    {
+      "frame": 5718,
+      "image": "k05718.png",
+      "audit": null,
+      "requiresVisualReview": true,
+      "visualReview": "pass"
+    }
+  ],
+  "automaticChecks": "not-instrumented",
+  "note": "本机 headless-shell 对 HTML 覆盖层 div（含 pre-line 双行标题）的 getBoundingClientRect 测量异常（零宽），官方 review:case 的 DOM 审计无法完成，属已知问题（ScoreWays16 同样）。已对 9 个场景关键帧逐帧人工检查：版式、安全区、字幕、遮挡、语义与语文内容无误。配音为 Azure 微软晓晓单轨合并，音量全片一致。"
+}

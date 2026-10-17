@@ -1,0 +1,479 @@
+{
+  "timingMode": "measured",
+  "duration": 239.23333333333335,
+  "durationInFrames": 7177,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "scenes": [
+    {
+      "id": "01",
+      "start": 0.0,
+      "end": 16.7,
+      "durationInFrames": 501,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "02",
+      "start": 16.7,
+      "end": 34.7,
+      "durationInFrames": 540,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "03",
+      "start": 34.7,
+      "end": 60.06666666666667,
+      "durationInFrames": 761,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "04",
+      "start": 60.06666666666667,
+      "end": 81.53333333333333,
+      "durationInFrames": 644,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "05",
+      "start": 81.53333333333333,
+      "end": 105.8,
+      "durationInFrames": 728,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "06",
+      "start": 105.8,
+      "end": 129.03333333333333,
+      "durationInFrames": 697,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "07",
+      "start": 129.03333333333333,
+      "end": 154.03333333333333,
+      "durationInFrames": 750,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "08",
+      "start": 154.03333333333333,
+      "end": 220.93333333333334,
+      "durationInFrames": 2007,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    },
+    {
+      "id": "09",
+      "start": 220.93333333333334,
+      "end": 239.23333333333335,
+      "durationInFrames": 549,
+      "audio": "assets/sentence-structure/audio-full.mp3"
+    }
+  ],
+  "captions": [
+    {
+      "id": "s01-01",
+      "scene": "01",
+      "text": "改病句的题，你是不是总丢分？",
+      "start": 0.6,
+      "end": 7.4399999999999995,
+      "duration": 6.84,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s01-01-485516d22379794d.mp3"
+    },
+    {
+      "id": "s01-02",
+      "scene": "01",
+      "text": "每个句子都像一棵树：有主干，有枝叶。",
+      "start": 7.789999999999999,
+      "end": 15.877999999999998,
+      "duration": 8.088,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s01-02-ddbb21fc373700ad.mp3"
+    },
+    {
+      "id": "s02-01",
+      "scene": "02",
+      "text": "主语回答“谁”或“什么”，是动作的发出者。",
+      "start": 17.3,
+      "end": 24.98,
+      "duration": 7.68,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s02-01-cbd2ae6c476ae3be.mp3"
+    },
+    {
+      "id": "s02-02",
+      "scene": "02",
+      "text": "小明吃苹果。谁吃？小明就是主语。",
+      "start": 25.33,
+      "end": 32.098,
+      "duration": 6.768,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s02-02-3bbb65e532ca5127.mp3"
+    },
+    {
+      "id": "s03-01",
+      "scene": "03",
+      "text": "谓语是主语的动作，宾语是动作的对象。",
+      "start": 35.300000000000004,
+      "end": 44.78,
+      "duration": 9.48,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s03-01-32dd5de9746e7e4a.mp3"
+    },
+    {
+      "id": "s03-02",
+      "scene": "03",
+      "text": "主语、谓语、宾语，是句子的主干。",
+      "start": 45.13,
+      "end": 59.242000000000004,
+      "duration": 14.112,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s03-02-3447fff9a89b4aa2.mp3"
+    },
+    {
+      "id": "s04-01",
+      "scene": "04",
+      "text": "定语修饰名词，常带“的”，站在名词前面。",
+      "start": 60.66666666666667,
+      "end": 69.28266666666667,
+      "duration": 8.616,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s04-01-63fc5941758cf68e.mp3"
+    },
+    {
+      "id": "s04-02",
+      "scene": "04",
+      "text": "红红的苹果。什么样的苹果？红红的是定语。",
+      "start": 69.63266666666667,
+      "end": 80.72066666666666,
+      "duration": 11.088,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s04-02-fa2857b48f246912.mp3"
+    },
+    {
+      "id": "s05-01",
+      "scene": "05",
+      "text": "状语修饰动词，常带“地”，表时间地点方式。",
+      "start": 82.13333333333333,
+      "end": 91.13333333333333,
+      "duration": 9.0,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s05-01-0f5c39ea29fd4bf5.mp3"
+    },
+    {
+      "id": "s05-02",
+      "scene": "05",
+      "text": "小明大口地吃苹果。怎么吃？大口地是状语。",
+      "start": 91.48333333333332,
+      "end": 104.99533333333332,
+      "duration": 13.512,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s05-02-7740ebd77d69f0aa.mp3"
+    },
+    {
+      "id": "s06-01",
+      "scene": "06",
+      "text": "补语在谓语后面，补充说明结果或程度。",
+      "start": 106.39999999999999,
+      "end": 113.216,
+      "duration": 6.816,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s06-01-8bce8a20600c5839.mp3"
+    },
+    {
+      "id": "s06-02",
+      "scene": "06",
+      "text": "他跑得很快。跑得怎么样？很快是补语。",
+      "start": 113.56599999999999,
+      "end": 128.206,
+      "duration": 14.64,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s06-02-04179f44076cf834.mp3"
+    },
+    {
+      "id": "s07-01",
+      "scene": "07",
+      "text": "找主干有个好办法，叫缩句。",
+      "start": 129.63333333333333,
+      "end": 137.64933333333332,
+      "duration": 8.016,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s07-01-db3c0e9b5cc95c23.mp3"
+    },
+    {
+      "id": "s07-02",
+      "scene": "07",
+      "text": "可爱的小明大口地吃着红红的苹果。",
+      "start": 137.9993333333333,
+      "end": 145.9913333333333,
+      "duration": 7.992,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s07-02-9f75836c9fa69255.mp3"
+    },
+    {
+      "id": "s07-03",
+      "scene": "07",
+      "text": "缩句后意思不变，主干一目了然。",
+      "start": 146.34133333333332,
+      "end": 153.13333333333333,
+      "duration": 6.792,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s07-03-e98a47d81172f625.mp3"
+    },
+    {
+      "id": "s08-01",
+      "scene": "08",
+      "text": "听了这个故事，使我深受感动。主语呢？",
+      "start": 154.63333333333333,
+      "end": 164.49733333333333,
+      "duration": 9.864,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s08-01-9d8553444afec178.mp3"
+    },
+    {
+      "id": "s08-02",
+      "scene": "08",
+      "text": "成分残缺。去掉“使”，主语就回来了。",
+      "start": 164.84733333333332,
+      "end": 177.01533333333333,
+      "duration": 12.168,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s08-02-ef8b37a9340510ed.mp3"
+    },
+    {
+      "id": "s08-03",
+      "scene": "08",
+      "text": "他的学习态度有了很大的提高。态度能提高吗？",
+      "start": 177.36533333333333,
+      "end": 189.60533333333333,
+      "duration": 12.24,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s08-03-52880cbd6ac9e2b3.mp3"
+    },
+    {
+      "id": "s08-04",
+      "scene": "08",
+      "text": "搭配不当。改成：态度有了很大的转变。",
+      "start": 189.95533333333333,
+      "end": 196.05133333333333,
+      "duration": 6.096,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s08-04-6d0d9b3ffd4e3592.mp3"
+    },
+    {
+      "id": "s08-05",
+      "scene": "08",
+      "text": "我们要认真克服并发现工作中的缺点。",
+      "start": 196.40133333333333,
+      "end": 208.42533333333333,
+      "duration": 12.024,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s08-05-ce14f8d871038c9e.mp3"
+    },
+    {
+      "id": "s08-06",
+      "scene": "08",
+      "text": "搭配不当。发现的应该是问题，不是缺点。",
+      "start": 208.77533333333332,
+      "end": 220.10333333333332,
+      "duration": 11.328,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s08-06-237670962d79725d.mp3"
+    },
+    {
+      "id": "s09-01",
+      "scene": "09",
+      "text": "主谓宾是主干，定状补是枝叶。",
+      "start": 221.53333333333333,
+      "end": 229.76533333333333,
+      "duration": 8.232,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s09-01-8dfb6c08132b1c43.mp3"
+    },
+    {
+      "id": "s09-02",
+      "scene": "09",
+      "text": "改病句三步：读通、缩主干、查枝叶。",
+      "start": 230.11533333333333,
+      "end": 238.41933333333333,
+      "duration": 8.304,
+      "audio": null,
+      "_file": "assets/sentence-structure/audio/s09-02-8af3f83466bdecb6.mp3"
+    }
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 15,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "改病句的题，你是不是总丢分？",
+            "voiceText": "改病句的题，你是不是总丢分？其实很多病句，病在句子成分上。"
+          },
+          {
+            "id": "s01-02",
+            "text": "每个句子都像一棵树：有主干，有枝叶。",
+            "voiceText": "每个句子都像一棵树：有主干，有枝叶。看清主干和枝叶，病句就藏不住了。"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 18,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "主语回答“谁”或“什么”，是动作的发出者。",
+            "voiceText": "先看主干的第一个成分：主语。主语回答谁或者什么，是动作的发出者。"
+          },
+          {
+            "id": "s02-02",
+            "text": "小明吃苹果。谁吃？小明就是主语。",
+            "voiceText": "小明吃苹果。谁吃？小明。小明，就是主语。"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 22,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "谓语是主语的动作，宾语是动作的对象。",
+            "voiceText": "谓语回答干什么、怎么样，是主语的动作。小明吃苹果，干什么？吃。吃是谓语。"
+          },
+          {
+            "id": "s03-02",
+            "text": "主语、谓语、宾语，是句子的主干。",
+            "voiceText": "宾语是动作的对象。吃什么？苹果。苹果是宾语。主语、谓语、宾语，就是句子的主干。主干完整，句子才站得住。"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 18,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "定语修饰名词，常带“的”，站在名词前面。",
+            "voiceText": "枝叶的第一个成分：定语。定语修饰名词，回答什么样的、谁的，常常带的字是的。"
+          },
+          {
+            "id": "s04-02",
+            "text": "红红的苹果。什么样的苹果？红红的是定语。",
+            "voiceText": "红红的苹果。什么样的苹果？红红的。红红的，就是定语。记住：定语加的，在名词前面。"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 20,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "状语修饰动词，常带“地”，表时间地点方式。",
+            "voiceText": "状语修饰动词或形容词，表示时间、地点、方式，常常带的字是地，站在谓语前面。"
+          },
+          {
+            "id": "s05-02",
+            "text": "小明大口地吃苹果。怎么吃？大口地是状语。",
+            "voiceText": "小明大口地吃苹果。怎么吃？大口地。大口地，就是状语。他在教室里读书，在哪儿读？教室里，教室里也是状语。"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "plannedSeconds": 18,
+        "cues": [
+          {
+            "id": "s06-01",
+            "text": "补语在谓语后面，补充说明结果或程度。",
+            "voiceText": "补语在谓语后面，补充说明动作的结果或程度，常常带的字是得。"
+          },
+          {
+            "id": "s06-02",
+            "text": "他跑得很快。跑得怎么样？很快是补语。",
+            "voiceText": "他跑得很快。跑得怎么样？很快。很快，就是补语。定语、状语、补语，是句子的枝叶。枝叶让句子更生动，但主干不能缺。"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "plannedSeconds": 25,
+        "cues": [
+          {
+            "id": "s07-01",
+            "text": "找主干有个好办法，叫缩句。",
+            "voiceText": "找主干有个好办法，叫缩句。把定语、状语、补语都去掉，只留下主谓宾。"
+          },
+          {
+            "id": "s07-02",
+            "text": "可爱的小明大口地吃着红红的苹果。",
+            "voiceText": "可爱的小明，大口地吃着红红的苹果。去掉枝叶，变成：小明吃苹果。"
+          },
+          {
+            "id": "s07-03",
+            "text": "缩句后意思不变，主干一目了然。",
+            "voiceText": "缩句以后意思不变，主干一目了然。会缩句，病句就好找了。"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "plannedSeconds": 42,
+        "cues": [
+          {
+            "id": "s08-01",
+            "text": "听了这个故事，使我深受感动。主语呢？",
+            "voiceText": "第一句：听了这个故事，使我深受感动。缩出主干：使我深受感动。主语呢？丢了！"
+          },
+          {
+            "id": "s08-02",
+            "text": "成分残缺。去掉“使”，主语就回来了。",
+            "voiceText": "听了和使都想当主语的引子，结果谁都没当成。这是成分残缺。改法：去掉使，变成听了这个故事，我深受感动。"
+          },
+          {
+            "id": "s08-03",
+            "text": "他的学习态度有了很大的提高。态度能提高吗？",
+            "voiceText": "第二句：他的学习态度有了很大的提高。缩出主干：态度提高。态度能提高吗？态度只能端正，提高的是水平。"
+          },
+          {
+            "id": "s08-04",
+            "text": "搭配不当。改成：态度有了很大的转变。",
+            "voiceText": "这是搭配不当。改成：他的学习态度有了很大的转变。"
+          },
+          {
+            "id": "s08-05",
+            "text": "我们要认真克服并发现工作中的缺点。",
+            "voiceText": "第三句：我们要认真克服，并发现工作中的缺点。缩出主干：克服并发现缺点。可以克服缺点，能发现缺点吗？"
+          },
+          {
+            "id": "s08-06",
+            "text": "搭配不当。发现的应该是问题，不是缺点。",
+            "voiceText": "发现的应该是问题，不是缺点。这也是搭配不当。改成：我们要认真克服工作中的缺点，并发现工作中的问题。"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "plannedSeconds": 18,
+        "cues": [
+          {
+            "id": "s09-01",
+            "text": "主谓宾是主干，定状补是枝叶。",
+            "voiceText": "主谓宾是主干，定状补是枝叶。的定、地状、得后补，这个口诀要记牢。"
+          },
+          {
+            "id": "s09-02",
+            "text": "改病句三步：读通、缩主干、查枝叶。",
+            "voiceText": "改病句三步：读通句子，缩出主干，检查枝叶。下次改病句，先找主干！"
+          }
+        ]
+      }
+    ]
+  }
+}

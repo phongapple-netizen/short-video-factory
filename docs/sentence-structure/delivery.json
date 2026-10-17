@@ -1,0 +1,12 @@
+{
+  "id": "SentenceStructure",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/sentence-structure.mp4",
+    "small": "previews/sentence-structure-small.mp4",
+    "cover": "previews/sentence-structure-cover.png",
+    "subtitles": "previews/sentence-structure.srt"
+  },
+  "renderCommand": "npm run render:case -- SentenceStructure final"
+}
