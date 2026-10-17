@@ -16,6 +16,7 @@ on:
           - ChibiHistory
           - PirateCoins
           - FactoryDemo
+          - PirateGold
           - SentenceStructure
       quality:
         description: 'final = 1080x1920 CRF16; draft = half scale CRF22'
