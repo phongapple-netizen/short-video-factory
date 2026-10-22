@@ -334,10 +334,10 @@ const Scene06 = ({frame, fps}: {frame: number; fps: number}) => {
       <Title text={'收买价＝\n下一轮能拿的＋1'} frame={frame} size={88} />
       {frame < ask && (
         <>
-          <Banner frame={frame} at={cueAt('s06-01', 0.35) * fps} top={480} tone="gold"
+          <Banner frame={frame} at={cueAt('s06-01', 0.35) * fps} top={462} tone="gold"
             text={<>E：下一轮 {r2.dist[1]} 枚 → 收买价 <span style={{color: GOLD}}>{r3.prices[2]}</span> 枚</>} size={40} />
           <Crew frame={frame} present={[2, 3, 4]} proposer={2} expr={{2: 'smug', 4: 'happy'}} />
-          {r3.dist.map((n, i) => <CoinPill key={i} k={2 + i} n={n} frame={frame} at={-14} />)}
+          {r3.dist.map((n, i) => <CoinPill key={i} k={2 + i} n={n} frame={frame} at={-14} y={604} />)}
         </>
       )}
       {frame >= ask && (
