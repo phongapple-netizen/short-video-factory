@@ -84,7 +84,7 @@ export function validateRegistry(){
 export function sourceSignature(entry){
  const files=new Set(['standards/douyin-profile.json',entry.content,entry.captions?.file,entry.timeline?.file].filter(Boolean));
  const collect=(relative,media=false)=>{const absolute=repositoryPath(relative);if(statSync(absolute).isDirectory()){for(const f of readdirSync(absolute))collect(relative+'/'+f,media);}else if(media||/\.(tsx?|json)$/.test(relative))files.add(relative);};
- collect('src/shared');if(entry.assets)collect('public/'+entry.assets,true);if(entry.registration)collect(path.dirname(entry.registration));else if(entry.sourceRoot)collect(entry.sourceRoot);
+ collect('src/shared');for(const d of entry.dependencies||[])collect(d);if(entry.assets)collect('public/'+entry.assets,true);if(entry.registration)collect(path.dirname(entry.registration));else if(entry.sourceRoot)collect(entry.sourceRoot);
  const data=entry.captions?readJSON(entry.captions.file):null;
  const clips=[...readCaptions(entry),...(data?.scenes||[])];for(const c of clips)if(c.audio)files.add('public/'+c.audio);
  const digest=createHash('sha256');for(const f of [...files].sort()){digest.update(f);digest.update(readFileSync(repositoryPath(f)));}

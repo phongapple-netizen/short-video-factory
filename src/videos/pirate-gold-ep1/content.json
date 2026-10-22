@@ -1,0 +1,158 @@
+{
+  "id": "PirateGoldEp1",
+  "subject": "math",
+  "template": "pirate-rounds",
+  "title": "100枚金币\n船长独吞98枚",
+  "coverSubtitle": "方案居然投票通过了？",
+  "brand": "科普时间",
+  "series": {
+    "key": "pirate-gold",
+    "title": "五个海盗分金币",
+    "episode": 1,
+    "next": "四人局、五人局：船长的98枚怎么来"
+  },
+  "learningGoal": "学会倒着推：收买一票的价格＝对方下一轮能拿的＋1",
+  "checkQuestion": "只剩C、D、E三人时，C为什么给E 1枚而不是0枚？",
+  "audience": "小学高年级至初中，逻辑推理入门",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "反常识数字",
+    "firstFrame": "标题“100枚金币 船长独吞98枚”与金币堆同时出现"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "pirate-backward-induction",
+    "coins": 100,
+    "passRule": "赞成票≥在场人数的一半"
+  },
+  "sources": [
+    {
+      "title": "Ian Stewart, “A Puzzle for Pirates”, Scientific American 280(5), May 1999",
+      "note": "经典版本：100枚金币、赞成达到一半即通过，资历最高者得98枚；本片数字由 src/videos/pirate-gold/model.ts 逆向归纳求解并自检。"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "100枚金币\n船长独吞98枚",
+      "plannedSeconds": 7.83,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "100枚金币，船长独吞98枚！",
+          "voiceText": "一百枚金币，船长独吞九十八枚！"
+        },
+        {
+          "id": "s01-02",
+          "text": "这个方案，居然投票通过了？",
+          "voiceText": "这个方案，居然投票通过了！凭什么？"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "规则只有三条",
+      "plannedSeconds": 16.3,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "船长提方案，全员投票，\n赞成≥一半通过，否则下海",
+          "voiceText": "规则：船长提方案，全员投票，赞成达到一半就通过；不然提议的人下海，换下一个人提。"
+        },
+        {
+          "id": "s02-02",
+          "text": "先保命，再多拿钱；\n钱一样多，宁愿看别人下海",
+          "voiceText": "海盗都绝顶聪明：先保命，再多拿钱，钱一样多，宁愿看别人下海。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "别从船长想\n倒着推",
+      "plannedSeconds": 5.03,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "别从船长想，倒着推：\n先看只剩2个人",
+          "voiceText": "别从船长想，倒着推：先看只剩最后两个人。"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "两人局",
+      "plannedSeconds": 6.5,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "只剩D、E：D全拿100枚。",
+          "voiceText": "只剩D和E：D全拿一百枚。"
+        },
+        {
+          "id": "s04-02",
+          "text": "D自己1票，正好一半，通过！",
+          "voiceText": "D自己一票，正好一半，通过！"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "三人局",
+      "plannedSeconds": 17.83,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "加上C：C需要2票。",
+          "voiceText": "再加上C，他需要两票。"
+        },
+        {
+          "id": "s05-02",
+          "text": "想想E：C要是下海，E一枚都没有。",
+          "voiceText": "想想E：C要是下海，E一枚都没有。"
+        },
+        {
+          "id": "s05-03",
+          "text": "所以给E 1枚就够：1枚＞0枚。",
+          "voiceText": "所以给E一枚就够，一枚比零枚强。"
+        },
+        {
+          "id": "s05-04",
+          "text": "给0枚呢？钱一样，E宁愿看C下海。",
+          "voiceText": "给零枚呢？钱一样，E宁愿看C下海。"
+        },
+        {
+          "id": "s05-05",
+          "text": "C 99，D 0，E 1，2票通过！",
+          "voiceText": "C九十九，D零，E一，两票通过！"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "收买价＝\n下一轮能拿的＋1",
+      "plannedSeconds": 10.47,
+      "cues": [
+        {
+          "id": "s06-01",
+          "text": "收买价＝对方下一轮能拿的＋1。",
+          "voiceText": "记住：收买价，就是对方下一轮能拿的，再加一。"
+        },
+        {
+          "id": "s06-02",
+          "text": "四人局，B该收买谁？\n评论区写答案，下集揭晓！",
+          "voiceText": "四个人时，B该收买谁？评论区写答案，下集揭晓！"
+        }
+      ]
+    }
+  ]
+}

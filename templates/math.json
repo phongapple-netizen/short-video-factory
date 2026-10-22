@@ -16,6 +16,12 @@
     "base": 20,
     "height": 10
   },
+  "learningGoal": "",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "反常识数字|常见错误|挑战|生活现象"
+  },
   "sources": [],
   "scenes": [
     {
