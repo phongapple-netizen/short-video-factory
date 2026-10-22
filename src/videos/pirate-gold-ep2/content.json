@@ -1,0 +1,142 @@
+{
+  "id": "PirateGoldEp2",
+  "subject": "math",
+  "template": "pirate-rounds",
+  "title": "只花2枚金币\n船长拿走98枚",
+  "coverSubtitle": "四人局、五人局一口气推到底",
+  "brand": "科普时间",
+  "series": {
+    "key": "pirate-gold",
+    "title": "五个海盗分金币",
+    "episode": 2,
+    "previous": "第1集：规则、倒推法、两人局与三人局"
+  },
+  "learningGoal": "用“收买价＝下一轮能拿的＋1”推出四人局与五人局，得到船长98枚",
+  "checkQuestion": "五人局里，船长为什么收买C和E，而不收买D？",
+  "audience": "小学高年级至初中，逻辑推理入门",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "反常识数字",
+    "firstFrame": "标题“只花2枚金币 船长拿走98枚”与五人分配同时出现"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "pirate-backward-induction",
+    "coins": 100,
+    "passRule": "赞成票≥在场人数的一半",
+    "strictVariant": "赞成票必须超过一半时，五人局船长最多97枚"
+  },
+  "sources": [
+    {
+      "title": "Ian Stewart, “A Puzzle for Pirates”, Scientific American 280(5), May 1999",
+      "note": "经典版本：100枚金币、赞成达到一半即通过，资历最高者得98枚；本片数字与“超过一半”变体的97枚由 src/videos/pirate-gold/model.ts 逆向归纳求解并自检。"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "只花2枚金币\n船长拿走98枚",
+      "plannedSeconds": 3.83,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "只花2枚，船长拿走98枚！",
+          "voiceText": "只花两枚，船长拿走九十八枚！"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "上集结论",
+      "plannedSeconds": 5.8,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "收买价＝对方下一轮能拿的＋1",
+          "voiceText": "上集结论：收买价，是对方下一轮能拿的，再加一。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "四人局",
+      "plannedSeconds": 16.23,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "四人局：B要2票，再买1票就够。",
+          "voiceText": "四人局，B要两票，再买一票就够。"
+        },
+        {
+          "id": "s03-02",
+          "text": "B下海就成了三人局：\nC 99，D 0，E 1",
+          "voiceText": "B下海就成了三人局：C九十九，D零，E一。"
+        },
+        {
+          "id": "s03-03",
+          "text": "收买价：C 100，D 1，E 2",
+          "voiceText": "收买价：C一百，D一，E二。"
+        },
+        {
+          "id": "s03-04",
+          "text": "买最便宜的D：\nB 99，C 0，D 1，E 0，通过！",
+          "voiceText": "B买最便宜的D：九十九，零，一，零，通过！"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "五人局",
+      "plannedSeconds": 18.2,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "五人局：船长要3票，得再买2票。",
+          "voiceText": "五人局，船长要三票，得再买两票。"
+        },
+        {
+          "id": "s04-02",
+          "text": "船长下海就是四人局：\nB 99，C 0，D 1，E 0",
+          "voiceText": "船长下海就是四人局：B九十九，C零，D一，E零。"
+        },
+        {
+          "id": "s04-03",
+          "text": "收买价：C、E各1枚，D 2，B 100",
+          "voiceText": "收买价：C和E各一枚，D两枚，B一百。"
+        },
+        {
+          "id": "s04-04",
+          "text": "买下C和E，船长留98枚，\n3票通过！",
+          "voiceText": "买下C和E，船长留九十八，三票通过！"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "只收买\n下一轮拿0的人",
+      "plannedSeconds": 11.5,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "规律：只收买下一轮拿0的人，\n每人1枚。",
+          "voiceText": "规律：只收买下一轮拿零的人，每人一枚。"
+        },
+        {
+          "id": "s05-02",
+          "text": "必须“超过”一半？船长最多97枚。\n为什么？评论区见！",
+          "voiceText": "如果必须超过一半，船长最多拿九十七。为什么？评论区见！"
+        }
+      ]
+    }
+  ]
+}

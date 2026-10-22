@@ -16,6 +16,7 @@
 | 赤壁之战：地图推演版（完整新版） | `ChibiMapFull` | 77.73秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full.mp4) | 正式版 |
 | 五个海盗分金币（13镜讲解版） | `PirateGold` | 227.57秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold.mp4) | 正式版 |
 | 五个海盗分金币·第1集：船长独吞98枚 | `PirateGoldEp1` | 65.97秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold-ep1.mp4) | 正式版 |
+| 五个海盗分金币·第2集：只花2枚，船长拿走98枚 | `PirateGoldEp2` | 55.57秒 | 待制作 | 制作中 |
 <!-- cases:end -->
 
 **下载较慢时：[赤壁地图版较小文件](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full-small.mp4)**（同为1080×1920、30fps，音频保持相同，仅降低视频码率）。
