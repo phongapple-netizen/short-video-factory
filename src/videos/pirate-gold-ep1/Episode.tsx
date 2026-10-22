@@ -307,7 +307,7 @@ const Scene05 = ({frame, fps}: {frame: number; fps: number}) => {
         <Banner frame={frame} at={buy} top={400} tone="gold" size={40}
           text={<>E 的收买价：{r2.dist[1]} + 1 = <span style={{color: GOLD}}>{r3.prices[2]}</span> 枚</>} />
       )}
-      {t >= buy && t < zero && <CoinPill k={4} n={r3.prices[2]!} frame={frame} at={buy + 6} gold />}
+      {t >= buy && t < zero && <CoinPill k={4} n={r3.prices[2]!} from={r3.prices[2]!} frame={frame} at={buy + 6} gold />}
       {t >= zero && t < plan && (
         <>
           <CoinPill k={4} n={0} frame={frame} at={zero} />

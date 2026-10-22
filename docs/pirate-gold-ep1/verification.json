@@ -1,0 +1,9 @@
+{
+  "video": "PirateGoldEp1.mp4",
+  "valid": true,
+  "duration": 66.0,
+  "audio": {
+    "integrated_lufs": -15.0,
+    "true_peak_dbtp": -1.8
+  }
+}

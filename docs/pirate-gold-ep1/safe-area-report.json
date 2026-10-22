@@ -1,0 +1,2527 @@
+{
+  "id": "PirateGoldEp1",
+  "sourceSignature": "a3a7d9a6b311030da2e2dd35338e670e17d543aec61307f187e2be79f14c0296",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "100枚金币\n船长独吞98枚",
+            "bounds": [
+              75,
+              220,
+              915,
+              468.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "98",
+            "bounds": [
+              75,
+              520,
+              225,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              245,
+              520,
+              395,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              415,
+              520,
+              565,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              585,
+              520,
+              735,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 119,
+      "image": "frame-00119.png",
+      "audit": {
+        "frame": 119,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "100枚金币\n船长独吞98枚",
+            "bounds": [
+              75,
+              220,
+              915,
+              468.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "98",
+            "bounds": [
+              75,
+              520,
+              225,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              245,
+              520,
+              395,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              415,
+              520,
+              565,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              585,
+              520,
+              735,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              107,
+              608,
+              201,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              277,
+              616.25,
+              371,
+              664.25
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              447,
+              628.25,
+              541,
+              676.25
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              617,
+              632,
+              711,
+              680
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              787,
+              632,
+              881,
+              680
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "3/5票 ≥ 一半 → 通过？！",
+            "bounds": [
+              105,
+              1160,
+              885,
+              1253.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "这个方案，居然投票通过了？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 236,
+      "image": "frame-00236.png",
+      "audit": {
+        "frame": 236,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "100枚金币\n船长独吞98枚",
+            "bounds": [
+              75,
+              220,
+              915,
+              468.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "98",
+            "bounds": [
+              75,
+              520,
+              225,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              245,
+              520,
+              395,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              415,
+              520,
+              565,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              585,
+              520,
+              735,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              107,
+              608,
+              201,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              277,
+              608,
+              371,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              447,
+              608,
+              541,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              617,
+              608,
+              711,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              787,
+              608,
+              881,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "3/5票 ≥ 一半 → 通过？！",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1233.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "这个方案，居然投票通过了？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 237,
+      "image": "frame-00237.png",
+      "audit": {
+        "frame": 237,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "规则只有三条",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              322.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 472,
+      "image": "frame-00472.png",
+      "audit": {
+        "frame": 472,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "规则只有三条",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "① 船长提方案，全员投票",
+            "bounds": [
+              107,
+              448,
+              883,
+              510
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "提方案的人自己也投票",
+            "bounds": [
+              107,
+              518,
+              883,
+              564
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "② 赞成 ≥ 一半 → 通过",
+            "bounds": [
+              107,
+              678,
+              883,
+              740
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "否则提议者下海，下一位接着提",
+            "bounds": [
+              107,
+              748,
+              883,
+              794
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "船长提方案，全员投票，\n赞成≥一半通过，否则下海",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 706,
+      "image": "frame-00706.png",
+      "audit": {
+        "frame": 706,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "规则只有三条",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "① 船长提方案，全员投票",
+            "bounds": [
+              107,
+              448,
+              883,
+              510
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "提方案的人自己也投票",
+            "bounds": [
+              107,
+              518,
+              883,
+              564
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "② 赞成 ≥ 一半 → 通过",
+            "bounds": [
+              107,
+              678,
+              883,
+              740
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "否则提议者下海，下一位接着提",
+            "bounds": [
+              107,
+              748,
+              883,
+              794
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "③ 保命 ＞ 多拿钱 ＞ 看别人下海",
+            "bounds": [
+              107,
+              908,
+              883,
+              970
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "钱一样多时，宁愿看别人下海",
+            "bounds": [
+              107,
+              978,
+              883,
+              1024
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "先保命，再多拿钱；\n钱一样多，宁愿看别人下海",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 707,
+      "image": "frame-00707.png",
+      "audit": {
+        "frame": 707,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "别从船长想\n倒着推",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              423.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              95,
+              500,
+              205,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              265,
+              500,
+              375,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              435,
+              500,
+              545,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              605,
+              500,
+              715,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              775,
+              500,
+              885,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 781,
+      "image": "frame-00781.png",
+      "audit": {
+        "frame": 781,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "别从船长想\n倒着推",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              95,
+              500,
+              205,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              265,
+              500,
+              375,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              435,
+              500,
+              545,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              605,
+              500,
+              715,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              775,
+              500,
+              885,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "别从船长想，倒着推：\n先看只剩2个人",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 855,
+      "image": "frame-00855.png",
+      "audit": {
+        "frame": 855,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "别从船长想\n倒着推",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              95,
+              500,
+              205,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              265,
+              500,
+              375,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              435,
+              500,
+              545,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              605,
+              500,
+              715,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              775,
+              500,
+              885,
+              610
+            ],
+            "screenFont": 52,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "别从船长想，倒着推：\n先看只剩2个人",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 856,
+      "image": "frame-00856.png",
+      "audit": {
+        "frame": 856,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两人局",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              322.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "只剩 D、E，D 提方案",
+            "bounds": [
+              105,
+              400,
+              885,
+              488
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 961,
+      "image": "frame-00961.png",
+      "audit": {
+        "frame": 961,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两人局",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "只剩 D、E，D 提方案",
+            "bounds": [
+              105,
+              380,
+              885,
+              468
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "100",
+            "bounds": [
+              585,
+              520,
+              735,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              617,
+              631.125,
+              711,
+              679.125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              787,
+              632,
+              881,
+              680
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "D自己1票，正好一半，通过！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1064,
+      "image": "frame-01064.png",
+      "audit": {
+        "frame": 1064,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两人局",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "只剩 D、E，D 提方案",
+            "bounds": [
+              105,
+              380,
+              885,
+              468
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "100",
+            "bounds": [
+              585,
+              520,
+              735,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              617,
+              608,
+              711,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              787,
+              608,
+              881,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "1/2票，正好一半 ✓ 通过",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1233.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "D自己1票，正好一半，通过！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1065,
+      "image": "frame-01065.png",
+      "audit": {
+        "frame": 1065,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "三人局",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              322.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "C 需要 2 票：自己 1 票，再拉 1 票",
+            "bounds": [
+              105,
+              400,
+              885,
+              488
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1357,
+      "image": "frame-01357.png",
+      "audit": {
+        "frame": 1357,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "三人局",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E 的收买价：0 + 1 = 1 枚",
+            "bounds": [
+              105,
+              400,
+              885,
+              488
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "所以给E 1枚就够：1枚＞0枚。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1648,
+      "image": "frame-01648.png",
+      "audit": {
+        "frame": 1648,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "三人局",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "99",
+            "bounds": [
+              415,
+              520,
+              565,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              585,
+              520,
+              735,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              755,
+              520,
+              905,
+              592
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              447,
+              608,
+              541,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "反对",
+            "bounds": [
+              617,
+              608,
+              711,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "同意",
+            "bounds": [
+              787,
+              608,
+              881,
+              656
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "C 99，D 0，E 1：2/3票 ✓",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1233.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "C 99，D 0，E 1，2票通过！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1649,
+      "image": "frame-01649.png",
+      "audit": {
+        "frame": 1649,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "收买价＝\n下一轮能拿的＋1",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              423.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "E：下一轮 0 枚 → 收买价 1 枚",
+            "bounds": [
+              105,
+              482,
+              885,
+              570
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "99",
+            "bounds": [
+              415,
+              604,
+              565,
+              676
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "0",
+            "bounds": [
+              585,
+              604,
+              735,
+              676
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "1",
+            "bounds": [
+              755,
+              604,
+              905,
+              676
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1814,
+      "image": "frame-01814.png",
+      "audit": {
+        "frame": 1814,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "收买价＝\n下一轮能拿的＋1",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "四人局：B 该收买谁？",
+            "bounds": [
+              105,
+              480.1875,
+              885,
+              573.375
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              489.6000061035156,
+              639.625,
+              490.3999938964844,
+              640.375
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              659.5999755859375,
+              639.625,
+              660.3999633789062,
+              640.375
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              829.5999755859375,
+              639.625,
+              830.3999633789062,
+              640.375
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "评论区写答案 · 下集揭晓",
+            "bounds": [
+              105,
+              1160,
+              885,
+              1253.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "四人局，B该收买谁？\n评论区写答案，下集揭晓！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1978,
+      "image": "frame-01978.png",
+      "audit": {
+        "frame": 1978,
+        "labels": [
+          {
+            "text": "五个海盗分金币第1集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "收买价＝\n下一轮能拿的＋1",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "四人局：B 该收买谁？",
+            "bounds": [
+              105,
+              480,
+              885,
+              573.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              122,
+              950,
+              178,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              292,
+              950,
+              348,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              462,
+              950,
+              518,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "D",
+            "bounds": [
+              632,
+              950,
+              688,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "E",
+            "bounds": [
+              802,
+              950,
+              858,
+              1006
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              450,
+              600,
+              530,
+              680
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              620,
+              600,
+              700,
+              680
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              790,
+              600,
+              870,
+              680
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "评论区写答案 · 下集揭晓",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1233.1875
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "四人局，B该收买谁？\n评论区写答案，下集揭晓！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}

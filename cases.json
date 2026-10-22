@@ -174,8 +174,8 @@
     "title": "五个海盗分金币·第1集：船长独吞98枚",
     "subject": "math",
     "template": "pirate-rounds",
-    "stage": "draft",
-    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "stage": "published",
+    "status": "正式版",
     "seconds": 65.96666666666667,
     "cover": "PirateGoldEp1Cover",
     "narrated": true,
@@ -197,6 +197,10 @@
       "src/videos/pirate-gold/Pirate.tsx",
       "src/videos/pirate-gold/model.ts",
       "src/videos/pirate-gold/layout.ts"
-    ]
+    ],
+    "preview": "previews/pirate-gold-ep1.mp4",
+    "smallPreview": "previews/pirate-gold-ep1-small.mp4",
+    "previewCover": "previews/pirate-gold-ep1-cover.png",
+    "subtitles": "previews/pirate-gold-ep1.srt"
   }
 ]
