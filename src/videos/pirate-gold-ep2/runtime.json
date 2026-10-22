@@ -1,38 +1,148 @@
 {
-  "timingMode": "planned",
-  "estimate": "3.6 字/秒估算，未配音",
-  "duration": 55.56666666666666,
-  "durationInFrames": 1667,
+  "providers": [
+    "edge-tts"
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 3.83,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "只花2枚，船长拿走98枚！",
+            "voiceText": "只花两枚，船长拿走九十八枚！"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 5.8,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "收买价＝对方下一轮能拿的＋1",
+            "voiceText": "上集结论：收买价，是对方下一轮能拿的，再加一。"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 16.23,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "四人局：B要2票，再买1票就够。",
+            "voiceText": "四人局，B要两票，再买一票就够。"
+          },
+          {
+            "id": "s03-02",
+            "text": "B下海就成了三人局：\nC 99，D 0，E 1",
+            "voiceText": "B下海就成了三人局：C九十九，D零，E一。"
+          },
+          {
+            "id": "s03-03",
+            "text": "收买价：C 100，D 1，E 2",
+            "voiceText": "收买价：C一百，D一，E二。"
+          },
+          {
+            "id": "s03-04",
+            "text": "买最便宜的D：\nB 99，C 0，D 1，E 0，通过！",
+            "voiceText": "B买最便宜的D：九十九，零，一，零，通过！"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 18.2,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "五人局：船长要3票，得再买2票。",
+            "voiceText": "五人局，船长要三票，得再买两票。"
+          },
+          {
+            "id": "s04-02",
+            "text": "船长下海就是四人局：\nB 99，C 0，D 1，E 0",
+            "voiceText": "船长下海就是四人局：B九十九，C零，D一，E零。"
+          },
+          {
+            "id": "s04-03",
+            "text": "收买价：C、E各1枚，D 2，B 100",
+            "voiceText": "收买价：C和E各一枚，D两枚，B一百。"
+          },
+          {
+            "id": "s04-04",
+            "text": "买下C和E，船长留98枚，\n3票通过！",
+            "voiceText": "买下C和E，船长留九十八，三票通过！"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 11.5,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "规律：只收买下一轮拿0的人，\n每人1枚。",
+            "voiceText": "规律：只收买下一轮拿零的人，每人一枚。"
+          },
+          {
+            "id": "s05-02",
+            "text": "必须“超过”一半？船长最多97枚。\n为什么？评论区见！",
+            "voiceText": "如果必须超过一半，船长最多拿九十七。为什么？评论区见！"
+          }
+        ]
+      }
+    ]
+  },
+  "timingMode": "measured",
+  "duration": 56.93333333333334,
+  "durationInFrames": 1708,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
   "scenes": [
     {
       "id": "01",
-      "start": 0.0,
-      "end": 3.8333333333333335,
-      "durationInFrames": 115
+      "start": 0,
+      "end": 3.7,
+      "durationInFrames": 111,
+      "audioDuration": 3.192,
+      "charactersPerSecond": 3.76
     },
     {
       "id": "02",
-      "start": 3.8333333333333335,
-      "end": 9.633333333333333,
-      "durationInFrames": 174
+      "start": 3.7,
+      "end": 9.3,
+      "durationInFrames": 168,
+      "audioDuration": 5.088,
+      "charactersPerSecond": 3.73
     },
     {
       "id": "03",
-      "start": 9.633333333333333,
-      "end": 25.866666666666667,
-      "durationInFrames": 487
+      "start": 9.3,
+      "end": 26.900000000000002,
+      "durationInFrames": 528,
+      "audioDuration": 16.631999999999998,
+      "charactersPerSecond": 3.31
     },
     {
       "id": "04",
-      "start": 25.866666666666667,
-      "end": 44.06666666666666,
-      "durationInFrames": 546
+      "start": 26.900000000000002,
+      "end": 45.63333333333334,
+      "durationInFrames": 562,
+      "audioDuration": 17.76,
+      "charactersPerSecond": 3.49
     },
     {
       "id": "05",
-      "start": 44.06666666666666,
-      "end": 55.56666666666666,
-      "durationInFrames": 345
+      "start": 45.63333333333334,
+      "end": 56.93333333333334,
+      "durationInFrames": 339,
+      "audioDuration": 10.632000000000001,
+      "charactersPerSecond": 3.67
     }
   ],
   "captions": [
@@ -42,107 +152,131 @@
       "voiceText": "只花两枚，船长拿走九十八枚！",
       "scene": "01",
       "start": 0.22,
-      "end": 3.5533333333333332,
-      "audio": null
+      "end": 3.4120000000000004,
+      "duration": 3.192,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s01-01-a0f03f34fd885027.mp3"
     },
     {
       "id": "s02-01",
       "text": "收买价＝对方下一轮能拿的＋1",
       "voiceText": "上集结论：收买价，是对方下一轮能拿的，再加一。",
       "scene": "02",
-      "start": 4.053333333333334,
-      "end": 9.331111111111111,
-      "audio": null
+      "start": 3.9200000000000004,
+      "end": 9.008000000000001,
+      "duration": 5.088,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s02-01-caaabe94ae222269.mp3"
     },
     {
       "id": "s03-01",
       "text": "四人局：B要2票，再买1票就够。",
       "voiceText": "四人局，B要两票，再买一票就够。",
       "scene": "03",
-      "start": 9.853333333333333,
-      "end": 13.464444444444444,
-      "audio": null
+      "start": 9.520000000000001,
+      "end": 13.096000000000002,
+      "duration": 3.576,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s03-01-3d3a9fa3f710c76f.mp3"
     },
     {
       "id": "s03-02",
       "text": "B下海就成了三人局：\nC 99，D 0，E 1",
       "voiceText": "B下海就成了三人局：C九十九，D零，E一。",
       "scene": "03",
-      "start": 13.614444444444445,
-      "end": 18.336666666666666,
-      "audio": null
+      "start": 13.246000000000002,
+      "end": 17.974000000000004,
+      "duration": 4.728,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s03-02-9ea83a6f184ebebf.mp3"
     },
     {
       "id": "s03-03",
       "text": "收买价：C 100，D 1，E 2",
       "voiceText": "收买价：C一百，D一，E二。",
       "scene": "03",
-      "start": 18.486666666666668,
-      "end": 21.264444444444447,
-      "audio": null
+      "start": 18.124000000000002,
+      "end": 21.556,
+      "duration": 3.432,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s03-03-35f150b789e2c6c7.mp3"
     },
     {
       "id": "s03-04",
       "text": "买最便宜的D：\nB 99，C 0，D 1，E 0，通过！",
       "voiceText": "B买最便宜的D：九十九，零，一，零，通过！",
       "scene": "03",
-      "start": 21.414444444444445,
-      "end": 25.581111111111113,
-      "audio": null
+      "start": 21.706000000000003,
+      "end": 26.602000000000004,
+      "duration": 4.896,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s03-04-736e3657f50fb49b.mp3"
     },
     {
       "id": "s04-01",
       "text": "五人局：船长要3票，得再买2票。",
       "voiceText": "五人局，船长要三票，得再买两票。",
       "scene": "04",
-      "start": 26.086666666666666,
-      "end": 29.697777777777777,
-      "audio": null
+      "start": 27.12,
+      "end": 30.84,
+      "duration": 3.72,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s04-01-2ef0371eb6c0faea.mp3"
     },
     {
       "id": "s04-02",
       "text": "船长下海就是四人局：\nB 99，C 0，D 1，E 0",
       "voiceText": "船长下海就是四人局：B九十九，C零，D一，E零。",
       "scene": "04",
-      "start": 29.84777777777778,
-      "end": 35.12555555555556,
-      "audio": null
+      "start": 30.990000000000002,
+      "end": 36.558,
+      "duration": 5.568,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s04-02-3b9cee5e99cc6582.mp3"
     },
     {
       "id": "s04-03",
       "text": "收买价：C、E各1枚，D 2，B 100",
       "voiceText": "收买价：C和E各一枚，D两枚，B一百。",
       "scene": "04",
-      "start": 35.275555555555556,
-      "end": 39.44222222222222,
-      "audio": null
+      "start": 36.708,
+      "end": 41.052,
+      "duration": 4.344,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s04-03-8bda35572c4d6e35.mp3"
     },
     {
       "id": "s04-04",
       "text": "买下C和E，船长留98枚，\n3票通过！",
       "voiceText": "买下C和E，船长留九十八，三票通过！",
       "scene": "04",
-      "start": 39.592222222222226,
-      "end": 43.75888888888889,
-      "audio": null
+      "start": 41.202,
+      "end": 45.33,
+      "duration": 4.128,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s04-04-e19d76b383776f0b.mp3"
     },
     {
       "id": "s05-01",
       "text": "规律：只收买下一轮拿0的人，\n每人1枚。",
       "voiceText": "规律：只收买下一轮拿零的人，每人一枚。",
       "scene": "05",
-      "start": 44.28666666666666,
-      "end": 48.731111111111105,
-      "audio": null
+      "start": 45.85333333333334,
+      "end": 50.00533333333334,
+      "duration": 4.152,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s05-01-4a69ae4df8e7fcd9.mp3"
     },
     {
       "id": "s05-02",
       "text": "必须“超过”一半？船长最多97枚。\n为什么？评论区见！",
       "voiceText": "如果必须超过一半，船长最多拿九十七。为什么？评论区见！",
       "scene": "05",
-      "start": 48.88111111111111,
-      "end": 55.269999999999996,
-      "audio": null
+      "start": 50.15533333333334,
+      "end": 56.635333333333335,
+      "duration": 6.48,
+      "provider": "edge-tts",
+      "audio": "assets/pirate-gold-ep2/audio/s05-02-01ed51df54e9bbd4.mp3"
     }
   ]
 }
