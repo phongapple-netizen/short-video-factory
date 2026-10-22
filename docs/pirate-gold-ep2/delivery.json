@@ -1,0 +1,12 @@
+{
+  "id": "PirateGoldEp2",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/pirate-gold-ep2.mp4",
+    "small": "previews/pirate-gold-ep2-small.mp4",
+    "cover": "previews/pirate-gold-ep2-cover.png",
+    "subtitles": "previews/pirate-gold-ep2.srt"
+  },
+  "renderCommand": "npm run render:case -- PirateGoldEp2 final"
+}
