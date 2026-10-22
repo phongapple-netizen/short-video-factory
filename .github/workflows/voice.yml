@@ -43,9 +43,14 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install audio tools and voice dependencies
+        timeout-minutes: 10
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          if ! command -v ffprobe >/dev/null; then
+            # man-db 触发器在 ubuntu-24.04 runner 上可能卡住十几分钟
+            sudo rm -f /var/lib/man-db/auto-update
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
           python -m pip install -r scripts/requirements.txt
       - name: Generate narration and measured timeline
         env:
