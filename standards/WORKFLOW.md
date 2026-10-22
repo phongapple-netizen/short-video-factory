@@ -29,7 +29,7 @@
 1. 阅读AGENTS、配置、登记表和参考案例；用户已有修改先保留。明确本条只讲清什么、受众/年级、事实、条件和结论。
 2. 新选题：`npm run new:video -- UniqueId --subject math|history|physics|chemistry`。编辑content与Diagram；模板中的样例不是最终题目。
 3. 验证模型与资料。数学断言图形关系、计数和结果；历史记录出处，区别史实/解释/示意图；物理核对方向、单位和边界；化学核对配平、守恒、条件与现象。适龄方法不能被高级方法悄悄替代。
-4. 逐句保存`text`与`voiceText`。新模板运行`npm run voice:case -- Id`；音频按文本+声音+语速缓存，每段计时来自ffprobe。失败时保护旧缓存和运行时间轴。默认数学晓晓、历史云希，Edge失败可以使用配置的Azure环境变量；不打印/保存密钥。缺少可用服务时报告声音未完成，不伪造成功。
+4. 逐句保存`text`与`voiceText`。新模板运行`npm run voice:case -- Id`；音频按文本+声音+语速缓存，每段计时来自ffprobe。失败时保护旧缓存和运行时间轴。默认数学晓晓、历史云希，Edge失败可以使用配置的Azure环境变量；不打印/保存密钥。缺少可用服务时报告声音未完成，不伪造成功。本机网络无法访问配音服务时，在GitHub Actions手动运行“Generate narration”（仓库Secret：`AZURE_SPEECH_KEY`、`AZURE_SPEECH_REGION`），它把配音缓存与实测时间轴提交回运行所在的分支。
 5. `npm run typecheck && npm run check:factory && npm run registry:check`。
 6. `npm run review:case -- Id`导出首帧、每镜开始/中间/结束、封面与HTML索引。新模板和完整赤壁支持DOM审计；未标注的旧例报告`not-instrumented`，必须看实际帧，不能宣称自动检查了它所有布局。逐帧检查语义、模型、遮挡、字号、对比度、镜头节奏及切换重影。
 7. 在请求完整导出时运行`npm run render:case -- Id final`，按共享配置渲染、两遍loudnorm、校验编码后的文件，导出封面、SRT、ffprobe与响度报告。默认concurrency1，资源足够可设`REMOTION_CONCURRENCY=2`。浏览器路径通过环境变量选择，不写死到跨平台脚本。
