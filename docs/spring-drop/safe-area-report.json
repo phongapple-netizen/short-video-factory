@@ -1,6 +1,6 @@
 {
   "id": "SpringDrop",
-  "sourceSignature": "9051fdf53e4a4aaef2898f06bb43d5fee00f329dbe690f704969ee19d0802263",
+  "sourceSignature": "2a2a11542563f93da4be98e966f8bca0ed9a36e036c5f73478b9c3aa467684b0",
   "frames": [
     {
       "frame": 0,
@@ -1230,56 +1230,45 @@
             "withinSafe": true
           },
           {
-            "text": "答案：D",
+            "text": "D还是C？看模型",
             "bounds": [
               75,
               221.4375,
               915,
-              331.875
+              322.625
             ],
-            "screenFont": 96,
+            "screenFont": 88,
             "withinSafe": true
           },
           {
-            "text": "C落地 基准",
+            "text": "理想轻弹簧（没有质量）",
             "bounds": [
-              165,
-              490,
-              825,
-              590
+              133,
+              408,
+              857,
+              454
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "三球同时落地 → D",
+            "bounds": [
+              133,
+              458,
+              857,
+              522
             ],
             "screenFont": 48,
             "withinSafe": true
           },
           {
-            "text": "A落地 晚 0.25 ms",
-            "bounds": [
-              165,
-              608,
-              825,
-              708
-            ],
-            "screenFont": 48,
-            "withinSafe": true
-          },
-          {
-            "text": "B落地 晚 0.06 ms",
-            "bounds": [
-              165,
-              726,
-              825,
-              826
-            ],
-            "screenFont": 48,
-            "withinSafe": true
-          },
-          {
-            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "text": "模拟估算，非实测：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
             "bounds": [
               105,
-              1170,
+              1150,
               885,
-              1252
+              1232
             ],
             "screenFont": 30,
             "withinSafe": true
@@ -1290,10 +1279,10 @@
       "requiresVisualReview": true
     },
     {
-      "frame": 1325,
-      "image": "frame-01325.png",
+      "frame": 1497,
+      "image": "frame-01497.png",
       "audit": {
-        "frame": 1325,
+        "frame": 1497,
         "labels": [
           {
             "text": "科学实验室物理易错题",
@@ -1307,62 +1296,95 @@
             "withinSafe": true
           },
           {
-            "text": "答案：D",
+            "text": "D还是C？看模型",
             "bounds": [
               75,
               220,
               915,
-              330.375
+              321.1875
             ],
-            "screenFont": 96,
+            "screenFont": 88,
             "withinSafe": true
           },
           {
-            "text": "C落地 基准",
+            "text": "理想轻弹簧（没有质量）",
             "bounds": [
-              165,
-              470,
-              825,
-              570
+              133,
+              388,
+              857,
+              434
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "三球同时落地 → D",
+            "bounds": [
+              133,
+              438,
+              857,
+              502
             ],
             "screenFont": 48,
             "withinSafe": true
           },
           {
-            "text": "A落地 晚 0.25 ms",
+            "text": "真实弹簧（有质量）：落地顺序",
             "bounds": [
-              165,
-              588,
-              825,
-              688
+              133,
+              598,
+              857,
+              644
             ],
-            "screenFont": 48,
+            "screenFont": 34,
             "withinSafe": true
           },
           {
-            "text": "B落地 晚 0.06 ms",
+            "text": "1C最先（基准）",
             "bounds": [
-              165,
-              706,
-              825,
-              806
+              133,
+              656,
+              857,
+              718
             ],
-            "screenFont": 48,
+            "screenFont": 46,
             "withinSafe": true
           },
           {
-            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "text": "2B晚 0.06 ms",
+            "bounds": [
+              133,
+              750,
+              857,
+              812
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "3A晚 0.25 ms",
+            "bounds": [
+              133,
+              824,
+              857,
+              886
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "模拟估算，非实测：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
             "bounds": [
               105,
-              1150,
+              1130,
               885,
-              1232
+              1212
             ],
             "screenFont": 30,
             "withinSafe": true
           },
           {
-            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "text": "真实弹簧有质量：C最先，\nB晚0.06毫秒，A晚0.25毫秒。",
             "bounds": [
               75,
               1360,
@@ -1378,10 +1400,10 @@
       "requiresVisualReview": true
     },
     {
-      "frame": 1422,
-      "image": "frame-01422.png",
+      "frame": 1766,
+      "image": "frame-01766.png",
       "audit": {
-        "frame": 1422,
+        "frame": 1766,
         "labels": [
           {
             "text": "科学实验室物理易错题",
@@ -1395,73 +1417,106 @@
             "withinSafe": true
           },
           {
-            "text": "答案：D",
+            "text": "D还是C？看模型",
             "bounds": [
               75,
               220,
               915,
-              330.375
+              321.1875
             ],
-            "screenFont": 96,
+            "screenFont": 88,
             "withinSafe": true
           },
           {
-            "text": "C落地 基准",
+            "text": "理想轻弹簧（没有质量）",
             "bounds": [
-              165,
-              470,
-              825,
-              570
+              133,
+              388,
+              857,
+              434
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "三球同时落地 → D",
+            "bounds": [
+              133,
+              438,
+              857,
+              502
             ],
             "screenFont": 48,
             "withinSafe": true
           },
           {
-            "text": "A落地 晚 0.25 ms",
+            "text": "真实弹簧（有质量）：落地顺序",
             "bounds": [
-              165,
-              588,
-              825,
-              688
+              133,
+              598,
+              857,
+              644
             ],
-            "screenFont": 48,
+            "screenFont": 34,
             "withinSafe": true
           },
           {
-            "text": "B落地 晚 0.06 ms",
+            "text": "1C最先（基准）",
             "bounds": [
-              165,
-              706,
-              825,
-              806
+              133,
+              656,
+              857,
+              718
             ],
-            "screenFont": 48,
+            "screenFont": 46,
             "withinSafe": true
           },
           {
-            "text": "D 同时落地",
+            "text": "2B晚 0.06 ms",
             "bounds": [
-              229.5556640625,
-              873.1875,
-              760.4443359375,
-              1057.8125
+              133,
+              730,
+              857,
+              792
             ],
-            "screenFont": 64,
+            "screenFont": 46,
             "withinSafe": true
           },
           {
-            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "text": "3A晚 0.25 ms",
+            "bounds": [
+              133,
+              804,
+              857,
+              866
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "差距不到千分之一秒，肉眼分不出",
             "bounds": [
               105,
-              1150,
+              1000,
               885,
-              1232
+              1087
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "模拟估算，非实测：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "bounds": [
+              105,
+              1130,
+              885,
+              1212
             ],
             "screenFont": 30,
             "withinSafe": true
           },
           {
-            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "text": "差距小到眼睛分不出，\n数值还要看是哪根弹簧。",
             "bounds": [
               75,
               1360,
@@ -1477,10 +1532,10 @@
       "requiresVisualReview": true
     },
     {
-      "frame": 1423,
-      "image": "frame-01423.png",
+      "frame": 1767,
+      "image": "frame-01767.png",
       "audit": {
-        "frame": 1423,
+        "frame": 1767,
         "labels": [
           {
             "text": "科学实验室物理易错题",
@@ -1494,73 +1549,106 @@
             "withinSafe": true
           },
           {
-            "text": "答案：D",
+            "text": "D还是C？看模型",
             "bounds": [
               75,
               220,
               915,
-              330.375
+              321.1875
             ],
-            "screenFont": 96,
+            "screenFont": 88,
             "withinSafe": true
           },
           {
-            "text": "C落地 基准",
+            "text": "理想轻弹簧（没有质量）",
             "bounds": [
-              165,
-              470,
-              825,
-              570
+              133,
+              388,
+              857,
+              434
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "三球同时落地 → D",
+            "bounds": [
+              133,
+              438,
+              857,
+              502
             ],
             "screenFont": 48,
             "withinSafe": true
           },
           {
-            "text": "A落地 晚 0.25 ms",
+            "text": "真实弹簧（有质量）：落地顺序",
             "bounds": [
-              165,
-              588,
-              825,
-              688
+              133,
+              598,
+              857,
+              644
             ],
-            "screenFont": 48,
+            "screenFont": 34,
             "withinSafe": true
           },
           {
-            "text": "B落地 晚 0.06 ms",
+            "text": "1C最先（基准）",
             "bounds": [
-              165,
-              706,
-              825,
-              806
+              133,
+              656,
+              857,
+              718
             ],
-            "screenFont": 48,
+            "screenFont": 46,
             "withinSafe": true
           },
           {
-            "text": "D 同时落地",
+            "text": "2B晚 0.06 ms",
             "bounds": [
-              229.54959106445312,
-              873.1875,
-              760.4503479003906,
-              1057.8125
+              133,
+              730,
+              857,
+              792
             ],
-            "screenFont": 64,
+            "screenFont": 46,
             "withinSafe": true
           },
           {
-            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "text": "3A晚 0.25 ms",
+            "bounds": [
+              133,
+              804,
+              857,
+              866
+            ],
+            "screenFont": 46,
+            "withinSafe": true
+          },
+          {
+            "text": "差距不到千分之一秒，肉眼分不出",
             "bounds": [
               105,
-              1150,
+              1000,
               885,
-              1232
+              1087
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "模拟估算，非实测：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "bounds": [
+              105,
+              1130,
+              885,
+              1212
             ],
             "screenFont": 30,
             "withinSafe": true
           },
           {
-            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "text": "差距小到眼睛分不出，\n数值还要看是哪根弹簧。",
             "bounds": [
               75,
               1360,
@@ -1576,10 +1664,10 @@
       "requiresVisualReview": true
     },
     {
-      "frame": 1568,
-      "image": "frame-01568.png",
+      "frame": 1912,
+      "image": "frame-01912.png",
       "audit": {
-        "frame": 1568,
+        "frame": 1912,
         "labels": [
           {
             "text": "科学实验室物理易错题",
@@ -1620,10 +1708,10 @@
       "requiresVisualReview": true
     },
     {
-      "frame": 1711,
-      "image": "frame-01711.png",
+      "frame": 2055,
+      "image": "frame-02055.png",
       "audit": {
-        "frame": 1711,
+        "frame": 2055,
         "labels": [
           {
             "text": "科学实验室物理易错题",
