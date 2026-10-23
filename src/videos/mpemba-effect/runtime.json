@@ -1,44 +1,162 @@
 {
-  "timingMode": "planned",
-  "estimate": "3.6 字/秒估算，未配音",
-  "duration": 67.03333333333333,
-  "durationInFrames": 2011,
+  "providers": [
+    "edge-tts"
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 7.33,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "一杯热水，一杯冷水，谁先结冰？",
+            "voiceText": "一杯热水，一杯冷水，谁先结冰？"
+          },
+          {
+            "id": "s01-02",
+            "text": "你肯定选冷水，可有人说：热水！",
+            "voiceText": "你肯定选冷水，可有人说：热水！"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 7.17,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "热水得先降到冷水的温度，\n再走一遍冷水的路，冷水稳赢吧？",
+            "voiceText": "热水得先降到冷水的温度，再走一遍冷水的路，冷水稳赢吧？"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 10.67,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "1963年，坦桑尼亚中学生\n姆潘巴做冰淇淋，",
+            "voiceText": "一九六三年，坦桑尼亚中学生姆潘巴做冰淇淋，"
+          },
+          {
+            "id": "s03-02",
+            "text": "热的那份反而先冻住，\n这就是“姆潘巴效应”。",
+            "voiceText": "热的那份反而先冻住，这就是姆潘巴效应。"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 14.27,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "2016年精确测量：\n热水降到0°C并不更快。",
+            "voiceText": "二零一六年的精确测量说：热水降到零度，并不更快。"
+          },
+          {
+            "id": "s04-02",
+            "text": "2026年发表的实验测了176次：\n热水多次先结冰！",
+            "voiceText": "二零二六年发表的一项实验测了一百七十六次，热水却多次先结冰！"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 16.1,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "水到0°C不一定马上结冰，\n零下了还可能是液体，叫“过冷”。",
+            "voiceText": "水到零度不一定马上结冰，零下了还可能是液体，这叫过冷。"
+          },
+          {
+            "id": "s05-02",
+            "text": "哪杯过冷得深，哪杯就晚结冰。",
+            "voiceText": "哪杯过冷得深，哪杯就晚结冰。"
+          },
+          {
+            "id": "s05-03",
+            "text": "冰箱里的风也不均匀，\n谁吹得多，谁就冷得快。",
+            "voiceText": "冰箱里的冷风也不均匀，谁吹得多，谁就冷得快。"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "plannedSeconds": 11.5,
+        "cues": [
+          {
+            "id": "s06-01",
+            "text": "热水能赢，靠的不是冷得快，\n是冷水过冷，或少吹了风。",
+            "voiceText": "所以热水能赢，靠的不是冷得快，而是冷水过冷，或者少吹了风。"
+          },
+          {
+            "id": "s06-02",
+            "text": "你家冰箱试过吗？评论区说说！",
+            "voiceText": "你家冰箱试过吗？评论区说说结果！"
+          }
+        ]
+      }
+    ]
+  },
+  "timingMode": "measured",
+  "duration": 59.96666666666667,
+  "durationInFrames": 1799,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
   "scenes": [
     {
       "id": "01",
-      "start": 0.0,
-      "end": 7.333333333333333,
-      "durationInFrames": 220
+      "start": 0,
+      "end": 7.666666666666667,
+      "durationInFrames": 230,
+      "audioDuration": 7.008,
+      "charactersPerSecond": 3.42
     },
     {
       "id": "02",
-      "start": 7.333333333333333,
-      "end": 14.5,
-      "durationInFrames": 215
+      "start": 7.666666666666667,
+      "end": 13.666666666666668,
+      "durationInFrames": 180,
+      "audioDuration": 5.496,
+      "charactersPerSecond": 4.37
     },
     {
       "id": "03",
-      "start": 14.5,
-      "end": 25.166666666666664,
-      "durationInFrames": 320
+      "start": 13.666666666666668,
+      "end": 23.200000000000003,
+      "durationInFrames": 286,
+      "audioDuration": 8.856,
+      "charactersPerSecond": 4.07
     },
     {
       "id": "04",
-      "start": 25.166666666666664,
-      "end": 39.43333333333333,
-      "durationInFrames": 428
+      "start": 23.200000000000003,
+      "end": 35.03333333333334,
+      "durationInFrames": 355,
+      "audioDuration": 11.16,
+      "charactersPerSecond": 4.39
     },
     {
       "id": "05",
-      "start": 39.43333333333333,
-      "end": 55.53333333333333,
-      "durationInFrames": 483
+      "start": 35.03333333333334,
+      "end": 49.2,
+      "durationInFrames": 425,
+      "audioDuration": 13.344,
+      "charactersPerSecond": 4.12
     },
     {
       "id": "06",
-      "start": 55.53333333333333,
-      "end": 67.03333333333333,
-      "durationInFrames": 345
+      "start": 49.2,
+      "end": 59.96666666666667,
+      "durationInFrames": 323,
+      "audioDuration": 10.104,
+      "charactersPerSecond": 3.86
     }
   ],
   "captions": [
@@ -48,107 +166,131 @@
       "voiceText": "一杯热水，一杯冷水，谁先结冰？",
       "scene": "01",
       "start": 0.22,
-      "end": 3.5533333333333332,
-      "audio": null
+      "end": 3.8200000000000003,
+      "duration": 3.6,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s01-01-24bf7b11f3d5bbd0.mp3"
     },
     {
       "id": "s01-02",
       "text": "你肯定选冷水，可有人说：热水！",
       "voiceText": "你肯定选冷水，可有人说：热水！",
       "scene": "01",
-      "start": 3.703333333333333,
-      "end": 7.036666666666666,
-      "audio": null
+      "start": 3.97,
+      "end": 7.378,
+      "duration": 3.408,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s01-02-18aa2c9eacb23121.mp3"
     },
     {
       "id": "s02-01",
       "text": "热水得先降到冷水的温度，\n再走一遍冷水的路，冷水稳赢吧？",
       "voiceText": "热水得先降到冷水的温度，再走一遍冷水的路，冷水稳赢吧？",
       "scene": "02",
-      "start": 7.553333333333333,
-      "end": 14.219999999999999,
-      "audio": null
+      "start": 7.886666666666667,
+      "end": 13.382666666666667,
+      "duration": 5.496,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s02-01-8e1f02b86634afe1.mp3"
     },
     {
       "id": "s03-01",
       "text": "1963年，坦桑尼亚中学生\n姆潘巴做冰淇淋，",
       "voiceText": "一九六三年，坦桑尼亚中学生姆潘巴做冰淇淋，",
       "scene": "03",
-      "start": 14.72,
-      "end": 19.997777777777777,
-      "audio": null
+      "start": 13.886666666666668,
+      "end": 18.590666666666667,
+      "duration": 4.704,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s03-01-c50af2eef0907e16.mp3"
     },
     {
       "id": "s03-02",
       "text": "热的那份反而先冻住，\n这就是“姆潘巴效应”。",
       "voiceText": "热的那份反而先冻住，这就是姆潘巴效应。",
       "scene": "03",
-      "start": 20.14777777777778,
-      "end": 24.87,
-      "audio": null
+      "start": 18.74066666666667,
+      "end": 22.89266666666667,
+      "duration": 4.152,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s03-02-4b75027fc40a2509.mp3"
     },
     {
       "id": "s04-01",
       "text": "2016年精确测量：\n热水降到0°C并不更快。",
       "voiceText": "二零一六年的精确测量说：热水降到零度，并不更快。",
       "scene": "04",
-      "start": 25.386666666666663,
-      "end": 31.219999999999995,
-      "audio": null
+      "start": 23.42,
+      "end": 28.484,
+      "duration": 5.064,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s04-01-32e12e02a3c1d4b4.mp3"
     },
     {
       "id": "s04-02",
       "text": "2026年发表的实验测了176次：\n热水多次先结冰！",
       "voiceText": "二零二六年发表的一项实验测了一百七十六次，热水却多次先结冰！",
       "scene": "04",
-      "start": 31.369999999999997,
-      "end": 39.147777777777776,
-      "audio": null
+      "start": 28.634,
+      "end": 34.730000000000004,
+      "duration": 6.096,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s04-02-0799defad3a89876.mp3"
     },
     {
       "id": "s05-01",
       "text": "水到0°C不一定马上结冰，\n零下了还可能是液体，叫“过冷”。",
       "voiceText": "水到零度不一定马上结冰，零下了还可能是液体，这叫过冷。",
       "scene": "05",
-      "start": 39.65333333333333,
-      "end": 46.31999999999999,
-      "audio": null
+      "start": 35.25333333333334,
+      "end": 40.845333333333336,
+      "duration": 5.592,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s05-01-0e26e71cf146cead.mp3"
     },
     {
       "id": "s05-02",
       "text": "哪杯过冷得深，哪杯就晚结冰。",
       "voiceText": "哪杯过冷得深，哪杯就晚结冰。",
       "scene": "05",
-      "start": 46.47,
-      "end": 49.803333333333335,
-      "audio": null
+      "start": 40.995333333333335,
+      "end": 44.11533333333333,
+      "duration": 3.12,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s05-02-dbbc326000794763.mp3"
     },
     {
       "id": "s05-03",
       "text": "冰箱里的风也不均匀，\n谁吹得多，谁就冷得快。",
       "voiceText": "冰箱里的冷风也不均匀，谁吹得多，谁就冷得快。",
       "scene": "05",
-      "start": 49.95333333333333,
-      "end": 55.23111111111111,
-      "audio": null
+      "start": 44.26533333333334,
+      "end": 48.897333333333336,
+      "duration": 4.632,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s05-03-f41cb70c3b2ad9aa.mp3"
     },
     {
       "id": "s06-01",
       "text": "热水能赢，靠的不是冷得快，\n是冷水过冷，或少吹了风。",
       "voiceText": "所以热水能赢，靠的不是冷得快，而是冷水过冷，或者少吹了风。",
       "scene": "06",
-      "start": 55.75333333333333,
-      "end": 62.69777777777777,
-      "audio": null
+      "start": 49.42,
+      "end": 55.588,
+      "duration": 6.168,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s06-01-8bc3f6b59edfa1b5.mp3"
     },
     {
       "id": "s06-02",
       "text": "你家冰箱试过吗？评论区说说！",
       "voiceText": "你家冰箱试过吗？评论区说说结果！",
       "scene": "06",
-      "start": 62.84777777777778,
-      "end": 66.73666666666666,
-      "audio": null
+      "start": 55.738,
+      "end": 59.674,
+      "duration": 3.936,
+      "provider": "edge-tts",
+      "audio": "assets/mpemba-effect/audio/s06-02-d4a15fd6b5867243.mp3"
     }
   ]
 }

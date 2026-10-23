@@ -17,7 +17,7 @@
 | 五个海盗分金币（13镜讲解版） | `PirateGold` | 227.57秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold.mp4) | 正式版 |
 | 五个海盗分金币·第1集：船长独吞98枚 | `PirateGoldEp1` | 65.97秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold-ep1.mp4) | 正式版 |
 | 五个海盗分金币·第2集：只花2枚，船长拿走98枚 | `PirateGoldEp2` | 56.93秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold-ep2.mp4) | 正式版 |
-| 热水冷水谁先结冰？姆潘巴效应 | `MpembaEffect` | 67.03秒 | 待制作 | 制作中 |
+| 热水冷水谁先结冰？姆潘巴效应 | `MpembaEffect` | 59.97秒 | 待制作 | 制作中 |
 <!-- cases:end -->
 
 **下载较慢时：[赤壁地图版较小文件](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full-small.mp4)**（同为1080×1920、30fps，音频保持相同，仅降低视频码率）。
