@@ -1,0 +1,158 @@
+{
+  "id": "MpembaEffect",
+  "subject": "physics",
+  "template": "freezer-lab",
+  "title": "热水冷水\n谁先结冰？",
+  "coverSubtitle": "热水真能赢？科学家吵了60年",
+  "brand": "科学实验室",
+  "learningGoal": "热水偶尔先结冰，不是因为它冷得更快，而是冷水可能过冷、冰箱里的风不均匀",
+  "checkQuestion": "水降到0°C以下还没结冰，这种现象叫什么？",
+  "audience": "初中及以上；物态变化（凝固）的拓展，过冷为课外延伸",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "生活现象",
+    "firstFrame": "标题“热水冷水 谁先结冰？”与冒热气的热水杯、冷水杯和冰箱同时出现"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "newton-cooling-illustration",
+    "hotStartC": 80,
+    "coldStartC": 20,
+    "freezerC": -18,
+    "note": "第2镜的曲线是理想牛顿冷却示意，温度为示意值，不代表某次实验数据"
+  },
+  "facts": [
+    "1963年坦桑尼亚中学生姆潘巴做冰淇淋时，热的混合物先冻住；1969年与Osborne发表《Cool?》。",
+    "2016年Burridge与Linden的受控实验：没有证据表明热水更快降到0°C。",
+    "2026年Janni、Botero Ampudia与Dahlberg共176次测量，观察到46次（先到0°C）与58次（先开始结冰）姆潘巴效应，归因于冷却空气对流的涨落与样品过冷程度的差异。",
+    "过冷：水降到0°C以下仍可保持液态，开始结冰的温度有随机性。"
+  ],
+  "sources": [
+    {
+      "title": "E. B. Mpemba, D. G. Osborne, “Cool?”, Physics Education 4, 172–175 (1969)",
+      "note": "姆潘巴的冰淇淋观察与最初的实验。"
+    },
+    {
+      "title": "H. C. Burridge, P. F. Linden, “Questioning the Mpemba effect: hot water does not cool more quickly than cold”, Scientific Reports 6, 37665 (2016)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5121640"
+    },
+    {
+      "title": "A. Janni, S. Botero Ampudia, E. D. Dahlberg, “An experimental investigation of the Mpemba effect”, RSC Applied Interfaces 3, 442–449 (2026)",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/lf/d5lf00296f"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "热水冷水\n谁先结冰？",
+      "plannedSeconds": 7.33,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "一杯热水，一杯冷水，谁先结冰？",
+          "voiceText": "一杯热水，一杯冷水，谁先结冰？"
+        },
+        {
+          "id": "s01-02",
+          "text": "你肯定选冷水，可有人说：热水！",
+          "voiceText": "你肯定选冷水，可有人说：热水！"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "冷水先\n不是明摆着？",
+      "plannedSeconds": 7.17,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "热水得先降到冷水的温度，\n再走一遍冷水的路，冷水稳赢吧？",
+          "voiceText": "热水得先降到冷水的温度，再走一遍冷水的路，冷水稳赢吧？"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "1963年\n姆潘巴效应",
+      "plannedSeconds": 10.67,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "1963年，坦桑尼亚中学生\n姆潘巴做冰淇淋，",
+          "voiceText": "一九六三年，坦桑尼亚中学生姆潘巴做冰淇淋，"
+        },
+        {
+          "id": "s03-02",
+          "text": "热的那份反而先冻住，\n这就是“姆潘巴效应”。",
+          "voiceText": "热的那份反而先冻住，这就是姆潘巴效应。"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "科学家\n吵了几十年",
+      "plannedSeconds": 14.27,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "2016年精确测量：\n热水降到0°C并不更快。",
+          "voiceText": "二零一六年的精确测量说：热水降到零度，并不更快。"
+        },
+        {
+          "id": "s04-02",
+          "text": "2026年发表的实验测了176次：\n热水多次先结冰！",
+          "voiceText": "二零二六年发表的一项实验测了一百七十六次，热水却多次先结冰！"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "秘密：过冷",
+      "plannedSeconds": 16.1,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "水到0°C不一定马上结冰，\n零下了还可能是液体，叫“过冷”。",
+          "voiceText": "水到零度不一定马上结冰，零下了还可能是液体，这叫过冷。"
+        },
+        {
+          "id": "s05-02",
+          "text": "哪杯过冷得深，哪杯就晚结冰。",
+          "voiceText": "哪杯过冷得深，哪杯就晚结冰。"
+        },
+        {
+          "id": "s05-03",
+          "text": "冰箱里的风也不均匀，\n谁吹得多，谁就冷得快。",
+          "voiceText": "冰箱里的冷风也不均匀，谁吹得多，谁就冷得快。"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "热水能赢\n但不是冷得快",
+      "plannedSeconds": 11.5,
+      "cues": [
+        {
+          "id": "s06-01",
+          "text": "热水能赢，靠的不是冷得快，\n是冷水过冷，或少吹了风。",
+          "voiceText": "所以热水能赢，靠的不是冷得快，而是冷水过冷，或者少吹了风。"
+        },
+        {
+          "id": "s06-02",
+          "text": "你家冰箱试过吗？评论区说说！",
+          "voiceText": "你家冰箱试过吗？评论区说说结果！"
+        }
+      ]
+    }
+  ]
+}

@@ -237,5 +237,27 @@
     "smallPreview": "previews/pirate-gold-ep2-small.mp4",
     "previewCover": "previews/pirate-gold-ep2-cover.png",
     "subtitles": "previews/pirate-gold-ep2.srt"
+  },
+  {
+    "key": "mpemba-effect",
+    "id": "MpembaEffect",
+    "title": "热水冷水谁先结冰？姆潘巴效应",
+    "subject": "physics",
+    "template": "freezer-lab",
+    "stage": "draft",
+    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "seconds": 67.03333333333333,
+    "cover": "MpembaEffectCover",
+    "narrated": true,
+    "registration": "src/videos/mpemba-effect/Registration.tsx",
+    "content": "src/videos/mpemba-effect/content.json",
+    "assets": "assets/mpemba-effect",
+    "captions": {
+      "file": "src/videos/mpemba-effect/runtime.json"
+    },
+    "timeline": {
+      "file": "src/videos/mpemba-effect/runtime.json",
+      "format": "scenes"
+    }
   }
 ]

@@ -2,4 +2,5 @@
 import {Registration as Video0} from '../../src/videos/pirate-gold/Registration';
 import {Registration as Video1} from '../../src/videos/pirate-gold-ep1/Registration';
 import {Registration as Video2} from '../../src/videos/pirate-gold-ep2/Registration';
-export const RegisteredVideos=()=> <><Video0/><Video1/><Video2/></>;
+import {Registration as Video3} from '../../src/videos/mpemba-effect/Registration';
+export const RegisteredVideos=()=> <><Video0/><Video1/><Video2/><Video3/></>;
