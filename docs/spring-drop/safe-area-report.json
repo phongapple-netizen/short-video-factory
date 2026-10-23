@@ -1,0 +1,1680 @@
+{
+  "id": "SpringDrop",
+  "sourceSignature": "9051fdf53e4a4aaef2898f06bb43d5fee00f329dbe690f704969ee19d0802263",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "三个铁球\n谁先落地？",
+            "bounds": [
+              75,
+              220,
+              915,
+              440.75
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              190,
+              864,
+              270,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              455,
+              864,
+              535,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              864,
+              800,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "A先落地",
+            "bounds": [
+              95,
+              1120,
+              488,
+              1193
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "B先落地",
+            "bounds": [
+              502,
+              1120,
+              895,
+              1193
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "C先落地",
+            "bounds": [
+              95,
+              1207,
+              488,
+              1280
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "D同时落地",
+            "bounds": [
+              502,
+              1207,
+              895,
+              1280
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 168,
+      "image": "frame-00168.png",
+      "audit": {
+        "frame": 168,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "三个铁球\n谁先落地？",
+            "bounds": [
+              75,
+              220,
+              915,
+              440.75
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              189.54495239257812,
+              863.6875,
+              269.61376953125,
+              935.8125
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              454.5448303222656,
+              863.9375,
+              534.6136474609375,
+              936.0625
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              719.5447387695312,
+              864.1875,
+              799.613525390625,
+              936.3125
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "剪绳",
+            "bounds": [
+              120,
+              1000,
+              340,
+              1044
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "A先落地",
+            "bounds": [
+              95,
+              1120,
+              488,
+              1193
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "B先落地",
+            "bounds": [
+              502,
+              1120,
+              895,
+              1193
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "C先落地",
+            "bounds": [
+              95,
+              1207,
+              488,
+              1280
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "D同时落地",
+            "bounds": [
+              502,
+              1207,
+              895,
+              1280
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 334,
+      "image": "frame-00334.png",
+      "audit": {
+        "frame": 334,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "三个铁球\n谁先落地？",
+            "bounds": [
+              75,
+              220,
+              915,
+              440.75
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              191.22738647460938,
+              864.6875,
+              271.44549560546875,
+              936.9375
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              456.2261657714844,
+              863.875,
+              536.4442749023438,
+              936.125
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              721.2249145507812,
+              863.0625,
+              801.4430541992188,
+              935.3125
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "剪绳",
+            "bounds": [
+              120,
+              1000,
+              340,
+              1044
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "剪弹簧中间",
+            "bounds": [
+              385,
+              1000,
+              605,
+              1044
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "剪绳",
+            "bounds": [
+              650,
+              1000,
+              870,
+              1044
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "A先落地",
+            "bounds": [
+              85.17500305175781,
+              1118.1875,
+              497.8250274658203,
+              1194.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "B先落地",
+            "bounds": [
+              502,
+              1120,
+              895,
+              1193
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "C先落地",
+            "bounds": [
+              95,
+              1207,
+              488,
+              1280
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "D同时落地",
+            "bounds": [
+              502,
+              1207,
+              895,
+              1280
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "先在心里选一个！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 335,
+      "image": "frame-00335.png",
+      "audit": {
+        "frame": 335,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧会\n拖后腿？",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              423.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              190,
+              864,
+              270,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              455,
+              864,
+              535,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              864,
+              800,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 467,
+      "image": "frame-00467.png",
+      "audit": {
+        "frame": 467,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧会\n拖后腿？",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              190,
+              864,
+              270,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              455,
+              864,
+              535,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              864,
+              800,
+              936
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧还拉着球 → A、B慢一拍？",
+            "bounds": [
+              105,
+              1120,
+              885,
+              1208
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "很多人想：弹簧还拉着球，\nA和B会慢一拍。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 597,
+      "image": "frame-00597.png",
+      "audit": {
+        "frame": 597,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧会\n拖后腿？",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              190,
+              1196,
+              270,
+              1268
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "B",
+            "bounds": [
+              455,
+              1196,
+              535,
+              1268
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              1196,
+              800,
+              1268
+            ],
+            "screenFont": 55,
+            "withinSafe": true
+          },
+          {
+            "text": "慢放4倍",
+            "bounds": [
+              695,
+              500,
+              915,
+              544
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "咚！几乎同时落地",
+            "bounds": [
+              105,
+              560,
+              885,
+              650.625
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "实际放一遍：三个球几乎同时落地！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 598,
+      "image": "frame-00598.png",
+      "audit": {
+        "frame": 598,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "慢放400倍\nA竟然悬停",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              423.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              340,
+              1024.3125,
+              420,
+              1096.3125
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              1024.3125,
+              800,
+              1096.3125
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "t = 0.0 ms",
+            "bounds": [
+              560,
+              620,
+              910,
+              675
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 752,
+      "image": "frame-00752.png",
+      "audit": {
+        "frame": 752,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "慢放400倍\nA竟然悬停",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              340,
+              1024.3125,
+              420,
+              1096.3125
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              1025.3125,
+              800,
+              1097.3125
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "t = 11.5 ms",
+            "bounds": [
+              560,
+              620,
+              910,
+              675
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "悬停中…",
+            "bounds": [
+              240,
+              1150.3125,
+              520,
+              1221.3125
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "收缩“消息”往下传：16 ms 才到底",
+            "bounds": [
+              105,
+              1254.9375,
+              885,
+              1337.75
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧上端先缩下来，\n下端要过16毫秒才收到消息。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 905,
+      "image": "frame-00905.png",
+      "audit": {
+        "frame": 905,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "慢放400倍\nA竟然悬停",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              340,
+              1026.8125,
+              420,
+              1098.8125
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              1028.625,
+              800,
+              1100.625
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "t = 24.3 ms",
+            "bounds": [
+              560,
+              620,
+              910,
+              675
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "开始下落！",
+            "bounds": [
+              240,
+              1152.8125,
+              520,
+              1223.8125
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "收缩“消息”往下传：16 ms 才到底",
+            "bounds": [
+              105,
+              1238,
+              885,
+              1320.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧上端先缩下来，\n下端要过16毫秒才收到消息。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 906,
+      "image": "frame-00906.png",
+      "audit": {
+        "frame": 906,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "慢放400倍\nA竟然悬停",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "A",
+            "bounds": [
+              340,
+              1026.875,
+              420,
+              1098.875
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "C",
+            "bounds": [
+              720,
+              1028.6875,
+              800,
+              1100.6875
+            ],
+            "screenFont": 67,
+            "withinSafe": true
+          },
+          {
+            "text": "t = 24.4 ms",
+            "bounds": [
+              560,
+              620,
+              910,
+              675
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "开始下落！",
+            "bounds": [
+              240,
+              1152.875,
+              520,
+              1223.875
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "收缩“消息”往下传：16 ms 才到底",
+            "bounds": [
+              105,
+              1238,
+              885,
+              1320.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "弹簧上端先缩下来，\n下端要过16毫秒才收到消息。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1066,
+      "image": "frame-01066.png",
+      "audit": {
+        "frame": 1066,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "秘密：重心",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "下落距离 ↓",
+            "bounds": [
+              200,
+              420,
+              500,
+              461
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "时间 → 60 ms",
+            "bounds": [
+              570,
+              420,
+              870,
+              461
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "16 ms",
+            "bounds": [
+              377.65625,
+              480,
+              637.65625,
+              514
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "重心 = C：自由落体",
+            "bounds": [
+              490,
+              758.875,
+              870,
+              804.875
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "球和弹簧看成整体，只受重力，\n重心立刻自由下落。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1225,
+      "image": "frame-01225.png",
+      "audit": {
+        "frame": 1225,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "秘密：重心",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "下落距离 ↓",
+            "bounds": [
+              200,
+              420,
+              500,
+              461
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "时间 → 60 ms",
+            "bounds": [
+              570,
+              420,
+              870,
+              461
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "16 ms",
+            "bounds": [
+              377.65625,
+              480,
+              637.65625,
+              514
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "重心 = C：自由落体",
+            "bounds": [
+              490,
+              758.875,
+              870,
+              804.875
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "A 的球",
+            "bounds": [
+              250,
+              743.0625,
+              550,
+              789.0625
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "最后只比自由落体落后约 1.2 mm",
+            "bounds": [
+              105,
+              1100,
+              885,
+              1188
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "缩完以后球被带着往下走，\n只落后大约1毫米。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1226,
+      "image": "frame-01226.png",
+      "audit": {
+        "frame": 1226,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "答案：D",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              331.875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "C落地 基准",
+            "bounds": [
+              165,
+              490,
+              825,
+              590
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "A落地 晚 0.25 ms",
+            "bounds": [
+              165,
+              608,
+              825,
+              708
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "B落地 晚 0.06 ms",
+            "bounds": [
+              165,
+              726,
+              825,
+              826
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "bounds": [
+              105,
+              1170,
+              885,
+              1252
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1325,
+      "image": "frame-01325.png",
+      "audit": {
+        "frame": 1325,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "答案：D",
+            "bounds": [
+              75,
+              220,
+              915,
+              330.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "C落地 基准",
+            "bounds": [
+              165,
+              470,
+              825,
+              570
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "A落地 晚 0.25 ms",
+            "bounds": [
+              165,
+              588,
+              825,
+              688
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "B落地 晚 0.06 ms",
+            "bounds": [
+              165,
+              706,
+              825,
+              806
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1232
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1422,
+      "image": "frame-01422.png",
+      "audit": {
+        "frame": 1422,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "答案：D",
+            "bounds": [
+              75,
+              220,
+              915,
+              330.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "C落地 基准",
+            "bounds": [
+              165,
+              470,
+              825,
+              570
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "A落地 晚 0.25 ms",
+            "bounds": [
+              165,
+              588,
+              825,
+              688
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "B落地 晚 0.06 ms",
+            "bounds": [
+              165,
+              706,
+              825,
+              806
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "D 同时落地",
+            "bounds": [
+              229.5556640625,
+              873.1875,
+              760.4443359375,
+              1057.8125
+            ],
+            "screenFont": 64,
+            "withinSafe": true
+          },
+          {
+            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1232
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1423,
+      "image": "frame-01423.png",
+      "audit": {
+        "frame": 1423,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "答案：D",
+            "bounds": [
+              75,
+              220,
+              915,
+              330.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "C落地 基准",
+            "bounds": [
+              165,
+              470,
+              825,
+              570
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "A落地 晚 0.25 ms",
+            "bounds": [
+              165,
+              588,
+              825,
+              688
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "B落地 晚 0.06 ms",
+            "bounds": [
+              165,
+              706,
+              825,
+              806
+            ],
+            "screenFont": 48,
+            "withinSafe": true
+          },
+          {
+            "text": "D 同时落地",
+            "bounds": [
+              229.54959106445312,
+              873.1875,
+              760.4503479003906,
+              1057.8125
+            ],
+            "screenFont": 64,
+            "withinSafe": true
+          },
+          {
+            "text": "估算：球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1232
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1568,
+      "image": "frame-01568.png",
+      "audit": {
+        "frame": 1568,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "想亲眼看悬停？",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "拿彩虹圈从上端松手试试！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1711,
+      "image": "frame-01711.png",
+      "audit": {
+        "frame": 1711,
+        "labels": [
+          {
+            "text": "科学实验室物理易错题",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "想亲眼看悬停？",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "你一开始选的是几？评论区见",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1238
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "你一开始选的是几？评论区报答案！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}

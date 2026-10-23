@@ -1,0 +1,12 @@
+{
+  "id": "SpringDrop",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/spring-drop.mp4",
+    "small": "previews/spring-drop-small.mp4",
+    "cover": "previews/spring-drop-cover.png",
+    "subtitles": "previews/spring-drop.srt"
+  },
+  "renderCommand": "npm run render:case -- SpringDrop final"
+}
