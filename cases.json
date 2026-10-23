@@ -272,7 +272,7 @@
     "template": "spring-drop-lab",
     "stage": "draft",
     "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
-    "seconds": 59.099999999999994,
+    "seconds": 57.06666666666667,
     "cover": "SpringDropCover",
     "narrated": true,
     "registration": "src/videos/spring-drop/Registration.tsx",

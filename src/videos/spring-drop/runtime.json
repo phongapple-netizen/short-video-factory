@@ -1,44 +1,162 @@
 {
-  "timingMode": "planned",
-  "estimate": "3.7 字/秒估算，未配音",
-  "duration": 59.099999999999994,
-  "durationInFrames": 1773,
+  "providers": [
+    "edge-tts"
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 11.1,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "三个一样的铁球，同时剪断，谁先落地？",
+            "voiceText": "三个一样的铁球，同时剪断，谁先落地？"
+          },
+          {
+            "id": "s01-02",
+            "text": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。",
+            "voiceText": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。"
+          },
+          {
+            "id": "s01-03",
+            "text": "先在心里选一个！",
+            "voiceText": "先在心里选一个！"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 9.03,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "很多人想：弹簧还拉着球，\nA和B会慢一拍。",
+            "voiceText": "很多人想：弹簧还拉着球，A和B会慢一拍。"
+          },
+          {
+            "id": "s02-02",
+            "text": "实际放一遍：三个球几乎同时落地！",
+            "voiceText": "实际放一遍：三个球几乎同时落地！"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 11.47,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "可是慢放400倍，\nA的球剪断后竟然悬在空中！",
+            "voiceText": "可是慢放四百倍，A的球剪断后竟然悬在空中！"
+          },
+          {
+            "id": "s03-02",
+            "text": "弹簧上端先缩下来，\n下端要过16毫秒才收到消息。",
+            "voiceText": "弹簧上端先缩下来，下端要过十六毫秒才收到消息。"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 11.2,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "球和弹簧看成整体，只受重力，\n重心立刻自由下落。",
+            "voiceText": "球和弹簧看成整体，只受重力，重心立刻自由下落。"
+          },
+          {
+            "id": "s04-02",
+            "text": "缩完以后球被带着往下走，\n只落后大约1毫米。",
+            "voiceText": "缩完以后球被带着往下走，只落后大约一毫米。"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 7.0,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+            "voiceText": "落地时A只晚零点二五毫秒，B更少，眼睛分不出，所以选D。"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "plannedSeconds": 9.3,
+        "cues": [
+          {
+            "id": "s06-01",
+            "text": "拿彩虹圈从上端松手试试！",
+            "voiceText": "想亲眼看悬停？拿彩虹圈从上端松手试试。"
+          },
+          {
+            "id": "s06-02",
+            "text": "你一开始选的是几？评论区报答案！",
+            "voiceText": "你一开始选的是几？评论区报个答案！"
+          }
+        ]
+      }
+    ]
+  },
+  "timingMode": "measured",
+  "duration": 57.06666666666667,
+  "durationInFrames": 1712,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
   "scenes": [
     {
       "id": "01",
-      "start": 0.0,
-      "end": 11.1,
-      "durationInFrames": 333
+      "start": 0,
+      "end": 11.166666666666666,
+      "durationInFrames": 335,
+      "audioDuration": 10.344,
+      "charactersPerSecond": 3.67
     },
     {
       "id": "02",
-      "start": 11.1,
-      "end": 20.133333333333333,
-      "durationInFrames": 271
+      "start": 11.166666666666666,
+      "end": 19.933333333333334,
+      "durationInFrames": 263,
+      "audioDuration": 8.112,
+      "charactersPerSecond": 3.82
     },
     {
       "id": "03",
-      "start": 20.133333333333333,
-      "end": 31.6,
-      "durationInFrames": 344
+      "start": 19.933333333333334,
+      "end": 30.200000000000003,
+      "durationInFrames": 308,
+      "audioDuration": 9.600000000000001,
+      "charactersPerSecond": 4.17
     },
     {
       "id": "04",
-      "start": 31.6,
-      "end": 42.8,
-      "durationInFrames": 336
+      "start": 30.200000000000003,
+      "end": 40.86666666666667,
+      "durationInFrames": 320,
+      "audioDuration": 10.008,
+      "charactersPerSecond": 3.9
     },
     {
       "id": "05",
-      "start": 42.8,
-      "end": 49.8,
-      "durationInFrames": 210
+      "start": 40.86666666666667,
+      "end": 47.43333333333334,
+      "durationInFrames": 197,
+      "audioDuration": 6.048,
+      "charactersPerSecond": 3.97
     },
     {
       "id": "06",
-      "start": 49.8,
-      "end": 59.099999999999994,
-      "durationInFrames": 279
+      "start": 47.43333333333334,
+      "end": 57.06666666666667,
+      "durationInFrames": 289,
+      "audioDuration": 8.952,
+      "charactersPerSecond": 3.57
     }
   ],
   "captions": [
@@ -48,107 +166,131 @@
       "voiceText": "三个一样的铁球，同时剪断，谁先落地？",
       "scene": "01",
       "start": 0.22,
-      "end": 4.274054054054053,
-      "audio": null
+      "end": 4.18,
+      "duration": 3.96,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s01-01-ec6babf412ada23c.mp3"
     },
     {
       "id": "s01-02",
       "text": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。",
       "voiceText": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。",
       "scene": "01",
-      "start": 4.424054054054054,
-      "end": 8.748378378378376,
-      "audio": null
+      "start": 4.33,
+      "end": 8.841999999999999,
+      "duration": 4.512,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s01-02-b8b5b49d7109716a.mp3"
     },
     {
       "id": "s01-03",
       "text": "先在心里选一个！",
       "voiceText": "先在心里选一个！",
       "scene": "01",
-      "start": 8.898378378378379,
-      "end": 10.79027027027027,
-      "audio": null
+      "start": 8.992,
+      "end": 10.864,
+      "duration": 1.872,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s01-03-f3015802e0183c3e.mp3"
     },
     {
       "id": "s02-01",
       "text": "很多人想：弹簧还拉着球，\nA和B会慢一拍。",
       "voiceText": "很多人想：弹簧还拉着球，A和B会慢一拍。",
       "scene": "02",
-      "start": 11.32,
-      "end": 15.914594594594595,
-      "audio": null
+      "start": 11.386666666666667,
+      "end": 15.850666666666667,
+      "duration": 4.464,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s02-01-3901294b39a0332e.mp3"
     },
     {
       "id": "s02-02",
       "text": "实际放一遍：三个球几乎同时落地！",
       "voiceText": "实际放一遍：三个球几乎同时落地！",
       "scene": "02",
-      "start": 16.064594594594595,
-      "end": 19.848378378378378,
-      "audio": null
+      "start": 16.000666666666667,
+      "end": 19.648666666666667,
+      "duration": 3.648,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s02-02-69dcf99634567c02.mp3"
     },
     {
       "id": "s03-01",
       "text": "可是慢放400倍，\nA的球剪断后竟然悬在空中！",
       "voiceText": "可是慢放四百倍，A的球剪断后竟然悬在空中！",
       "scene": "03",
-      "start": 20.35333333333333,
-      "end": 25.48846846846847,
-      "audio": null
+      "start": 20.153333333333332,
+      "end": 24.569333333333333,
+      "duration": 4.416,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s03-01-cd8f976351154516.mp3"
     },
     {
       "id": "s03-02",
       "text": "弹簧上端先缩下来，\n下端要过16毫秒才收到消息。",
       "voiceText": "弹簧上端先缩下来，下端要过十六毫秒才收到消息。",
       "scene": "03",
-      "start": 25.638468468468467,
-      "end": 31.314144144144144,
-      "audio": null
+      "start": 24.71933333333333,
+      "end": 29.903333333333332,
+      "duration": 5.184,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s03-02-ffdac4bd95dcb89f.mp3"
     },
     {
       "id": "s04-01",
       "text": "球和弹簧看成整体，只受重力，\n重心立刻自由下落。",
       "voiceText": "球和弹簧看成整体，只受重力，重心立刻自由下落。",
       "scene": "04",
-      "start": 31.82,
-      "end": 37.225405405405404,
-      "audio": null
+      "start": 30.42,
+      "end": 35.724000000000004,
+      "duration": 5.304,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s04-01-e2e3b707346e3be2.mp3"
     },
     {
       "id": "s04-02",
       "text": "缩完以后球被带着往下走，\n只落后大约1毫米。",
       "voiceText": "缩完以后球被带着往下走，只落后大约一毫米。",
       "scene": "04",
-      "start": 37.3754054054054,
-      "end": 42.51054054054054,
-      "audio": null
+      "start": 35.874,
+      "end": 40.578,
+      "duration": 4.704,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s04-02-fac014f9c1b99f2f.mp3"
     },
     {
       "id": "s05-01",
       "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
       "voiceText": "落地时A只晚零点二五毫秒，B更少，眼睛分不出，所以选D。",
       "scene": "05",
-      "start": 43.019999999999996,
-      "end": 49.50648648648648,
-      "audio": null
+      "start": 41.086666666666666,
+      "end": 47.13466666666667,
+      "duration": 6.048,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s05-01-2369573c6a666b8b.mp3"
     },
     {
       "id": "s06-01",
       "text": "拿彩虹圈从上端松手试试！",
       "voiceText": "想亲眼看悬停？拿彩虹圈从上端松手试试。",
       "scene": "06",
-      "start": 50.019999999999996,
-      "end": 54.61459459459459,
-      "audio": null
+      "start": 47.653333333333336,
+      "end": 52.64533333333333,
+      "duration": 4.992,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s06-01-4318c41a8b0c49a3.mp3"
     },
     {
       "id": "s06-02",
       "text": "你一开始选的是几？评论区报答案！",
       "voiceText": "你一开始选的是几？评论区报个答案！",
       "scene": "06",
-      "start": 54.76459459459459,
-      "end": 58.81864864864865,
-      "audio": null
+      "start": 52.79533333333334,
+      "end": 56.75533333333334,
+      "duration": 3.96,
+      "provider": "edge-tts",
+      "audio": "assets/spring-drop/audio/s06-02-51c6f2faf4a30f68.mp3"
     }
   ]
 }
