@@ -6,7 +6,7 @@ import {P, DROP_A, DROP_B, LAG_A, LAG_B, ballAt, nodeAt, cmAt} from './model';
 import content from './content.json';
 import runtime from './runtime.json';
 
-// 三个弹簧球：选择题钩子→直觉→实拍感下落→400倍慢放悬停→重心曲线→答案D→彩虹圈彩蛋。
+// 三个弹簧球：选择题钩子→直觉→实拍感下落→400倍慢放悬停→重心曲线→理想模型D与真实弹簧C、B、A→彩虹圈彩蛋。
 // 所有位移、悬停时间、落地差都来自 model.ts 的离散弹簧模拟；动作时刻挂在字幕 cue 上。
 
 const FONT = "'Noto Sans CJK SC','Noto Sans SC',sans-serif";
@@ -25,8 +25,10 @@ const SLOW = content.model.slowMotion;
 
 // 口播里的数字必须与模型一致
 const HOVER_MS = Math.round(DROP_A.hover * 1000);
-const LAG_A_MS = (LAG_A * 1000).toFixed(2);
-if (HOVER_MS !== 16 || LAG_A_MS !== '0.25' || SLOW !== 400) throw new Error(`[SpringDrop] 口播数字与模型不一致: ${HOVER_MS} ${LAG_A_MS}`);
+const LAG_A_MS = (LAG_A * 1000).toFixed(2), LAG_B_MS = (LAG_B * 1000).toFixed(2);
+if (HOVER_MS !== 16 || LAG_A_MS !== '0.25' || LAG_B_MS !== '0.06' || SLOW !== 400)
+  throw new Error(`[SpringDrop] 口播数字与模型不一致: ${HOVER_MS} ${LAG_A_MS} ${LAG_B_MS}`);
+if (!(LAG_A > LAG_B && LAG_B > 0)) throw new Error('[SpringDrop] 真实弹簧的落地顺序应为 C、B、A');
 
 type Cue = {id: string; scene: string; start: number; end: number; text: string; audio?: string | null};
 type Rt = {scenes: {id: string; start: number; end: number}[]; durationInFrames: number; captions: Cue[]};
@@ -308,33 +310,43 @@ const Scene04 = ({frame, fps}: {frame: number; fps: number}) => {
   );
 };
 
-// ---------- 05 答案 ----------
+// ---------- 05 两种模型：理想轻弹簧选D，真实弹簧严格是 C、B、A ----------
 const Scene05 = ({frame, fps}: {frame: number; fps: number}) => {
-  const at = cueAt('s05-01') * fps, stamp = cueAt('s05-01', 0.75) * fps;
+  const ideal = cueAt('s05-01') * fps, real = cueAt('s05-02') * fps, note = cueAt('s05-03') * fps;
   const rows = [
-    {k: 'C', t: '基准', c: K.c},
-    {k: 'A', t: `晚 ${LAG_A_MS} ms`, c: K.a},
-    {k: 'B', t: `晚 ${(LAG_B * 1000).toFixed(2)} ms`, c: K.b},
+    {k: 'C', t: '最先（基准）', c: K.c, at: cueAt('s05-02', 0.3)},
+    {k: 'B', t: `晚 ${LAG_B_MS} ms`, c: K.b, at: cueAt('s05-02', 0.55)},
+    {k: 'A', t: `晚 ${LAG_A_MS} ms`, c: K.a, at: cueAt('s05-02', 0.8)},
   ];
   return (
     <div>
-      <Title text="答案：D" frame={frame} size={96} />
-      <div style={{position: 'absolute', left: CX - 330, top: 470, width: 660, display: 'flex', flexDirection: 'column', gap: 18}}>
-        {rows.map((r, i) => (
-          <div key={r.k} data-safe style={{display: 'flex', alignItems: 'center', gap: 24, background: K.paper,
-            border: `4px solid ${r.c}`, borderRadius: 24, padding: '14px 24px', fontFamily: FONT, fontSize: 48, fontWeight: 900,
-            color: K.ink, ...NUM, ...enter(frame, at + i * 8)}}>
-            <span style={{color: r.c}}>{r.k}</span><span>落地 {r.t}</span>
-          </div>
-        ))}
+      <Title text="D还是C？看模型" frame={frame} size={88} />
+      <div style={{position: 'absolute', left: CX - 390, top: 370, width: 780, boxSizing: 'border-box', background: K.paper,
+        border: `4px solid ${K.muted}`, borderRadius: 26, padding: '14px 24px', ...enter(frame, ideal)}}>
+        <div data-safe style={{fontFamily: FONT, fontSize: 34, fontWeight: 800, color: K.muted}}>理想轻弹簧（没有质量）</div>
+        <div data-safe style={{fontFamily: FONT, fontSize: 48, fontWeight: 900, color: K.ink, marginTop: 4}}>三球同时落地 → D</div>
       </div>
-      {frame >= stamp && (
-        <div data-safe style={{position: 'absolute', left: CX - 260, top: 900, width: 520, textAlign: 'center',
-          border: `8px solid ${K.no}`, borderRadius: 30, padding: '14px 0', transform: `rotate(-6deg) ${pop(frame, stamp).transform}`,
-          opacity: pop(frame, stamp).opacity, fontFamily: FONT, fontSize: 64, fontWeight: 900, color: K.no}}>D 同时落地</div>
+      {frame >= real && (
+        <div style={{position: 'absolute', left: CX - 390, top: 580, width: 780, boxSizing: 'border-box', background: K.paper,
+          border: `4px solid ${K.ink}`, borderRadius: 26, padding: '14px 24px', ...enter(frame, real)}}>
+          <div data-safe style={{fontFamily: FONT, fontSize: 34, fontWeight: 800, color: K.ink}}>真实弹簧（有质量）：落地顺序</div>
+          {rows.map((r, i) => (
+            <div key={r.k} data-safe style={{display: 'flex', alignItems: 'center', gap: 22, marginTop: 12, fontFamily: FONT,
+              fontSize: 46, fontWeight: 900, color: K.ink, ...NUM, ...enter(frame, r.at * fps)}}>
+              <span style={{width: 56, height: 56, borderRadius: 28, background: r.c, color: '#fff', display: 'inline-flex',
+                alignItems: 'center', justifyContent: 'center', fontSize: 36}}>{i + 1}</span>
+              <span style={{color: r.c}}>{r.k}</span><span>{r.t}</span>
+            </div>
+          ))}
+        </div>
       )}
-      <div data-safe style={{position: 'absolute', left: CX - 390, top: 1150, width: 780, textAlign: 'center',
-        fontFamily: FONT, fontSize: 30, fontWeight: 600, color: K.muted, ...enter(frame, at + 30)}}>估算：{content.model.assumptions}</div>
+      {frame >= note && (
+        <div data-safe style={{position: 'absolute', left: CX - 390, top: 1000, width: 780, boxSizing: 'border-box', textAlign: 'center',
+          background: '#FFF4D6', border: '4px solid #F2B632', borderRadius: 26, padding: '12px 16px',
+          fontFamily: FONT, fontSize: 40, fontWeight: 800, color: K.ink, ...enter(frame, note)}}>差距不到千分之一秒，肉眼分不出</div>
+      )}
+      <div data-safe style={{position: 'absolute', left: CX - 390, top: 1130, width: 780, textAlign: 'center',
+        fontFamily: FONT, fontSize: 30, fontWeight: 600, color: K.muted, ...enter(frame, real + 30)}}>模拟估算，非实测：{content.model.assumptions}</div>
     </div>
   );
 };
