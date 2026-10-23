@@ -1,0 +1,1757 @@
+{
+  "id": "MpembaEffect",
+  "sourceSignature": "908c307d8365953185f7de5a5b52cf8e718017b8d165f64cf8a16923b78b9e9c",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水冷水\n谁先结冰？",
+            "bounds": [
+              75,
+              220,
+              915,
+              440.75
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "热水",
+            "bounds": [
+              260,
+              1130,
+              420,
+              1185
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水",
+            "bounds": [
+              660,
+              1130,
+              820,
+              1185
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              435,
+              640,
+              555,
+              760
+            ],
+            "screenFont": 72,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 115,
+      "image": "frame-00115.png",
+      "audit": {
+        "frame": 115,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水冷水\n谁先结冰？",
+            "bounds": [
+              75,
+              220,
+              915,
+              440.75
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "热水",
+            "bounds": [
+              260,
+              1130,
+              420,
+              1185
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水",
+            "bounds": [
+              660,
+              1130,
+              820,
+              1185
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              427.43475341796875,
+              632.4375,
+              562.5652465820312,
+              767.5625
+            ],
+            "screenFont": 72,
+            "withinSafe": true
+          },
+          {
+            "text": "一杯热水，一杯冷水，谁先结冰？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 229,
+      "image": "frame-00229.png",
+      "audit": {
+        "frame": 229,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水冷水\n谁先结冰？",
+            "bounds": [
+              75,
+              220,
+              915,
+              440.75
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "热水",
+            "bounds": [
+              260,
+              1130,
+              420,
+              1185
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水",
+            "bounds": [
+              660,
+              1130,
+              820,
+              1185
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "?",
+            "bounds": [
+              432.19219970703125,
+              637.1875,
+              557.8078002929688,
+              762.8125
+            ],
+            "screenFont": 72,
+            "withinSafe": true
+          },
+          {
+            "text": "直觉：冷水先！",
+            "bounds": [
+              105,
+              480,
+              885,
+              568
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "我先！",
+            "bounds": [
+              169.97654724121094,
+              640,
+              430.02342224121094,
+              723
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "你肯定选冷水，可有人说：热水！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 230,
+      "image": "frame-00230.png",
+      "audit": {
+        "frame": 230,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水先\n不是明摆着？",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              423.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "80°C",
+            "bounds": [
+              70,
+              473.1875,
+              160,
+              510.1875
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "20°C",
+            "bounds": [
+              70,
+              799.375,
+              160,
+              836.375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0°C",
+            "bounds": [
+              70,
+              908.125,
+              160,
+              945.125
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "时间 →",
+            "bounds": [
+              670,
+              1044,
+              870,
+              1088
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：理想冷却",
+            "bounds": [
+              190,
+              480,
+              490,
+              521
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 320,
+      "image": "frame-00320.png",
+      "audit": {
+        "frame": 320,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水先\n不是明摆着？",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "80°C",
+            "bounds": [
+              70,
+              473.1875,
+              160,
+              510.1875
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "20°C",
+            "bounds": [
+              70,
+              799.375,
+              160,
+              836.375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0°C",
+            "bounds": [
+              70,
+              908.125,
+              160,
+              945.125
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "时间 →",
+            "bounds": [
+              670,
+              1044,
+              870,
+              1088
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水追到冷水起点",
+            "bounds": [
+              400.515625,
+              733.375,
+              730.515625,
+              779.375
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：理想冷却",
+            "bounds": [
+              190,
+              480,
+              490,
+              521
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "热水得先降到冷水的温度，\n再走一遍冷水的路，冷水稳赢吧？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 409,
+      "image": "frame-00409.png",
+      "audit": {
+        "frame": 409,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水先\n不是明摆着？",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "80°C",
+            "bounds": [
+              70,
+              473.1875,
+              160,
+              510.1875
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "20°C",
+            "bounds": [
+              70,
+              799.375,
+              160,
+              836.375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0°C",
+            "bounds": [
+              70,
+              908.125,
+              160,
+              945.125
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "时间 →",
+            "bounds": [
+              670,
+              1044,
+              870,
+              1088
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水追到冷水起点",
+            "bounds": [
+              400.515625,
+              733.375,
+              730.515625,
+              779.375
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "之后再走一遍冷水的路 → 冷水稳赢？",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：理想冷却",
+            "bounds": [
+              190,
+              480,
+              490,
+              521
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "热水得先降到冷水的温度，\n再走一遍冷水的路，冷水稳赢吧？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 410,
+      "image": "frame-00410.png",
+      "audit": {
+        "frame": 410,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "冷水先\n不是明摆着？",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "80°C",
+            "bounds": [
+              70,
+              473.1875,
+              160,
+              510.1875
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "20°C",
+            "bounds": [
+              70,
+              799.375,
+              160,
+              836.375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0°C",
+            "bounds": [
+              70,
+              908.125,
+              160,
+              945.125
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "时间 →",
+            "bounds": [
+              670,
+              1044,
+              870,
+              1088
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水追到冷水起点",
+            "bounds": [
+              400.515625,
+              733.375,
+              730.515625,
+              779.375
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "之后再走一遍冷水的路 → 冷水稳赢？",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：理想冷却",
+            "bounds": [
+              190,
+              480,
+              490,
+              521
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "热水得先降到冷水的温度，\n再走一遍冷水的路，冷水稳赢吧？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 553,
+      "image": "frame-00553.png",
+      "audit": {
+        "frame": 553,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "1963年\n姆潘巴效应",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "坦桑尼亚 · 中学生做冰淇淋",
+            "bounds": [
+              105,
+              470,
+              885,
+              558
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "趁热放进去",
+            "bounds": [
+              190,
+              980,
+              470,
+              1031
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "放凉再放",
+            "bounds": [
+              610,
+              980,
+              890,
+              1031
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "1963年，坦桑尼亚中学生\n姆潘巴做冰淇淋，",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 695,
+      "image": "frame-00695.png",
+      "audit": {
+        "frame": 695,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "1963年\n姆潘巴效应",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "坦桑尼亚 · 中学生做冰淇淋",
+            "bounds": [
+              105,
+              470,
+              885,
+              558
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "趁热放进去",
+            "bounds": [
+              190,
+              980,
+              470,
+              1031
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "放凉再放",
+            "bounds": [
+              610,
+              980,
+              890,
+              1031
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "先冻住！",
+            "bounds": [
+              220,
+              600,
+              440,
+              679
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "姆潘巴效应：热的反而先结冰？",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "热的那份反而先冻住，\n这就是“姆潘巴效应”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 696,
+      "image": "frame-00696.png",
+      "audit": {
+        "frame": 696,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "1963年\n姆潘巴效应",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "坦桑尼亚 · 中学生做冰淇淋",
+            "bounds": [
+              105,
+              470,
+              885,
+              558
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "趁热放进去",
+            "bounds": [
+              190,
+              980,
+              470,
+              1031
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "放凉再放",
+            "bounds": [
+              610,
+              980,
+              890,
+              1031
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "先冻住！",
+            "bounds": [
+              220,
+              600,
+              440,
+              679
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "姆潘巴效应：热的反而先结冰？",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "热的那份反而先冻住，\n这就是“姆潘巴效应”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 874,
+      "image": "frame-00874.png",
+      "audit": {
+        "frame": 874,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "科学家\n吵了几十年",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2016",
+            "bounds": [
+              152.58604431152344,
+              529.125,
+              456.18406677246094,
+              602
+            ],
+            "screenFont": 56,
+            "withinSafe": true
+          },
+          {
+            "text": "精确测量\n降到0°C的时间",
+            "bounds": [
+              154.54931640625,
+              604.125,
+              458.9898986816406,
+              709.1875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "热水\n并不更快",
+            "bounds": [
+              161.7479705810547,
+              879.0625,
+              463.0063934326172,
+              938.875
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026",
+            "bounds": [
+              573.8159790039062,
+              529.125,
+              877.4139404296875,
+              602
+            ],
+            "screenFont": 56,
+            "withinSafe": true
+          },
+          {
+            "text": "测了 138 次\n看谁先结冰",
+            "bounds": [
+              571.0101318359375,
+              604.125,
+              875.45068359375,
+              709.1875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "热水\n多次先结冰",
+            "bounds": [
+              564.9943237304688,
+              879,
+              866.252685546875,
+              938.875
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026年发表的实验测了176次：\n热水多次先结冰！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1050,
+      "image": "frame-01050.png",
+      "audit": {
+        "frame": 1050,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "科学家\n吵了几十年",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2016",
+            "bounds": [
+              152.58604431152344,
+              529.125,
+              456.18406677246094,
+              602
+            ],
+            "screenFont": 56,
+            "withinSafe": true
+          },
+          {
+            "text": "精确测量\n降到0°C的时间",
+            "bounds": [
+              154.54931640625,
+              604.125,
+              458.9898986816406,
+              709.1875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "热水\n并不更快",
+            "bounds": [
+              161.7479705810547,
+              879.0625,
+              463.0063934326172,
+              938.875
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026",
+            "bounds": [
+              573.8159790039062,
+              529.125,
+              877.4139404296875,
+              602
+            ],
+            "screenFont": 56,
+            "withinSafe": true
+          },
+          {
+            "text": "测了 176 次\n看谁先结冰",
+            "bounds": [
+              571.0101318359375,
+              604.125,
+              875.45068359375,
+              709.1875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "热水\n多次先结冰",
+            "bounds": [
+              564.9943237304688,
+              879,
+              866.252685546875,
+              938.875
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "结论相反：至今还在争",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026年发表的实验测了176次：\n热水多次先结冰！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1051,
+      "image": "frame-01051.png",
+      "audit": {
+        "frame": 1051,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "科学家\n吵了几十年",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2016",
+            "bounds": [
+              152.58604431152344,
+              529.125,
+              456.18406677246094,
+              602
+            ],
+            "screenFont": 56,
+            "withinSafe": true
+          },
+          {
+            "text": "精确测量\n降到0°C的时间",
+            "bounds": [
+              154.54931640625,
+              604.125,
+              458.9898986816406,
+              709.1875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "热水\n并不更快",
+            "bounds": [
+              161.7479705810547,
+              879.0625,
+              463.0063934326172,
+              938.875
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026",
+            "bounds": [
+              573.8159790039062,
+              529.125,
+              877.4139404296875,
+              602
+            ],
+            "screenFont": 56,
+            "withinSafe": true
+          },
+          {
+            "text": "测了 176 次\n看谁先结冰",
+            "bounds": [
+              571.0101318359375,
+              604.125,
+              875.45068359375,
+              709.1875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "热水\n多次先结冰",
+            "bounds": [
+              564.9943237304688,
+              879,
+              866.252685546875,
+              938.875
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "结论相反：至今还在争",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026年发表的实验测了176次：\n热水多次先结冰！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1264,
+      "image": "frame-01264.png",
+      "audit": {
+        "frame": 1264,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "秘密：过冷",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "0°C",
+            "bounds": [
+              100,
+              834,
+              220,
+              876
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "<0°C",
+            "bounds": [
+              790,
+              834,
+              910,
+              876
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "原来的热水",
+            "bounds": [
+              240,
+              1130,
+              480,
+              1179
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "原来的冷水",
+            "bounds": [
+              580,
+              1130,
+              820,
+              1179
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "零下了\n还是液体！",
+            "bounds": [
+              530,
+              500,
+              870,
+              621.625
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "开始结冰",
+            "bounds": [
+              227.192138671875,
+              502.125,
+              472.807861328125,
+              574.875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "哪杯过冷得深，哪杯就晚结冰。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1475,
+      "image": "frame-01475.png",
+      "audit": {
+        "frame": 1475,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "秘密：过冷",
+            "bounds": [
+              75,
+              220,
+              915,
+              321.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "0°C",
+            "bounds": [
+              100,
+              834,
+              220,
+              876
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "<0°C",
+            "bounds": [
+              790,
+              834,
+              910,
+              876
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "原来的热水",
+            "bounds": [
+              240,
+              1130,
+              480,
+              1179
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "原来的冷水",
+            "bounds": [
+              580,
+              1130,
+              820,
+              1179
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "冷风不均匀：左杯被吹得更多",
+            "bounds": [
+              105,
+              500,
+              885,
+              585.375
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "冰箱里的风也不均匀，\n谁吹得多，谁就冷得快。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1476,
+      "image": "frame-01476.png",
+      "audit": {
+        "frame": 1476,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水能赢\n但不是冷得快",
+            "bounds": [
+              75,
+              221.4375,
+              915,
+              423.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "热水先结冰：真的会发生",
+            "bounds": [
+              105,
+              520,
+              885,
+              615
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "原因①：冷水过冷，迟迟不结冰",
+            "bounds": [
+              105,
+              633,
+              885,
+              728
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "原因②：冰箱里的风不均匀",
+            "bounds": [
+              105,
+              746,
+              885,
+              841
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1638,
+      "image": "frame-01638.png",
+      "audit": {
+        "frame": 1638,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水能赢\n但不是冷得快",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "热水先结冰：真的会发生",
+            "bounds": [
+              105,
+              500,
+              885,
+              595
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "原因①：冷水过冷，迟迟不结冰",
+            "bounds": [
+              105,
+              613,
+              885,
+              708
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "原因②：冰箱里的风不均匀",
+            "bounds": [
+              105,
+              726,
+              885,
+              821
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "热水能赢，靠的不是冷得快，\n是冷水过冷，或少吹了风。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1798,
+      "image": "frame-01798.png",
+      "audit": {
+        "frame": 1798,
+        "labels": [
+          {
+            "text": "科学实验室物理冷知识",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "热水能赢\n但不是冷得快",
+            "bounds": [
+              75,
+              220,
+              915,
+              422.375
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "热水先结冰：真的会发生",
+            "bounds": [
+              105,
+              500,
+              885,
+              595
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "原因①：冷水过冷，迟迟不结冰",
+            "bounds": [
+              105,
+              613,
+              885,
+              708
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "原因②：冰箱里的风不均匀",
+            "bounds": [
+              105,
+              726,
+              885,
+              821
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "你家冰箱试过吗？评论区说说",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1228
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "你家冰箱试过吗？评论区说说！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}

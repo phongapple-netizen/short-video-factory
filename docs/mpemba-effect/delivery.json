@@ -1,0 +1,12 @@
+{
+  "id": "MpembaEffect",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/mpemba-effect.mp4",
+    "small": "previews/mpemba-effect-small.mp4",
+    "cover": "previews/mpemba-effect-cover.png",
+    "subtitles": "previews/mpemba-effect.srt"
+  },
+  "renderCommand": "npm run render:case -- MpembaEffect final"
+}
