@@ -1,0 +1,158 @@
+{
+  "id": "SpringDrop",
+  "subject": "physics",
+  "template": "spring-drop-lab",
+  "title": "三个铁球\n谁先落地？",
+  "coverSubtitle": "A先 B先 C先 还是D同时？",
+  "brand": "科学实验室",
+  "learningGoal": "剪断后“球+弹簧”整体只受重力，重心立刻自由下落；弹簧很轻时三球几乎同时落地，但A的球会先悬停一小会儿",
+  "checkQuestion": "剪断A上方的绳子后，为什么球没有马上下落，最后却几乎没落后？",
+  "audience": "高中物理（牛顿第二定律、整体法、质心）；初中生可看懂结论",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "挑战",
+    "firstFrame": "标题“三个铁球 谁先落地？”与A、B、C三套悬挂装置和ABCD选项同时出现"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "massive-spring-drop",
+    "source": "src/videos/spring-drop/model.ts",
+    "assumptions": "球1 kg，弹簧50 g，k=200 N/m，原长25 cm（密绕拉簧），下落1.2 m",
+    "slowMotion": 400,
+    "note": "悬停时间、落地差、位移曲线均由model.ts离散弹簧模拟算出并自检；数值随假设参数变化，属估算"
+  },
+  "setup": {
+    "A": "绳子—整根弹簧—球，剪断弹簧上方的绳子",
+    "B": "弹簧挂在横杆上—球，从弹簧中间剪断",
+    "C": "绳子—球，剪断绳子"
+  },
+  "sources": [
+    {
+      "title": "W. G. Unruh, “The Falling Slinky”, arXiv:1110.4368",
+      "url": "https://arxiv.org/abs/1110.4368",
+      "note": "松手后弹簧下端保持静止，直到上端的收缩传到下端。"
+    },
+    {
+      "title": "NPR, “The Miracle Of The Levitating Slinky” (2012)",
+      "url": "https://www.npr.org/blogs/krulwich/2012/09/11/160933582/the-miracle-of-the-levitating-slinky"
+    },
+    {
+      "title": "质点系牛顿第二定律：系统所受合外力等于总质量乘质心加速度",
+      "note": "剪断后系统只受重力，质心加速度为g。"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "三个铁球\n谁先落地？",
+      "plannedSeconds": 11.1,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "三个一样的铁球，同时剪断，谁先落地？",
+          "voiceText": "三个一样的铁球，同时剪断，谁先落地？"
+        },
+        {
+          "id": "s01-02",
+          "text": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。",
+          "voiceText": "A剪弹簧上的绳，B剪弹簧中间，C剪绳。"
+        },
+        {
+          "id": "s01-03",
+          "text": "先在心里选一个！",
+          "voiceText": "先在心里选一个！"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "弹簧会\n拖后腿？",
+      "plannedSeconds": 9.03,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "很多人想：弹簧还拉着球，\nA和B会慢一拍。",
+          "voiceText": "很多人想：弹簧还拉着球，A和B会慢一拍。"
+        },
+        {
+          "id": "s02-02",
+          "text": "实际放一遍：三个球几乎同时落地！",
+          "voiceText": "实际放一遍：三个球几乎同时落地！"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "慢放400倍\nA竟然悬停",
+      "plannedSeconds": 11.47,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "可是慢放400倍，\nA的球剪断后竟然悬在空中！",
+          "voiceText": "可是慢放四百倍，A的球剪断后竟然悬在空中！"
+        },
+        {
+          "id": "s03-02",
+          "text": "弹簧上端先缩下来，\n下端要过16毫秒才收到消息。",
+          "voiceText": "弹簧上端先缩下来，下端要过十六毫秒才收到消息。"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "秘密：重心",
+      "plannedSeconds": 11.2,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "球和弹簧看成整体，只受重力，\n重心立刻自由下落。",
+          "voiceText": "球和弹簧看成整体，只受重力，重心立刻自由下落。"
+        },
+        {
+          "id": "s04-02",
+          "text": "缩完以后球被带着往下走，\n只落后大约1毫米。",
+          "voiceText": "缩完以后球被带着往下走，只落后大约一毫米。"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "答案：D",
+      "plannedSeconds": 7.0,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "落地时A只晚0.25毫秒，B更少，\n眼睛分不出，所以选D。",
+          "voiceText": "落地时A只晚零点二五毫秒，B更少，眼睛分不出，所以选D。"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "想亲眼看悬停？",
+      "plannedSeconds": 9.3,
+      "cues": [
+        {
+          "id": "s06-01",
+          "text": "拿彩虹圈从上端松手试试！",
+          "voiceText": "想亲眼看悬停？拿彩虹圈从上端松手试试。"
+        },
+        {
+          "id": "s06-02",
+          "text": "你一开始选的是几？评论区报答案！",
+          "voiceText": "你一开始选的是几？评论区报个答案！"
+        }
+      ]
+    }
+  ]
+}

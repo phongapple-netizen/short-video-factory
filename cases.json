@@ -263,5 +263,27 @@
     "smallPreview": "previews/mpemba-effect-small.mp4",
     "previewCover": "previews/mpemba-effect-cover.png",
     "subtitles": "previews/mpemba-effect.srt"
+  },
+  {
+    "key": "spring-drop",
+    "id": "SpringDrop",
+    "title": "三个弹簧铁球，谁先落地？",
+    "subject": "physics",
+    "template": "spring-drop-lab",
+    "stage": "draft",
+    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "seconds": 59.099999999999994,
+    "cover": "SpringDropCover",
+    "narrated": true,
+    "registration": "src/videos/spring-drop/Registration.tsx",
+    "content": "src/videos/spring-drop/content.json",
+    "assets": "assets/spring-drop",
+    "captions": {
+      "file": "src/videos/spring-drop/runtime.json"
+    },
+    "timeline": {
+      "file": "src/videos/spring-drop/runtime.json",
+      "format": "scenes"
+    }
   }
 ]
