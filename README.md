@@ -19,7 +19,7 @@
 | 五个海盗分金币·第2集：只花2枚，船长拿走98枚 | `PirateGoldEp2` | 56.93秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/pirate-gold-ep2.mp4) | 正式版 |
 | 热水冷水谁先结冰？姆潘巴效应 | `MpembaEffect` | 59.97秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/mpemba-effect.mp4) | 正式版 |
 | 三个弹簧铁球，谁先落地？ | `SpringDrop` | 68.53秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/spring-drop.mp4) | 正式版 |
-| 闵可夫斯基不等式：一个三角形就能证明 | `MinkowskiTriangle` | 47.33秒 | 待制作 | 制作中 |
+| 闵可夫斯基不等式：一个三角形就能证明 | `MinkowskiTriangle` | 47.33秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/minkowski-triangle.mp4) | 正式版 |
 <!-- cases:end -->
 
 **下载较慢时：[赤壁地图版较小文件](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chibi-map-full-small.mp4)**（同为1080×1920、30fps，音频保持相同，仅降低视频码率）。

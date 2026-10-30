@@ -1,0 +1,2967 @@
+{
+  "id": "MinkowskiTriangle",
+  "sourceSignature": "ad5b776db856ad78b0582e7f3ab11cf3050d1bf7a2d5cbbd5e5ff07fdbe969bd",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "闵可夫斯基不等式",
+            "bounds": [
+              75,
+              220,
+              915,
+              350.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              176.81103515625,
+              508.375,
+              896.2447509765625,
+              595.875
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              498.8084716796875,
+              586.375,
+              855.6348876953125,
+              636.5625
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              196.81419372558594,
+              863.8125,
+              215.90585327148438,
+              903.0625
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              303.13323974609375,
+              1038.4375,
+              324.78326416015625,
+              1080.125
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              477.1099853515625,
+              941.75,
+              497.92279052734375,
+              984
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              640.0030517578125,
+              1056,
+              663.9175415039062,
+              1100.8125
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 123,
+      "image": "frame-00123.png",
+      "audit": {
+        "frame": 123,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "闵可夫斯基不等式",
+            "bounds": [
+              75,
+              220,
+              915,
+              350.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              119.875,
+              867.5,
+              142.125,
+              912.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              272.78125,
+              1061.5,
+              297.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              479.875,
+              947.5,
+              502.125,
+              992.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              672.78125,
+              1061.5,
+              697.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "左边两个根号，右边一个根号。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 245,
+      "image": "frame-00245.png",
+      "audit": {
+        "frame": 245,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "闵可夫斯基不等式",
+            "bounds": [
+              75,
+              220,
+              915,
+              350.375
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              119.875,
+              867.5,
+              142.125,
+              912.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              272.78125,
+              1061.5,
+              297.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              479.875,
+              947.5,
+              502.125,
+              992.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              672.78125,
+              1061.5,
+              697.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "左边两个根号，右边一个根号。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 246,
+      "image": "frame-00246.png",
+      "audit": {
+        "frame": 246,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "根号就是斜边",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              119.875,
+              867.5,
+              142.125,
+              912.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              272.78125,
+              1061.5,
+              297.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              479.875,
+              947.5,
+              502.125,
+              992.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              672.78125,
+              1061.5,
+              697.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 373,
+      "image": "frame-00373.png",
+      "audit": {
+        "frame": 373,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "根号就是斜边",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              119.875,
+              867.5,
+              142.125,
+              912.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              272.78125,
+              1061.5,
+              297.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              479.875,
+              947.5,
+              502.125,
+              992.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              672.78125,
+              1061.5,
+              697.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              271.8890686035156,
+              815.0625,
+              362.1109313964844,
+              916.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a²+b²)：直角边a、b的斜边",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 498,
+      "image": "frame-00498.png",
+      "audit": {
+        "frame": 498,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "根号就是斜边",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              119.875,
+              867.5,
+              142.125,
+              912.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              272.78125,
+              1061.5,
+              297.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              479.875,
+              947.5,
+              502.125,
+              992.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              672.78125,
+              1061.5,
+              697.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              271.8890686035156,
+              815.0625,
+              362.1109313964844,
+              916.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              650.3308715820312,
+              894.6875,
+              755.4191284179688,
+              973.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√(c²+d²)：直角边c、d的斜边",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 499,
+      "image": "frame-00499.png",
+      "audit": {
+        "frame": 499,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "首尾拼起来",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              119.875,
+              867.5,
+              142.125,
+              912.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              272.78125,
+              1061.5,
+              297.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              479.875,
+              947.5,
+              502.125,
+              992.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              672.78125,
+              1061.5,
+              697.21875,
+              1106.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              271.8890686035156,
+              815.0625,
+              362.1109313964844,
+              916.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              650.3308715820312,
+              894.6875,
+              755.4191284179688,
+              973.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 609,
+      "image": "frame-00609.png",
+      "audit": {
+        "frame": 609,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "首尾拼起来",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "竖着一共a+c，横着一共b+d。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 717,
+      "image": "frame-00717.png",
+      "audit": {
+        "frame": 717,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "首尾拼起来",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "竖着一共a+c，横着一共b+d。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 718,
+      "image": "frame-00718.png",
+      "audit": {
+        "frame": 718,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "连起两端",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 821,
+      "image": "frame-00821.png",
+      "audit": {
+        "frame": 821,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "连起两端",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              436.2608642578125,
+              865.3125,
+              613.5828857421875,
+              1024.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "连起两端：这条绿边就是\n√((a+c)²+(b+d)²)",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 923,
+      "image": "frame-00923.png",
+      "audit": {
+        "frame": 923,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "连起两端",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              436.2608642578125,
+              865.3125,
+              613.5828857421875,
+              1024.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "连起两端：这条绿边就是\n√((a+c)²+(b+d)²)",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 924,
+      "image": "frame-00924.png",
+      "audit": {
+        "frame": 924,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两边之和≥第三边",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2+√c2+d2≥√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              436.2608642578125,
+              865.3125,
+              613.5828857421875,
+              1024.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "两边之和 ≥ 第三边",
+            "bounds": [
+              562,
+              642.125,
+              828,
+              698.6875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1025,
+      "image": "frame-01025.png",
+      "audit": {
+        "frame": 1025,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两边之和≥第三边",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边√a2+b2+√c2+d2≥1条斜边√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边",
+            "bounds": [
+              249.84375,
+              446,
+              356.53125,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "1条斜边",
+            "bounds": [
+              642.78125,
+              446,
+              749.46875,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              436.2608642578125,
+              865.3125,
+              613.5828857421875,
+              1024.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "两边之和 ≥ 第三边",
+            "bounds": [
+              562,
+              642.125,
+              828,
+              698.6875
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "两条斜边走折线，绿边走直线：\n两边之和大于第三边！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1125,
+      "image": "frame-01125.png",
+      "audit": {
+        "frame": 1125,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两边之和≥第三边",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边√a2+b2+√c2+d2≥1条斜边√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边",
+            "bounds": [
+              249.84375,
+              446,
+              356.53125,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "1条斜边",
+            "bounds": [
+              642.78125,
+              446,
+              749.46875,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              436.2608642578125,
+              865.3125,
+              613.5828857421875,
+              1024.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "两边之和 ≥ 第三边",
+            "bounds": [
+              505,
+              630,
+              885,
+              710.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "两条斜边走折线，绿边走直线：\n两边之和大于第三边！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1126,
+      "image": "frame-01126.png",
+      "audit": {
+        "frame": 1126,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "什么时候取等号？",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边√a2+b2+√c2+d2≥1条斜边√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边",
+            "bounds": [
+              249.84375,
+              446,
+              356.53125,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "1条斜边",
+            "bounds": [
+              642.78125,
+              446,
+              749.46875,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              602.78125,
+              1231.5,
+              627.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              580.3308715820312,
+              1064.6875,
+              685.4191284179688,
+              1143.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              458.8828125,
+              1281.5,
+              531.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              436.2608642578125,
+              865.3125,
+              613.5828857421875,
+              1024.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a∶b = c∶d折线拉直 → 取等号",
+            "bounds": [
+              562,
+              649.125,
+              828,
+              738.4375
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1273,
+      "image": "frame-01273.png",
+      "audit": {
+        "frame": 1273,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "什么时候取等号？",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边√a2+b2+√c2+d2≥1条斜边√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边",
+            "bounds": [
+              249.84375,
+              446,
+              356.53125,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "1条斜边",
+            "bounds": [
+              642.78125,
+              446,
+              749.46875,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              502.78125,
+              1231.5,
+              527.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              501.8890686035156,
+              1065.0625,
+              592.1109619140625,
+              1166.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              358.8828125,
+              1281.5,
+              431.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              407.6234436035156,
+              822.1875,
+              558.3765869140625,
+              1005.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a∶b = c∶d折线拉直 → 取等号",
+            "bounds": [
+              505,
+              630,
+              885,
+              757.625
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "a∶b=c∶d时，折线拉直，取等号。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1419,
+      "image": "frame-01419.png",
+      "audit": {
+        "frame": 1419,
+        "labels": [
+          {
+            "text": "几何实验室图形证明",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "什么时候取等号？",
+            "bounds": [
+              75,
+              220,
+              915,
+              341.1875
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边√a2+b2+√c2+d2≥1条斜边√(a+c)2+(b+d)2",
+            "bounds": [
+              65,
+              490,
+              925,
+              550
+            ],
+            "screenFont": 50,
+            "withinSafe": true
+          },
+          {
+            "text": "2条斜边",
+            "bounds": [
+              249.84375,
+              446,
+              356.53125,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "1条斜边",
+            "bounds": [
+              642.78125,
+              446,
+              749.46875,
+              487
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "（a、b、c、d 取正数）",
+            "bounds": [
+              485,
+              570,
+              885,
+              611
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "a",
+            "bounds": [
+              169.875,
+              877.5,
+              192.125,
+              922.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1071.5,
+              347.21875,
+              1116.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              409.875,
+              1117.5,
+              432.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "d",
+            "bounds": [
+              502.78125,
+              1231.5,
+              527.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√a2+b2",
+            "bounds": [
+              321.8890686035156,
+              825.0625,
+              412.1109313964844,
+              926.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "√c2+d2",
+            "bounds": [
+              501.8890686035156,
+              1065.0625,
+              592.1109619140625,
+              1166.9375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "c",
+            "bounds": [
+              169.875,
+              1117.5,
+              192.125,
+              1162.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b",
+            "bounds": [
+              322.78125,
+              1231.5,
+              347.21875,
+              1276.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "a+c",
+            "bounds": [
+              97.0703125,
+              957.5,
+              164.9296875,
+              1002.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "b+d",
+            "bounds": [
+              358.8828125,
+              1281.5,
+              431.1171875,
+              1326.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "√(a+c)2+(b+d)2",
+            "bounds": [
+              407.6234436035156,
+              822.1875,
+              558.3765869140625,
+              1005.8125
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "还想看哪个证明？评论区告诉我",
+            "bounds": [
+              505,
+              630,
+              885,
+              757.625
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "还想看哪个公式的图形证明？\n评论区告诉我！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}

@@ -296,8 +296,8 @@
     "title": "闵可夫斯基不等式：一个三角形就能证明",
     "subject": "math",
     "template": "rod-board",
-    "stage": "draft",
-    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "stage": "published",
+    "status": "正式版",
     "seconds": 47.33333333333333,
     "cover": "MinkowskiTriangleCover",
     "narrated": true,
@@ -313,6 +313,10 @@
     },
     "dependencies": [
       "src/kits/rod-board"
-    ]
+    ],
+    "preview": "previews/minkowski-triangle.mp4",
+    "smallPreview": "previews/minkowski-triangle-small.mp4",
+    "previewCover": "previews/minkowski-triangle-cover.png",
+    "subtitles": "previews/minkowski-triangle.srt"
   }
 ]

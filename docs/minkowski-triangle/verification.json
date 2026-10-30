@@ -1,0 +1,9 @@
+{
+  "video": "MinkowskiTriangle.mp4",
+  "valid": true,
+  "duration": 47.4,
+  "audio": {
+    "integrated_lufs": -15.0,
+    "true_peak_dbtp": -1.8
+  }
+}

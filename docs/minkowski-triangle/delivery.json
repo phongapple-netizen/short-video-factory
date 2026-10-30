@@ -1,0 +1,12 @@
+{
+  "id": "MinkowskiTriangle",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/minkowski-triangle.mp4",
+    "small": "previews/minkowski-triangle-small.mp4",
+    "cover": "previews/minkowski-triangle-cover.png",
+    "subtitles": "previews/minkowski-triangle.srt"
+  },
+  "renderCommand": "npm run render:case -- MinkowskiTriangle final"
+}

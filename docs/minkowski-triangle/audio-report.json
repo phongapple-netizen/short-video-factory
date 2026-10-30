@@ -1,0 +1,30 @@
+{
+  "integrated_lufs": -15.0,
+  "true_peak_dbtp": -1.8,
+  "target_true_peak": -1.8,
+  "encoded_gain_correction_db": 0.0,
+  "first_pass": {
+    "input_i": "-19.99",
+    "input_tp": "-5.57",
+    "input_lra": "3.20",
+    "input_thresh": "-30.17",
+    "output_i": "-15.02",
+    "output_tp": "-1.80",
+    "output_lra": "3.00",
+    "output_thresh": "-25.18",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "second_pass": {
+    "input_i": "-19.99",
+    "input_tp": "-5.57",
+    "input_lra": "3.20",
+    "input_thresh": "-30.17",
+    "output_i": "-15.00",
+    "output_tp": "-1.80",
+    "output_lra": "2.90",
+    "output_thresh": "-25.16",
+    "normalization_type": "dynamic",
+    "target_offset": "0.00"
+  }
+}
