@@ -1,0 +1,137 @@
+{
+  "id": "MinkowskiTriangle",
+  "subject": "math",
+  "template": "rod-board",
+  "title": "闵可夫斯基不等式",
+  "coverSubtitle": "一个三角形就能证明",
+  "brand": "几何实验室",
+  "learningGoal": "把√(a²+b²)看成直角三角形的斜边，两个三角形首尾相接，用“两边之和大于第三边”证明闵可夫斯基不等式，并知道a∶b=c∶d时取等号",
+  "checkQuestion": "为什么a∶b=c∶d时，两边相等？",
+  "audience": "初中（勾股定理、三角形三边关系）至高中（不等式、向量）",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "挑战",
+    "firstFrame": "标题与彩色根号公式、两组直角边小棍同时出现，白板斜着进入画面"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "minkowski-joined-triangles",
+    "source": "src/videos/minkowski-triangle/model.ts",
+    "example": "a=4，b=3，c=2，d=4（只用来定比例，画面不出现数字）",
+    "condition": "a、b、c、d取正数"
+  },
+  "sources": [
+    {
+      "title": "三角形三边关系（两边之和大于第三边）与勾股定理，人教版初中数学八年级",
+      "note": "证明只用到这两条；高中可等价表述为向量模的三角不等式 |u|+|v|≥|u+v|。"
+    },
+    {
+      "title": "Minkowski inequality（二维、p=2 情形）",
+      "note": "√(a²+b²)+√(c²+d²) ≥ √((a+c)²+(b+d)²)，向量 (a,b) 与 (c,d) 同向（a∶b=c∶d）时取等号。"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "闵可夫斯基不等式",
+      "plannedSeconds": 9.03,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "这个不等式，用一个三角形就能证明！",
+          "voiceText": "这个不等式，用一个三角形就能证明！"
+        },
+        {
+          "id": "s01-02",
+          "text": "左边两个根号，右边一个根号。",
+          "voiceText": "左边两个根号，右边一个根号，先拆开看。"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "根号就是斜边",
+      "plannedSeconds": 9.03,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "√(a²+b²)：直角边a、b的斜边",
+          "voiceText": "根号下a方加b方，就是直角边为a和b的斜边。"
+        },
+        {
+          "id": "s02-02",
+          "text": "√(c²+d²)：直角边c、d的斜边",
+          "voiceText": "根号下c方加d方，也一样。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "首尾拼起来",
+      "plannedSeconds": 7.7,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "把两个直角三角形首尾相接。",
+          "voiceText": "把两个直角三角形首尾相接。"
+        },
+        {
+          "id": "s03-02",
+          "text": "竖着一共a+c，横着一共b+d。",
+          "voiceText": "竖着一共a加c，横着一共b加d。"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "连起两端",
+      "plannedSeconds": 7.53,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "连起两端：这条绿边就是\n√((a+c)²+(b+d)²)",
+          "voiceText": "连起两端，这条绿边，就是根号下a加c的平方，加b加d的平方。"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "两边之和≥第三边",
+      "plannedSeconds": 7.0,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "两条斜边走折线，绿边走直线：\n两边之和大于第三边！",
+          "voiceText": "两条斜边走折线，绿边走直线，三角形两边之和大于第三边！"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "什么时候取等号？",
+      "plannedSeconds": 10.4,
+      "cues": [
+        {
+          "id": "s06-01",
+          "text": "a∶b=c∶d时，折线拉直，取等号。",
+          "voiceText": "当a比b等于c比d，折线被拉直，就取等号。"
+        },
+        {
+          "id": "s06-02",
+          "text": "还想看哪个公式的图形证明？\n评论区告诉我！",
+          "voiceText": "还想看哪个公式的图形证明？评论区告诉我！"
+        }
+      ]
+    }
+  ]
+}

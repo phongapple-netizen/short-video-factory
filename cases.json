@@ -289,5 +289,30 @@
     "smallPreview": "previews/spring-drop-small.mp4",
     "previewCover": "previews/spring-drop-cover.png",
     "subtitles": "previews/spring-drop.srt"
+  },
+  {
+    "key": "minkowski-triangle",
+    "id": "MinkowskiTriangle",
+    "title": "闵可夫斯基不等式：一个三角形就能证明",
+    "subject": "math",
+    "template": "rod-board",
+    "stage": "draft",
+    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "seconds": 50.699999999999996,
+    "cover": "MinkowskiTriangleCover",
+    "narrated": true,
+    "registration": "src/videos/minkowski-triangle/Registration.tsx",
+    "content": "src/videos/minkowski-triangle/content.json",
+    "assets": "assets/minkowski-triangle",
+    "captions": {
+      "file": "src/videos/minkowski-triangle/runtime.json"
+    },
+    "timeline": {
+      "file": "src/videos/minkowski-triangle/runtime.json",
+      "format": "scenes"
+    },
+    "dependencies": [
+      "src/kits/rod-board"
+    ]
   }
 ]
