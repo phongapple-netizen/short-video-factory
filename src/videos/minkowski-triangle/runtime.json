@@ -1,44 +1,152 @@
 {
-  "timingMode": "planned",
-  "estimate": "3.7 字/秒估算，未配音",
-  "duration": 50.699999999999996,
-  "durationInFrames": 1521,
+  "providers": [
+    "edge-tts"
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 9.03,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "这个不等式，用一个三角形就能证明！",
+            "voiceText": "这个不等式，用一个三角形就能证明！"
+          },
+          {
+            "id": "s01-02",
+            "text": "左边两个根号，右边一个根号。",
+            "voiceText": "左边两个根号，右边一个根号，先拆开看。"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 9.03,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "√(a²+b²)：直角边a、b的斜边",
+            "voiceText": "根号下a方加b方，就是直角边为a和b的斜边。"
+          },
+          {
+            "id": "s02-02",
+            "text": "√(c²+d²)：直角边c、d的斜边",
+            "voiceText": "根号下c方加d方，也一样。"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 7.7,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "把两个直角三角形首尾相接。",
+            "voiceText": "把两个直角三角形首尾相接。"
+          },
+          {
+            "id": "s03-02",
+            "text": "竖着一共a+c，横着一共b+d。",
+            "voiceText": "竖着一共a加c，横着一共b加d。"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 7.53,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "连起两端：这条绿边就是\n√((a+c)²+(b+d)²)",
+            "voiceText": "连起两端，这条绿边，就是根号下a加c的平方，加b加d的平方。"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 7.0,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "两条斜边走折线，绿边走直线：\n两边之和大于第三边！",
+            "voiceText": "两条斜边走折线，绿边走直线，三角形两边之和大于第三边！"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "plannedSeconds": 10.4,
+        "cues": [
+          {
+            "id": "s06-01",
+            "text": "a∶b=c∶d时，折线拉直，取等号。",
+            "voiceText": "当a比b等于c比d，折线被拉直，就取等号。"
+          },
+          {
+            "id": "s06-02",
+            "text": "还想看哪个公式的图形证明？\n评论区告诉我！",
+            "voiceText": "还想看哪个公式的图形证明？评论区告诉我！"
+          }
+        ]
+      }
+    ]
+  },
+  "timingMode": "measured",
+  "duration": 47.33333333333333,
+  "durationInFrames": 1420,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
   "scenes": [
     {
       "id": "01",
-      "start": 0.0,
-      "end": 9.033333333333333,
-      "durationInFrames": 271
+      "start": 0,
+      "end": 8.2,
+      "durationInFrames": 246,
+      "audioDuration": 7.536,
+      "charactersPerSecond": 4.11
     },
     {
       "id": "02",
-      "start": 9.033333333333333,
-      "end": 18.066666666666666,
-      "durationInFrames": 271
+      "start": 8.2,
+      "end": 16.633333333333333,
+      "durationInFrames": 253,
+      "audioDuration": 7.776,
+      "charactersPerSecond": 3.99
     },
     {
       "id": "03",
-      "start": 18.066666666666666,
-      "end": 25.766666666666666,
-      "durationInFrames": 231
+      "start": 16.633333333333333,
+      "end": 23.933333333333334,
+      "durationInFrames": 219,
+      "audioDuration": 6.6240000000000006,
+      "charactersPerSecond": 3.93
     },
     {
       "id": "04",
-      "start": 25.766666666666666,
-      "end": 33.3,
-      "durationInFrames": 226
+      "start": 23.933333333333334,
+      "end": 30.8,
+      "durationInFrames": 206,
+      "audioDuration": 6.336,
+      "charactersPerSecond": 4.1
     },
     {
       "id": "05",
-      "start": 33.3,
-      "end": 40.3,
-      "durationInFrames": 210
+      "start": 30.8,
+      "end": 37.53333333333333,
+      "durationInFrames": 202,
+      "audioDuration": 6.216,
+      "charactersPerSecond": 3.86
     },
     {
       "id": "06",
-      "start": 40.3,
-      "end": 50.699999999999996,
-      "durationInFrames": 312
+      "start": 37.53333333333333,
+      "end": 47.33333333333333,
+      "durationInFrames": 294,
+      "audioDuration": 9.144,
+      "charactersPerSecond": 3.94
     }
   ],
   "captions": [
@@ -48,89 +156,109 @@
       "voiceText": "这个不等式，用一个三角形就能证明！",
       "scene": "01",
       "start": 0.22,
-      "end": 4.274054054054053,
-      "audio": null
+      "end": 3.652,
+      "duration": 3.432,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s01-01-5a9a049aabe298d4.mp3"
     },
     {
       "id": "s01-02",
       "text": "左边两个根号，右边一个根号。",
       "voiceText": "左边两个根号，右边一个根号，先拆开看。",
       "scene": "01",
-      "start": 4.424054054054054,
-      "end": 8.748378378378376,
-      "audio": null
+      "start": 3.802,
+      "end": 7.906000000000001,
+      "duration": 4.104,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s01-02-97d6b31a24b694b4.mp3"
     },
     {
       "id": "s02-01",
       "text": "√(a²+b²)：直角边a、b的斜边",
       "voiceText": "根号下a方加b方，就是直角边为a和b的斜边。",
       "scene": "02",
-      "start": 9.253333333333334,
-      "end": 14.65873873873874,
-      "audio": null
+      "start": 8.42,
+      "end": 13.219999999999999,
+      "duration": 4.8,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s02-01-c88cd04a86c3d863.mp3"
     },
     {
       "id": "s02-02",
       "text": "√(c²+d²)：直角边c、d的斜边",
       "voiceText": "根号下c方加d方，也一样。",
       "scene": "02",
-      "start": 14.80873873873874,
-      "end": 17.78171171171171,
-      "audio": null
+      "start": 13.370000000000001,
+      "end": 16.346,
+      "duration": 2.976,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s02-02-a1bf65c62105d155.mp3"
     },
     {
       "id": "s03-01",
       "text": "把两个直角三角形首尾相接。",
       "voiceText": "把两个直角三角形首尾相接。",
       "scene": "03",
-      "start": 18.286666666666665,
-      "end": 21.529909909909907,
-      "audio": null
+      "start": 16.85333333333333,
+      "end": 19.85333333333333,
+      "duration": 3.0,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s03-01-2ae2eeb41950b3ad.mp3"
     },
     {
       "id": "s03-02",
       "text": "竖着一共a+c，横着一共b+d。",
       "voiceText": "竖着一共a加c，横着一共b加d。",
       "scene": "03",
-      "start": 21.67990990990991,
-      "end": 25.463693693693692,
-      "audio": null
+      "start": 20.00333333333333,
+      "end": 23.62733333333333,
+      "duration": 3.624,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s03-02-5f04946fa4edc5f9.mp3"
     },
     {
       "id": "s04-01",
       "text": "连起两端：这条绿边就是\n√((a+c)²+(b+d)²)",
       "voiceText": "连起两端，这条绿边，就是根号下a加c的平方，加b加d的平方。",
       "scene": "04",
-      "start": 25.986666666666665,
-      "end": 33.01369369369369,
-      "audio": null
+      "start": 24.153333333333332,
+      "end": 30.489333333333335,
+      "duration": 6.336,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s04-01-cabb3bb12e0ca2eb.mp3"
     },
     {
       "id": "s05-01",
       "text": "两条斜边走折线，绿边走直线：\n两边之和大于第三边！",
       "voiceText": "两条斜边走折线，绿边走直线，三角形两边之和大于第三边！",
       "scene": "05",
-      "start": 33.519999999999996,
-      "end": 40.00648648648648,
-      "audio": null
+      "start": 31.02,
+      "end": 37.236,
+      "duration": 6.216,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s05-01-8a3b5bbbae3419cb.mp3"
     },
     {
       "id": "s06-01",
       "text": "a∶b=c∶d时，折线拉直，取等号。",
       "voiceText": "当a比b等于c比d，折线被拉直，就取等号。",
       "scene": "06",
-      "start": 40.519999999999996,
-      "end": 45.38486486486486,
-      "audio": null
+      "start": 37.75333333333333,
+      "end": 42.43333333333333,
+      "duration": 4.68,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s06-01-13f8abc48c15b5d4.mp3"
     },
     {
       "id": "s06-02",
       "text": "还想看哪个公式的图形证明？\n评论区告诉我！",
       "voiceText": "还想看哪个公式的图形证明？评论区告诉我！",
       "scene": "06",
-      "start": 45.53486486486486,
-      "end": 50.39972972972972,
-      "audio": null
+      "start": 42.58333333333333,
+      "end": 47.04733333333333,
+      "duration": 4.464,
+      "provider": "edge-tts",
+      "audio": "assets/minkowski-triangle/audio/s06-02-e896c2a4aee00de0.mp3"
     }
   ]
 }
