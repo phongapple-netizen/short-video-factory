@@ -6,4 +6,6 @@ import {Registration as Video3} from '../../src/videos/mpemba-effect/Registratio
 import {Registration as Video4} from '../../src/videos/spring-drop/Registration';
 import {Registration as Video5} from '../../src/videos/minkowski-triangle/Registration';
 import {Registration as Video6} from '../../src/videos/chiral-amplification/Registration';
-export const RegisteredVideos=()=> <><Video0/><Video1/><Video2/><Video3/><Video4/><Video5/><Video6/></>;
+import {Registration as Video7} from '../../src/videos/chiral-ep1/Registration';
+import {Registration as Video8} from '../../src/videos/chiral-ep2/Registration';
+export const RegisteredVideos=()=> <><Video0/><Video1/><Video2/><Video3/><Video4/><Video5/><Video6/><Video7/><Video8/></>;

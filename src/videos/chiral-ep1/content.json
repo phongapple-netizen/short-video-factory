@@ -1,0 +1,239 @@
+{
+  "id": "ChiralEp1",
+  "subject": "chemistry",
+  "template": "molecule-lab",
+  "title": "你的左手\n变不成右手",
+  "coverSubtitle": "上集：分子的左右手",
+  "brand": "科学实验室",
+  "series": {
+    "key": "chiral",
+    "title": "分子的左右手（2026诺贝尔化学奖）",
+    "episode": 1,
+    "next": "下集：硖合宪三的自我复制反应"
+  },
+  "learningGoal": "理解手性（互为镜像却不能重合；四个不同基团）、ee的含义，以及卡根发现的正非线性效应及其“异手配对不干活”的解释",
+  "checkQuestion": "催化剂ee是40%，为什么产物ee可能比40%高？",
+  "audience": "高中化学（选择性必修：有机化学基础）；初中生可看懂手性与ee",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "生活现象",
+    "firstFrame": "标题“你的左手 变不成右手”与一对左右手同时出现"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "chirality-kagan",
+    "source": "src/videos/chiral-ep1/model.ts",
+    "eeExample": "100个分子：70个左手、30个右手，ee=40%",
+    "kagan": "ML₂模型（Kagan & Guillaneux 1994），K=4（随机配对）、异手配对不干活：催化剂ee 40% → 10对里左左5、右右1、一左一右4 → 产物ee约67%（四舍五入的小样本）"
+  },
+  "facts": [
+    "手性：分子与其镜像不能重合；一个碳原子连有四个不同的原子或基团时（手性碳）分子有手性；有两个相同基团时镜像可重合。",
+    "香芹酮的两种对映体气味不同：一种像留兰香，另一种像葛缕子。",
+    "生物体内的受体与酶本身有手性，对两种对映体的作用可能不同，因此手性药物的两种对映体药效或毒性可能不同。",
+    "ee（对映体过量）=（多数对映体−少数对映体）÷总量。",
+    "Kagan等1986年（J. Am. Chem. Soc. 108, 2353）首次报道不对称催化中的非线性效应；Sharpless环氧化中产物ee高于线性预期（正非线性效应）。Kagan提出的ML₂模型用手性配体形成的同手/异手配合物解释该效应。",
+    "2026年诺贝尔化学奖授予Henri Kagan与Kenso Soai，“for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis”。"
+  ],
+  "sources": [
+    {
+      "title": "Nobel Prize in Chemistry 2026, press release",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "note": "本会话网络无法直接打开官网，引文经多家媒体报道一致。"
+    },
+    {
+      "title": "C. Puchot, O. Samuel, E. Duñach, S. Zhao, C. Agami, H. B. Kagan, J. Am. Chem. Soc. 108, 2353–2357 (1986)"
+    },
+    {
+      "title": "D. Guillaneux, S.-H. Zhao, O. Samuel, D. Rainford, H. B. Kagan, “Nonlinear effects in asymmetric catalysis”, J. Am. Chem. Soc. 116, 9430–9439 (1994)",
+      "note": "ML₂ 模型。"
+    },
+    {
+      "title": "人教版高中化学选择性必修3《有机化学基础》：手性分子、手性碳原子"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "你的左手\n变不成右手",
+      "plannedSeconds": 9.37,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "你的左手，怎么转都变不成右手。",
+          "voiceText": "你的左手，怎么转都变不成右手。"
+        },
+        {
+          "id": "s01-02",
+          "text": "分子也分左右手，\n今年诺贝尔化学奖就和它有关。",
+          "voiceText": "分子也分左右手，今年诺贝尔化学奖就和它有关。"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "镜像≠重合",
+      "plannedSeconds": 9.87,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "左右手互为镜像，就像照镜子。",
+          "voiceText": "左右手互为镜像，就像照镜子。"
+        },
+        {
+          "id": "s02-02",
+          "text": "可怎么翻怎么转，都没法完全重合，\n这叫“手性”。",
+          "voiceText": "可你怎么翻、怎么转，都没法让它们完全重合，这就叫手性。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "分子的左右手",
+      "plannedSeconds": 16.07,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "一个碳连着四个不同的基团，\n就有一对镜像分子。",
+          "voiceText": "一个碳原子连着四个不同的基团，就会有一对镜像分子。"
+        },
+        {
+          "id": "s03-02",
+          "text": "转一转试试：总有一个位置对不上。",
+          "voiceText": "转一转试试，总有一个位置对不上。"
+        },
+        {
+          "id": "s03-03",
+          "text": "如果有两个基团一样，\n镜像就能重合，没有手性。",
+          "voiceText": "要是有两个基团一样，镜像就能重合，也就没有手性。"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "差别有多大？",
+      "plannedSeconds": 17.4,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "香芹酮：一种闻着像留兰香，\n它的镜像像葛缕子。",
+          "voiceText": "比如香芹酮，一种闻起来像留兰香，它的镜像却像葛缕子。"
+        },
+        {
+          "id": "s04-02",
+          "text": "身体里的受体也有手性，\n像手套，只认一只手。",
+          "voiceText": "身体里的受体也有手性，像手套一样，只认一只手。"
+        },
+        {
+          "id": "s04-03",
+          "text": "所以药物的左手版和右手版，\n作用可能完全不同。",
+          "voiceText": "所以药物的左手版和右手版，作用可能完全不同。"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "偏了多少？",
+      "plannedSeconds": 18.7,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "可普通方法造出来，左右各一半，\n就像抛硬币。",
+          "voiceText": "可普通方法造出来，左右各占一半，就像抛硬币。"
+        },
+        {
+          "id": "s05-02",
+          "text": "衡量偏了多少：\nee =（多的 − 少的）÷ 总数",
+          "voiceText": "怎么衡量偏了多少？用多的减去少的，再除以总数，叫做ee。"
+        },
+        {
+          "id": "s05-03",
+          "text": "100个里70个左手、30个右手，\nee就是40%。",
+          "voiceText": "比如一百个里七十个左手、三十个右手，ee就是百分之四十。"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "手性催化剂",
+      "plannedSeconds": 12.23,
+      "cues": [
+        {
+          "id": "s06-01",
+          "text": "想多造一种手，要用手性催化剂，\n像一只“左手模具”。",
+          "voiceText": "想多造一种手，就要用有手性的催化剂，像一只左手模具。"
+        },
+        {
+          "id": "s06-02",
+          "text": "按常理，催化剂纯度打对折，\n产物纯度也打对折。",
+          "voiceText": "按常理，催化剂纯度打对折，产物纯度也跟着打对折。"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "卡根：\n不走直线",
+      "plannedSeconds": 11.2,
+      "cues": [
+        {
+          "id": "s07-01",
+          "text": "1986年，卡根发现：\n有的反应不走直线。",
+          "voiceText": "一九八六年，卡根发现，有的反应不走直线。"
+        },
+        {
+          "id": "s07-02",
+          "text": "催化剂只纯一部分，产物却纯得多，\n叫“正的非线性效应”。",
+          "voiceText": "催化剂只纯一部分，产物却纯得多，这叫正的非线性效应。"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "为什么？\n配对罢工",
+      "plannedSeconds": 16.33,
+      "cues": [
+        {
+          "id": "s08-01",
+          "text": "一种解释：催化剂会两两配对。",
+          "voiceText": "一种解释是，催化剂分子会两两配对。"
+        },
+        {
+          "id": "s08-02",
+          "text": "左左、右右能干活；\n一左一右配成的对，罢工。",
+          "voiceText": "左左、右右配成的对能干活，一左一右配成的对却罢工了。"
+        },
+        {
+          "id": "s08-03",
+          "text": "少数的右手大多被拖去罢工，\n干活的几乎都是左手。",
+          "voiceText": "少数的右手大多被拖去罢工，干活的几乎都是左手。"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "下集预告",
+      "plannedSeconds": 9.6,
+      "cues": [
+        {
+          "id": "s09-01",
+          "text": "那能不能让产物自己当催化剂，\n越造越纯？",
+          "voiceText": "那能不能让产物自己当催化剂，越造越纯？"
+        },
+        {
+          "id": "s09-02",
+          "text": "下集：硖合宪三的“自我复制”反应！",
+          "voiceText": "下集，硖合宪三的自我复制反应，记得来看！"
+        }
+      ]
+    }
+  ]
+}
