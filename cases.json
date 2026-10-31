@@ -325,8 +325,8 @@
     "title": "分子的左右手：0.00005%变成99.5%（2026诺贝尔化学奖）",
     "subject": "chemistry",
     "template": "molecule-lab",
-    "stage": "draft",
-    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "stage": "published",
+    "status": "正式版",
     "seconds": 56.733333333333334,
     "cover": "ChiralAmplificationCover",
     "narrated": true,
@@ -342,6 +342,10 @@
     },
     "dependencies": [
       "src/kits/rod-board"
-    ]
+    ],
+    "preview": "previews/chiral-amplification.mp4",
+    "smallPreview": "previews/chiral-amplification-small.mp4",
+    "previewCover": "previews/chiral-amplification-cover.png",
+    "subtitles": "previews/chiral-amplification.srt"
   }
 ]

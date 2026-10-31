@@ -1,0 +1,1086 @@
+{
+  "id": "ChiralAmplification",
+  "sourceSignature": "e1c106ade824ca65bd5e6d144a3ee596e54b4812e82ee9e5cbb871d430871953",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0.00005%\n变成99.5%",
+            "bounds": [
+              75,
+              220,
+              915,
+              440
+            ],
+            "screenFont": 100,
+            "withinSafe": true
+          },
+          {
+            "text": "起点多数一方 ee 约0.00005%",
+            "bounds": [
+              165,
+              1120,
+              825,
+              1175
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 125,
+      "image": "frame-00125.png",
+      "audit": {
+        "frame": 125,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0.00005%\n变成99.5%",
+            "bounds": [
+              75,
+              220,
+              915,
+              440
+            ],
+            "screenFont": 100,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮多数一方 ee >99.5%",
+            "bounds": [
+              165,
+              1120,
+              825,
+              1175
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "一丁点偏心，三轮后几乎全变成一种！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 249,
+      "image": "frame-00249.png",
+      "audit": {
+        "frame": 249,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "0.00005%\n变成99.5%",
+            "bounds": [
+              75,
+              220,
+              915,
+              440
+            ],
+            "screenFont": 100,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮多数一方 ee >99.5%",
+            "bounds": [
+              165,
+              1120,
+              825,
+              1175
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "2026 诺贝尔化学奖",
+            "bounds": [
+              105,
+              1190,
+              885,
+              1274
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "这是2026年诺贝尔化学奖的发现。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 250,
+      "image": "frame-00250.png",
+      "audit": {
+        "frame": 250,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "分子也分\n左右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左手型 L",
+            "bounds": [
+              303.79998779296875,
+              962.1875,
+              306.1999816894531,
+              962.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 440,
+      "image": "frame-00440.png",
+      "audit": {
+        "frame": 440,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "分子也分\n左右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左手版\n可能治病",
+            "bounds": [
+              155.03359985351562,
+              620,
+              454.9664001464844,
+              740
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "右手版\n可能无效或有害",
+            "bounds": [
+              520.2471313476562,
+              620.0625,
+              849.7528076171875,
+              739.9375
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "同一个分子式，作用可能完全不同",
+            "bounds": [
+              105,
+              880,
+              885,
+              961.375
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "药物的左手版和右手版，\n作用可能完全不同。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 629,
+      "image": "frame-00629.png",
+      "audit": {
+        "frame": 629,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "分子也分\n左右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "普通方法：左 50%  右 50%",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1234
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "可普通方法造出来，左右各一半。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 630,
+      "image": "frame-00630.png",
+      "audit": {
+        "frame": 630,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根：\n不按比例来",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂：L 14 · R 6（ee 40%）",
+            "bounds": [
+              75,
+              460,
+              915,
+              511
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：异手配对失活的极端情况，非实验数据",
+            "bounds": [
+              75,
+              1180,
+              915,
+              1221
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 793,
+      "image": "frame-00793.png",
+      "audit": {
+        "frame": 793,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根：\n不按比例来",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂：L 14 · R 6（ee 40%）",
+            "bounds": [
+              75,
+              460,
+              915,
+              511
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：异手配对失活的极端情况，非实验数据",
+            "bounds": [
+              75,
+              1180,
+              915,
+              1221
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根发现：催化剂只纯一部分，\n产物却可能纯得多。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 955,
+      "image": "frame-00955.png",
+      "audit": {
+        "frame": 955,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根：\n不按比例来",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂：L 14 · R 6（ee 40%）",
+            "bounds": [
+              75,
+              460,
+              915,
+              511
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "左右配对 → 失效",
+            "bounds": [
+              115,
+              1118,
+              615,
+              1162
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "剩下 8 个全是 L",
+            "bounds": [
+              530,
+              790,
+              860,
+              855
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "示意：异手配对失活的极端情况，非实验数据",
+            "bounds": [
+              75,
+              1180,
+              915,
+              1221
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "一种解释：左右手配对就“失效”，\n多出来的那种说了算。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 956,
+      "image": "frame-00956.png",
+      "audit": {
+        "frame": 956,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "硖合宪三：\n自己造自己",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1129,
+      "image": "frame-01129.png",
+      "audit": {
+        "frame": 1129,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "硖合宪三：\n自己造自己",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "起点",
+            "bounds": [
+              115,
+              575.5,
+              245,
+              624.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "约0.00005%",
+            "bounds": [
+              281,
+              572.5,
+              501.15625,
+              627.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第1轮",
+            "bounds": [
+              115,
+              695.5,
+              245,
+              744.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "57%",
+            "bounds": [
+              281,
+              697.5,
+              361.0625,
+              742.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第2轮",
+            "bounds": [
+              115,
+              815.5,
+              245,
+              864.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "99%",
+            "bounds": [
+              281,
+              817.5,
+              361.0625,
+              862.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮",
+            "bounds": [
+              115,
+              935.5,
+              245,
+              984.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": ">99.5%",
+            "bounds": [
+              281,
+              937.5,
+              417.78125,
+              982.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "数据：Sato、Soai 等，2003 年，对映体过量 ee",
+            "bounds": [
+              115,
+              1018,
+              875,
+              1059
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1301,
+      "image": "frame-01301.png",
+      "audit": {
+        "frame": 1301,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "硖合宪三：\n自己造自己",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "起点",
+            "bounds": [
+              115,
+              555.5,
+              245,
+              604.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "约0.00005%",
+            "bounds": [
+              287,
+              552.5,
+              507.15625,
+              607.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第1轮",
+            "bounds": [
+              115,
+              675.5,
+              245,
+              724.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "57%",
+            "bounds": [
+              577.390625,
+              677.5,
+              657.453125,
+              722.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第2轮",
+            "bounds": [
+              115,
+              795.5,
+              244.828125,
+              844.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "99%",
+            "bounds": [
+              794.9375,
+              797.5,
+              875,
+              842.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮",
+            "bounds": [
+              115,
+              915.5,
+              232.921875,
+              964.5
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": ">99.5%",
+            "bounds": [
+              738.21875,
+              917.5,
+              875,
+              962.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "数据：Sato、Soai 等，2003 年，对映体过量 ee",
+            "bounds": [
+              115,
+              1018,
+              875,
+              1059
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1302,
+      "image": "frame-01302.png",
+      "audit": {
+        "frame": 1302,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "生命为什么\n只用一种手？",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "蛋白质里的氨基酸：几乎都是 L 型",
+            "bounds": [
+              75,
+              720,
+              915,
+              771
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1502,
+      "image": "frame-01502.png",
+      "audit": {
+        "frame": 1502,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "生命为什么\n只用一种手？",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "蛋白质里的氨基酸：几乎都是 L 型",
+            "bounds": [
+              75,
+              700,
+              915,
+              751
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "一点偏差→ 放大 →几乎全部？",
+            "bounds": [
+              105,
+              800,
+              885,
+              851
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "一种可能的机制，起源之谜仍在研究中",
+            "bounds": [
+              75,
+              880,
+              915,
+              924
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "这种放大，给“一点偏差变成全部”\n提供了一种可能。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1701,
+      "image": "frame-01701.png",
+      "audit": {
+        "frame": 1701,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "生命为什么\n只用一种手？",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "蛋白质里的氨基酸：几乎都是 L 型",
+            "bounds": [
+              75,
+              700,
+              915,
+              751
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "一点偏差→ 放大 →几乎全部？",
+            "bounds": [
+              105,
+              800,
+              885,
+              851
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "一种可能的机制，起源之谜仍在研究中",
+            "bounds": [
+              75,
+              880,
+              915,
+              924
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "最初的偏差从哪来？评论区聊聊",
+            "bounds": [
+              105,
+              1100,
+              885,
+              1184
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "最初那一点偏差从哪来？评论区聊聊！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}

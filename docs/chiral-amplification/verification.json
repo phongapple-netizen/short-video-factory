@@ -1,0 +1,9 @@
+{
+  "video": "ChiralAmplification.mp4",
+  "valid": true,
+  "duration": 56.8,
+  "audio": {
+    "integrated_lufs": -15.0,
+    "true_peak_dbtp": -1.8
+  }
+}

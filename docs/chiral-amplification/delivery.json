@@ -1,0 +1,12 @@
+{
+  "id": "ChiralAmplification",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/chiral-amplification.mp4",
+    "small": "previews/chiral-amplification-small.mp4",
+    "cover": "previews/chiral-amplification-cover.png",
+    "subtitles": "previews/chiral-amplification.srt"
+  },
+  "renderCommand": "npm run render:case -- ChiralAmplification final"
+}
