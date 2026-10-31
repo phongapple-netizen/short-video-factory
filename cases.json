@@ -327,7 +327,7 @@
     "template": "molecule-lab",
     "stage": "draft",
     "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
-    "seconds": 61.733333333333334,
+    "seconds": 56.733333333333334,
     "cover": "ChiralAmplificationCover",
     "narrated": true,
     "registration": "src/videos/chiral-amplification/Registration.tsx",
