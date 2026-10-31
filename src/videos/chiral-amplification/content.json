@@ -1,0 +1,172 @@
+{
+  "id": "ChiralAmplification",
+  "subject": "chemistry",
+  "template": "molecule-lab",
+  "title": "0.00005%\n变成99.5%",
+  "coverSubtitle": "2026诺贝尔化学奖：分子的“左右手”",
+  "brand": "科学实验室",
+  "learningGoal": "认识手性分子（互为镜像、不能重合）；知道卡根的非线性效应（产物纯度不按催化剂纯度成比例）与硖合宪三的不对称自催化（产物催化生成同手性的自己，微小偏差被逐轮放大）",
+  "checkQuestion": "硖合反应里，产物为什么能让“同一种手”越来越多？",
+  "audience": "高中化学（有机化学基础：手性、催化剂）；初中生可看懂镜像与放大",
+  "hook": {
+    "cue": "s01-01",
+    "maxSeconds": 4.5,
+    "type": "反常识数字",
+    "firstFrame": "标题“0.00005% 变成99.5%”与一群左右手分子同时出现"
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "fallback": "azure",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "lead_in_seconds": 0.22,
+    "tail_seconds": 0.28,
+    "cue_gap_seconds": 0.15,
+    "align_to_voice": true
+  },
+  "model": {
+    "kind": "chirality-amplification",
+    "source": "src/videos/chiral-amplification/model.ts",
+    "soaiRounds": [
+      {
+        "round": 0,
+        "ee": "约0.00005%"
+      },
+      {
+        "round": 1,
+        "ee": "57%"
+      },
+      {
+        "round": 2,
+        "ee": "99%"
+      },
+      {
+        "round": 3,
+        "ee": ">99.5%"
+      }
+    ],
+    "kaganIllustration": "14个L型+6个R型（ee=40%）；异手配对全部失效时，剩下8个L型全部有效——这是储库效应的极端示意，不是某次实验数据"
+  },
+  "facts": [
+    "2026年诺贝尔化学奖授予Henri Kagan与Kenso Soai（硖合宪三），表彰“for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis”，10月7日公布。",
+    "Kagan等1986年（J. Am. Chem. Soc. 108, 2353）首次报道不对称催化中的非线性效应：在Sharpless环氧化中，产物ee高于按催化剂ee线性推算的值（正非线性效应）。",
+    "Soai等1995年（Nature 378, 767）报道嘧啶基烷醇的不对称自催化：产物催化自身（同手性）的生成。",
+    "Sato、Soai等2003年（Angew. Chem.）：2-炔基-5-嘧啶基烷醇约0.00005% ee，经三轮连续不对称自催化，依次为约57%、99%、>99.5% ee。",
+    "生命体中的蛋白质氨基酸几乎都是L型（甘氨酸无手性）。"
+  ],
+  "sources": [
+    {
+      "title": "Nobel Prize in Chemistry 2026, press release (Royal Swedish Academy of Sciences)",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "note": "本会话网络无法直接打开官网，引文经多家媒体报道一致。"
+    },
+    {
+      "title": "C. Puchot, O. Samuel, E. Duñach, S. Zhao, C. Agami, H. B. Kagan, J. Am. Chem. Soc. 108, 2353–2357 (1986)"
+    },
+    {
+      "title": "K. Soai, T. Shibata, H. Morioka, K. Choji, “Asymmetric autocatalysis and amplification of enantiomeric excess of a chiral molecule”, Nature 378, 767–768 (1995)",
+      "url": "https://doi.org/10.1038/378767a0"
+    },
+    {
+      "title": "I. Sato, H. Urabe, S. Ishiguro, T. Shibata, K. Soai, “Amplification of chirality from extremely low enantiomeric excess to greater than 99.5% ee by asymmetric autocatalysis”, Angew. Chem. Int. Ed. (2003)",
+      "note": "三轮数据另见 Soai 等，Bull. Chem. Soc. Jpn. 84, 879 (2011)。"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "0.00005%\n变成99.5%",
+      "plannedSeconds": 9.03,
+      "cues": [
+        {
+          "id": "s01-01",
+          "text": "一丁点偏心，三轮后几乎全变成一种！",
+          "voiceText": "一丁点偏心，三轮后几乎全变成一种！"
+        },
+        {
+          "id": "s01-02",
+          "text": "这是2026年诺贝尔化学奖的发现。",
+          "voiceText": "这是二零二六年诺贝尔化学奖的发现。"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "分子也分\n左右手",
+      "plannedSeconds": 13.8,
+      "cues": [
+        {
+          "id": "s02-01",
+          "text": "很多分子像左右手：互为镜像，\n却不能重合。",
+          "voiceText": "很多分子像左右手，互为镜像，却不能重合。"
+        },
+        {
+          "id": "s02-02",
+          "text": "药物的左手版和右手版，\n作用可能完全不同。",
+          "voiceText": "药物的左手版和右手版，作用可能完全不同。"
+        },
+        {
+          "id": "s02-03",
+          "text": "可普通方法造出来，左右各一半。",
+          "voiceText": "可普通方法造出来，左右各一半。"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "卡根：\n不按比例来",
+      "plannedSeconds": 11.73,
+      "cues": [
+        {
+          "id": "s03-01",
+          "text": "卡根发现：催化剂只纯一部分，\n产物却可能纯得多。",
+          "voiceText": "卡根发现：催化剂只纯一部分，产物却可能纯得多。"
+        },
+        {
+          "id": "s03-02",
+          "text": "一种解释：左右手配对就“失效”，\n多出来的那种说了算。",
+          "voiceText": "一种解释：左右手配对就失效，多出来的那种说了算。"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "硖合宪三：\n自己造自己",
+      "plannedSeconds": 13.1,
+      "cues": [
+        {
+          "id": "s04-01",
+          "text": "硖合宪三的反应：产物会帮着\n造出同一种手的自己。",
+          "voiceText": "硖合宪三的反应，产物会帮着造出同一种手的自己。"
+        },
+        {
+          "id": "s04-02",
+          "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
+          "voiceText": "第一轮百分之五十七，第二轮九十九，第三轮超过九十九点五！"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "生命为什么\n只用一种手？",
+      "plannedSeconds": 14.07,
+      "cues": [
+        {
+          "id": "s05-01",
+          "text": "生命里的氨基酸，几乎都是左手型。",
+          "voiceText": "生命里的氨基酸，几乎都是左手型。"
+        },
+        {
+          "id": "s05-02",
+          "text": "这种放大，给“一点偏差变成全部”\n提供了一种可能。",
+          "voiceText": "这种放大，给一点偏差变成全部，提供了一种可能。"
+        },
+        {
+          "id": "s05-03",
+          "text": "最初那一点偏差从哪来？评论区聊聊！",
+          "voiceText": "最初那一点偏差从哪来？评论区聊聊！"
+        }
+      ]
+    }
+  ]
+}
