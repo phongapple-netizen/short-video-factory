@@ -21,7 +21,7 @@
 | 三个弹簧铁球，谁先落地？ | `SpringDrop` | 68.53秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/spring-drop.mp4) | 正式版 |
 | 闵可夫斯基不等式：一个三角形就能证明 | `MinkowskiTriangle` | 47.33秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/minkowski-triangle.mp4) | 正式版 |
 | 分子的左右手：0.00005%变成99.5%（2026诺贝尔化学奖） | `ChiralAmplification` | 56.73秒 | [下载 MP4](https://raw.githubusercontent.com/phongapple-netizen/short-video-factory/main/previews/chiral-amplification.mp4) | 正式版 |
-| 分子的左右手·上集：手性与卡根的非线性效应 | `ChiralEp1` | 120.77秒 | 待制作 | 制作中 |
+| 分子的左右手·上集：手性与卡根的非线性效应 | `ChiralEp1` | 111.8秒 | 待制作 | 制作中 |
 | 分子的左右手·下集：硖合宪三的自我复制反应 | `ChiralEp2` | 91.27秒 | 待制作 | 制作中 |
 <!-- cases:end -->
 

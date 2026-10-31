@@ -1,62 +1,254 @@
 {
-  "timingMode": "planned",
-  "estimate": "3.8 字/秒估算，未配音",
-  "duration": 120.76666666666665,
-  "durationInFrames": 3623,
+  "providers": [
+    "edge-tts"
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 9.37,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "你的左手，怎么转都变不成右手。",
+            "voiceText": "你的左手，怎么转都变不成右手。"
+          },
+          {
+            "id": "s01-02",
+            "text": "分子也分左右手，\n今年诺贝尔化学奖就和它有关。",
+            "voiceText": "分子也分左右手，今年诺贝尔化学奖就和它有关。"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 9.87,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "左右手互为镜像，就像照镜子。",
+            "voiceText": "左右手互为镜像，就像照镜子。"
+          },
+          {
+            "id": "s02-02",
+            "text": "可怎么翻怎么转，都没法完全重合，\n这叫“手性”。",
+            "voiceText": "可你怎么翻、怎么转，都没法让它们完全重合，这就叫手性。"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 16.07,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "一个碳连着四个不同的基团，\n就有一对镜像分子。",
+            "voiceText": "一个碳原子连着四个不同的基团，就会有一对镜像分子。"
+          },
+          {
+            "id": "s03-02",
+            "text": "转一转试试：总有一个位置对不上。",
+            "voiceText": "转一转试试，总有一个位置对不上。"
+          },
+          {
+            "id": "s03-03",
+            "text": "如果有两个基团一样，\n镜像就能重合，没有手性。",
+            "voiceText": "要是有两个基团一样，镜像就能重合，也就没有手性。"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 17.4,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "香芹酮：一种闻着像留兰香，\n它的镜像像葛缕子。",
+            "voiceText": "比如香芹酮，一种闻起来像留兰香，它的镜像却像葛缕子。"
+          },
+          {
+            "id": "s04-02",
+            "text": "身体里的受体也有手性，\n像手套，只认一只手。",
+            "voiceText": "身体里的受体也有手性，像手套一样，只认一只手。"
+          },
+          {
+            "id": "s04-03",
+            "text": "所以药物的左手版和右手版，\n作用可能完全不同。",
+            "voiceText": "所以药物的左手版和右手版，作用可能完全不同。"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 18.7,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "可普通方法造出来，左右各一半，\n就像抛硬币。",
+            "voiceText": "可普通方法造出来，左右各占一半，就像抛硬币。"
+          },
+          {
+            "id": "s05-02",
+            "text": "衡量偏了多少：\nee =（多的 − 少的）÷ 总数",
+            "voiceText": "怎么衡量偏了多少？用多的减去少的，再除以总数，叫做ee。"
+          },
+          {
+            "id": "s05-03",
+            "text": "100个里70个左手、30个右手，\nee就是40%。",
+            "voiceText": "比如一百个里七十个左手、三十个右手，ee就是百分之四十。"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "plannedSeconds": 12.23,
+        "cues": [
+          {
+            "id": "s06-01",
+            "text": "想多造一种手，要用手性催化剂，\n像一只“左手模具”。",
+            "voiceText": "想多造一种手，就要用有手性的催化剂，像一只左手模具。"
+          },
+          {
+            "id": "s06-02",
+            "text": "按常理，催化剂纯度打对折，\n产物纯度也打对折。",
+            "voiceText": "按常理，催化剂纯度打对折，产物纯度也跟着打对折。"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "plannedSeconds": 11.2,
+        "cues": [
+          {
+            "id": "s07-01",
+            "text": "1986年，卡根发现：\n有的反应不走直线。",
+            "voiceText": "一九八六年，卡根发现，有的反应不走直线。"
+          },
+          {
+            "id": "s07-02",
+            "text": "催化剂只纯一部分，产物却纯得多，\n叫“正的非线性效应”。",
+            "voiceText": "催化剂只纯一部分，产物却纯得多，这叫正的非线性效应。"
+          }
+        ]
+      },
+      {
+        "id": "08",
+        "plannedSeconds": 16.33,
+        "cues": [
+          {
+            "id": "s08-01",
+            "text": "一种解释：催化剂会两两配对。",
+            "voiceText": "一种解释是，催化剂分子会两两配对。"
+          },
+          {
+            "id": "s08-02",
+            "text": "左左、右右能干活；\n一左一右配成的对，罢工。",
+            "voiceText": "左左、右右配成的对能干活，一左一右配成的对却罢工了。"
+          },
+          {
+            "id": "s08-03",
+            "text": "少数的右手大多被拖去罢工，\n干活的几乎都是左手。",
+            "voiceText": "少数的右手大多被拖去罢工，干活的几乎都是左手。"
+          }
+        ]
+      },
+      {
+        "id": "09",
+        "plannedSeconds": 9.6,
+        "cues": [
+          {
+            "id": "s09-01",
+            "text": "那能不能让产物自己当催化剂，\n越造越纯？",
+            "voiceText": "那能不能让产物自己当催化剂，越造越纯？"
+          },
+          {
+            "id": "s09-02",
+            "text": "下集：硖合宪三的“自我复制”反应！",
+            "voiceText": "下集，硖合宪三的自我复制反应，记得来看！"
+          }
+        ]
+      }
+    ]
+  },
+  "timingMode": "measured",
+  "duration": 111.80000000000003,
+  "durationInFrames": 3354,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
   "scenes": [
     {
       "id": "01",
-      "start": 0.0,
-      "end": 9.366666666666667,
-      "durationInFrames": 281
+      "start": 0,
+      "end": 8.533333333333333,
+      "durationInFrames": 256,
+      "audioDuration": 7.872,
+      "charactersPerSecond": 4.19
     },
     {
       "id": "02",
-      "start": 9.366666666666667,
-      "end": 19.233333333333334,
-      "durationInFrames": 296
+      "start": 8.533333333333333,
+      "end": 17.9,
+      "durationInFrames": 281,
+      "audioDuration": 8.712,
+      "charactersPerSecond": 4.02
     },
     {
       "id": "03",
-      "start": 19.233333333333334,
-      "end": 35.3,
-      "durationInFrames": 482
+      "start": 17.9,
+      "end": 31.9,
+      "durationInFrames": 420,
+      "audioDuration": 13.2,
+      "charactersPerSecond": 4.39
     },
     {
       "id": "04",
-      "start": 35.3,
-      "end": 52.699999999999996,
-      "durationInFrames": 522
+      "start": 31.9,
+      "end": 47.93333333333334,
+      "durationInFrames": 481,
+      "audioDuration": 15.216,
+      "charactersPerSecond": 4.14
     },
     {
       "id": "05",
-      "start": 52.699999999999996,
-      "end": 71.39999999999999,
-      "durationInFrames": 561
+      "start": 47.93333333333334,
+      "end": 65.30000000000001,
+      "durationInFrames": 521,
+      "audioDuration": 16.536,
+      "charactersPerSecond": 4.11
     },
     {
       "id": "06",
-      "start": 71.39999999999999,
-      "end": 83.63333333333333,
-      "durationInFrames": 367
+      "start": 65.30000000000001,
+      "end": 76.66666666666669,
+      "durationInFrames": 341,
+      "audioDuration": 10.704,
+      "charactersPerSecond": 4.11
     },
     {
       "id": "07",
-      "start": 83.63333333333333,
-      "end": 94.83333333333333,
-      "durationInFrames": 336
+      "start": 76.66666666666669,
+      "end": 87.33333333333336,
+      "durationInFrames": 320,
+      "audioDuration": 9.984,
+      "charactersPerSecond": 4.01
     },
     {
       "id": "08",
-      "start": 94.83333333333333,
-      "end": 111.16666666666666,
-      "durationInFrames": 490
+      "start": 87.33333333333336,
+      "end": 102.63333333333335,
+      "durationInFrames": 459,
+      "audioDuration": 14.496,
+      "charactersPerSecond": 4.07
     },
     {
       "id": "09",
-      "start": 111.16666666666666,
-      "end": 120.76666666666665,
-      "durationInFrames": 288
+      "start": 102.63333333333335,
+      "end": 111.80000000000003,
+      "durationInFrames": 275,
+      "audioDuration": 8.496,
+      "charactersPerSecond": 4.0
     }
   ],
   "captions": [
@@ -66,197 +258,241 @@
       "voiceText": "你的左手，怎么转都变不成右手。",
       "scene": "01",
       "start": 0.22,
-      "end": 3.6410526315789475,
-      "audio": null
+      "end": 3.3640000000000003,
+      "duration": 3.144,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s01-01-f11090666be6ad99.mp3"
     },
     {
       "id": "s01-02",
       "text": "分子也分左右手，\n今年诺贝尔化学奖就和它有关。",
       "voiceText": "分子也分左右手，今年诺贝尔化学奖就和它有关。",
       "scene": "01",
-      "start": 3.7910526315789475,
-      "end": 9.05421052631579,
-      "audio": null
+      "start": 3.5140000000000002,
+      "end": 8.242,
+      "duration": 4.728,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s01-02-25c2949fd2880887.mp3"
     },
     {
       "id": "s02-01",
       "text": "左右手互为镜像，就像照镜子。",
       "voiceText": "左右手互为镜像，就像照镜子。",
       "scene": "02",
-      "start": 9.586666666666668,
-      "end": 12.744561403508772,
-      "audio": null
+      "start": 8.753333333333334,
+      "end": 11.993333333333334,
+      "duration": 3.24,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s02-01-fbaf96b570665d2d.mp3"
     },
     {
       "id": "s02-02",
       "text": "可怎么翻怎么转，都没法完全重合，\n这叫“手性”。",
       "voiceText": "可你怎么翻、怎么转，都没法让它们完全重合，这就叫手性。",
       "scene": "02",
-      "start": 12.894561403508773,
-      "end": 18.94719298245614,
-      "audio": null
+      "start": 12.143333333333334,
+      "end": 17.615333333333336,
+      "duration": 5.472,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s02-02-3b5a6ce20c2f1e27.mp3"
     },
     {
       "id": "s03-01",
       "text": "一个碳连着四个不同的基团，\n就有一对镜像分子。",
       "voiceText": "一个碳原子连着四个不同的基团，就会有一对镜像分子。",
       "scene": "03",
-      "start": 19.453333333333333,
-      "end": 25.505964912280703,
-      "audio": null
+      "start": 18.119999999999997,
+      "end": 23.232,
+      "duration": 5.112,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s03-01-615f3e22e265a368.mp3"
     },
     {
       "id": "s03-02",
       "text": "转一转试试：总有一个位置对不上。",
       "voiceText": "转一转试试，总有一个位置对不上。",
       "scene": "03",
-      "start": 25.6559649122807,
-      "end": 29.340175438596493,
-      "audio": null
+      "start": 23.381999999999998,
+      "end": 26.598,
+      "duration": 3.216,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s03-02-9671ecce7465581c.mp3"
     },
     {
       "id": "s03-03",
       "text": "如果有两个基团一样，\n镜像就能重合，没有手性。",
       "voiceText": "要是有两个基团一样，镜像就能重合，也就没有手性。",
       "scene": "03",
-      "start": 29.49017543859649,
-      "end": 35.01649122807017,
-      "audio": null
+      "start": 26.747999999999998,
+      "end": 31.619999999999997,
+      "duration": 4.872,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s03-03-47f00b86d3785713.mp3"
     },
     {
       "id": "s04-01",
       "text": "香芹酮：一种闻着像留兰香，\n它的镜像像葛缕子。",
       "voiceText": "比如香芹酮，一种闻起来像留兰香，它的镜像却像葛缕子。",
       "scene": "04",
-      "start": 35.519999999999996,
-      "end": 41.572631578947366,
-      "audio": null
+      "start": 32.12,
+      "end": 37.808,
+      "duration": 5.688,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s04-01-28307c6f4b953b36.mp3"
     },
     {
       "id": "s04-02",
       "text": "身体里的受体也有手性，\n像手套，只认一只手。",
       "voiceText": "身体里的受体也有手性，像手套一样，只认一只手。",
       "scene": "04",
-      "start": 41.722631578947365,
-      "end": 46.98578947368421,
-      "audio": null
+      "start": 37.958,
+      "end": 42.757999999999996,
+      "duration": 4.8,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s04-02-027d0545b11a5dd8.mp3"
     },
     {
       "id": "s04-03",
       "text": "所以药物的左手版和右手版，\n作用可能完全不同。",
       "voiceText": "所以药物的左手版和右手版，作用可能完全不同。",
       "scene": "04",
-      "start": 47.135789473684206,
-      "end": 52.39894736842105,
-      "audio": null
+      "start": 42.908,
+      "end": 47.636,
+      "duration": 4.728,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s04-03-810ebcf912b4d143.mp3"
     },
     {
       "id": "s05-01",
       "text": "可普通方法造出来，左右各一半，\n就像抛硬币。",
       "voiceText": "可普通方法造出来，左右各占一半，就像抛硬币。",
       "scene": "05",
-      "start": 52.919999999999995,
-      "end": 57.919999999999995,
-      "audio": null
+      "start": 48.153333333333336,
+      "end": 52.809333333333335,
+      "duration": 4.656,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s05-01-2371078f6d3a070f.mp3"
     },
     {
       "id": "s05-02",
       "text": "衡量偏了多少：\nee =（多的 − 少的）÷ 总数",
       "voiceText": "怎么衡量偏了多少？用多的减去少的，再除以总数，叫做ee。",
       "scene": "05",
-      "start": 58.06999999999999,
-      "end": 64.3857894736842,
-      "audio": null
+      "start": 52.95933333333333,
+      "end": 58.983333333333334,
+      "duration": 6.024,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s05-02-e25dca0f210d4bd8.mp3"
     },
     {
       "id": "s05-03",
       "text": "100个里70个左手、30个右手，\nee就是40%。",
       "voiceText": "比如一百个里七十个左手、三十个右手，ee就是百分之四十。",
       "scene": "05",
-      "start": 64.5357894736842,
-      "end": 71.11473684210526,
-      "audio": null
+      "start": 59.13333333333333,
+      "end": 64.98933333333333,
+      "duration": 5.856,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s05-03-a9ba75c8f619dab6.mp3"
     },
     {
       "id": "s06-01",
       "text": "想多造一种手，要用手性催化剂，\n像一只“左手模具”。",
       "voiceText": "想多造一种手，就要用有手性的催化剂，像一只左手模具。",
       "scene": "06",
-      "start": 71.61999999999999,
-      "end": 77.67263157894736,
-      "audio": null
+      "start": 65.52000000000001,
+      "end": 70.84800000000001,
+      "duration": 5.328,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s06-01-5533e49f9c9ab85f.mp3"
     },
     {
       "id": "s06-02",
       "text": "按常理，催化剂纯度打对折，\n产物纯度也打对折。",
       "voiceText": "按常理，催化剂纯度打对折，产物纯度也跟着打对折。",
       "scene": "06",
-      "start": 77.82263157894737,
-      "end": 83.34894736842105,
-      "audio": null
+      "start": 70.998,
+      "end": 76.37400000000001,
+      "duration": 5.376,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s06-02-160ed90ccfa112ab.mp3"
     },
     {
       "id": "s07-01",
       "text": "1986年，卡根发现：\n有的反应不走直线。",
       "voiceText": "一九八六年，卡根发现，有的反应不走直线。",
       "scene": "07",
-      "start": 83.85333333333332,
-      "end": 88.32701754385964,
-      "audio": null
+      "start": 76.88666666666668,
+      "end": 81.20666666666668,
+      "duration": 4.32,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s07-01-efdee57d5f4b861e.mp3"
     },
     {
       "id": "s07-02",
       "text": "催化剂只纯一部分，产物却纯得多，\n叫“正的非线性效应”。",
       "voiceText": "催化剂只纯一部分，产物却纯得多，这叫正的非线性效应。",
       "scene": "07",
-      "start": 88.47701754385965,
-      "end": 94.52964912280702,
-      "audio": null
+      "start": 81.35666666666668,
+      "end": 87.02066666666668,
+      "duration": 5.664,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s07-02-90538ac698ce828c.mp3"
     },
     {
       "id": "s08-01",
       "text": "一种解释：催化剂会两两配对。",
       "voiceText": "一种解释是，催化剂分子会两两配对。",
       "scene": "08",
-      "start": 95.05333333333333,
-      "end": 99.00070175438596,
-      "audio": null
+      "start": 87.55333333333336,
+      "end": 91.65733333333336,
+      "duration": 4.104,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s08-01-8de1942642807234.mp3"
     },
     {
       "id": "s08-02",
       "text": "左左、右右能干活；\n一左一右配成的对，罢工。",
       "voiceText": "左左、右右配成的对能干活，一左一右配成的对却罢工了。",
       "scene": "08",
-      "start": 99.15070175438596,
-      "end": 105.20333333333333,
-      "audio": null
+      "start": 91.80733333333336,
+      "end": 97.11133333333336,
+      "duration": 5.304,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s08-02-b8690bfed2161157.mp3"
     },
     {
       "id": "s08-03",
       "text": "少数的右手大多被拖去罢工，\n干活的几乎都是左手。",
       "voiceText": "少数的右手大多被拖去罢工，干活的几乎都是左手。",
       "scene": "08",
-      "start": 105.35333333333334,
-      "end": 110.87964912280702,
-      "audio": null
+      "start": 97.26133333333337,
+      "end": 102.34933333333336,
+      "duration": 5.088,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s08-03-5c8ca45c72774719.mp3"
     },
     {
       "id": "s09-01",
       "text": "那能不能让产物自己当催化剂，\n越造越纯？",
       "voiceText": "那能不能让产物自己当催化剂，越造越纯？",
       "scene": "09",
-      "start": 111.38666666666666,
-      "end": 115.86035087719297,
-      "audio": null
+      "start": 102.85333333333335,
+      "end": 107.10133333333336,
+      "duration": 4.248,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s09-01-530185d66b10f06c.mp3"
     },
     {
       "id": "s09-02",
       "text": "下集：硖合宪三的“自我复制”反应！",
       "voiceText": "下集，硖合宪三的自我复制反应，记得来看！",
       "scene": "09",
-      "start": 116.01035087719298,
-      "end": 120.48403508771929,
-      "audio": null
+      "start": 107.25133333333335,
+      "end": 111.49933333333335,
+      "duration": 4.248,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep1/audio/s09-02-7fe9e67df99a274d.mp3"
     }
   ]
 }
