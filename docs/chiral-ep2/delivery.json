@@ -1,0 +1,12 @@
+{
+  "id": "ChiralEp2",
+  "current": true,
+  "visualReviewRecorded": true,
+  "files": {
+    "video": "previews/chiral-ep2.mp4",
+    "small": "previews/chiral-ep2-small.mp4",
+    "cover": "previews/chiral-ep2-cover.png",
+    "subtitles": "previews/chiral-ep2.srt"
+  },
+  "renderCommand": "npm run render:case -- ChiralEp2 final"
+}

@@ -1,0 +1,1922 @@
+{
+  "id": "ChiralEp1",
+  "sourceSignature": "c0cac582ccd866f7f835079718b50a4a61ca420413b0e082829135fa8fac8a2e",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "你的左手\n变不成右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              431.1875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "左手",
+            "bounds": [
+              215.67381286621094,
+              1000.25,
+              374.326171875,
+              1064.75
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "右手",
+            "bounds": [
+              615.673828125,
+              1000.25,
+              774.326171875,
+              1064.75
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 128,
+      "image": "frame-00128.png",
+      "audit": {
+        "frame": 128,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "你的左手\n变不成右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              431.1875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "左手",
+            "bounds": [
+              215,
+              1000,
+              375,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "右手",
+            "bounds": [
+              615,
+              1000,
+              775,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "变不过去 ✕",
+            "bounds": [
+              364.9940185546875,
+              560,
+              625.0059814453125,
+              625
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "分子也分左右手，\n今年诺贝尔化学奖就和它有关。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 255,
+      "image": "frame-00255.png",
+      "audit": {
+        "frame": 255,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "你的左手\n变不成右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              431.1875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "左手",
+            "bounds": [
+              215,
+              1000,
+              375,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "右手",
+            "bounds": [
+              615,
+              1000,
+              775,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "变不过去 ✕",
+            "bounds": [
+              365,
+              560,
+              625,
+              625
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "2026 诺贝尔化学奖",
+            "bounds": [
+              105,
+              1140,
+              885,
+              1224
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "分子也分左右手，\n今年诺贝尔化学奖就和它有关。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 256,
+      "image": "frame-00256.png",
+      "audit": {
+        "frame": 256,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "镜像≠重合",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "镜子",
+            "bounds": [
+              425.589599609375,
+              1090.25,
+              564.410400390625,
+              1149.75
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 396,
+      "image": "frame-00396.png",
+      "audit": {
+        "frame": 396,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "镜像≠重合",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "镜子",
+            "bounds": [
+              425,
+              1090,
+              565,
+              1150
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "可怎么翻怎么转，都没法完全重合，\n这叫“手性”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 536,
+      "image": "frame-00536.png",
+      "audit": {
+        "frame": 536,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "镜像≠重合",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "镜子",
+            "bounds": [
+              425,
+              1090,
+              565,
+              1150
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "镜像，却不能重合 → 手性",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1234
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "可怎么翻怎么转，都没法完全重合，\n这叫“手性”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 537,
+      "image": "frame-00537.png",
+      "audit": {
+        "frame": 537,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "分子的左右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "四个不同基团",
+            "bounds": [
+              293.5,
+              990.9375,
+              296.5,
+              991.5625
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 747,
+      "image": "frame-00747.png",
+      "audit": {
+        "frame": 747,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "分子的左右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "四个不同基团",
+            "bounds": [
+              145,
+              960,
+              445,
+              1022.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "转一转试试：总有一个位置对不上。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 956,
+      "image": "frame-00956.png",
+      "audit": {
+        "frame": 956,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "分子的左右手",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "两个基团相同",
+            "bounds": [
+              145,
+              960,
+              445,
+              1022.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "完全重合 ✓ 没有手性",
+            "bounds": [
+              295.0000305175781,
+              540,
+              695,
+              605
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "如果有两个基团一样，\n镜像就能重合，没有手性。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 957,
+      "image": "frame-00957.png",
+      "audit": {
+        "frame": 957,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "差别有多大？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "留兰香味",
+            "bounds": [
+              293.79998779296875,
+              932.1875,
+              296.1999816894531,
+              932.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "葛缕子味",
+            "bounds": [
+              693.7999877929688,
+              932.1875,
+              696.2000122070312,
+              932.8125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "香芹酮的一对镜像分子",
+            "bounds": [
+              75,
+              1000,
+              915,
+              1041
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1198,
+      "image": "frame-01198.png",
+      "audit": {
+        "frame": 1198,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "差别有多大？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "受体（手套）",
+            "bounds": [
+              344.99859619140625,
+              480,
+              645.00146484375,
+              542.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "合适 ✓",
+            "bounds": [
+              206.94332885742188,
+              1000.6875,
+              383.05670166015625,
+              1064.3125
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "身体里的受体也有手性，\n像手套，只认一只手。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1437,
+      "image": "frame-01437.png",
+      "audit": {
+        "frame": 1437,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "差别有多大？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "受体（手套）",
+            "bounds": [
+              345,
+              480,
+              645,
+              542.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "合适 ✓",
+            "bounds": [
+              205,
+              1000,
+              385,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "套不进 ✕",
+            "bounds": [
+              595,
+              1000,
+              795,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "药物：左手版、右手版作用可能不同",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1231.375
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "所以药物的左手版和右手版，\n作用可能完全不同。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1438,
+      "image": "frame-01438.png",
+      "audit": {
+        "frame": 1438,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "差别有多大？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "受体（手套）",
+            "bounds": [
+              345,
+              480,
+              645,
+              542.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "合适 ✓",
+            "bounds": [
+              205,
+              1000,
+              385,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "套不进 ✕",
+            "bounds": [
+              595,
+              1000,
+              795,
+              1065
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "药物：左手版、右手版作用可能不同",
+            "bounds": [
+              105,
+              1150,
+              885,
+              1231.375
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "所以药物的左手版和右手版，\n作用可能完全不同。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1699,
+      "image": "frame-01699.png",
+      "audit": {
+        "frame": 1699,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "偏了多少？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左手 50右手 50",
+            "bounds": [
+              165,
+              670,
+              825,
+              725
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              780,
+              885,
+              876
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "衡量偏了多少：\nee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1958,
+      "image": "frame-01958.png",
+      "audit": {
+        "frame": 1958,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "偏了多少？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左手 70右手 30",
+            "bounds": [
+              165,
+              670,
+              825,
+              725
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              780,
+              885,
+              876
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "（70 − 30）÷ 100 = 40%",
+            "bounds": [
+              105,
+              900,
+              885,
+              959
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "100个里70个左手、30个右手，\nee就是40%。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1959,
+      "image": "frame-01959.png",
+      "audit": {
+        "frame": 1959,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "偏了多少？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左手 70右手 30",
+            "bounds": [
+              165,
+              670,
+              825,
+              725
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              780,
+              885,
+              876
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "（70 − 30）÷ 100 = 40%",
+            "bounds": [
+              105,
+              900,
+              885,
+              959
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "100个里70个左手、30个右手，\nee就是40%。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2130,
+      "image": "frame-02130.png",
+      "audit": {
+        "frame": 2130,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "手性催化剂",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂的 ee →",
+            "bounds": [
+              195,
+              1052,
+              795,
+              1096
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "↑ 产物的 ee",
+            "bounds": [
+              209,
+              512,
+              469,
+              556
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理，催化剂纯度打对折，\n产物纯度也打对折。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2299,
+      "image": "frame-02299.png",
+      "audit": {
+        "frame": 2299,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "手性催化剂",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂的 ee →",
+            "bounds": [
+              195,
+              1052,
+              795,
+              1096
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "↑ 产物的 ee",
+            "bounds": [
+              209,
+              512,
+              469,
+              556
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理：成正比",
+            "bounds": [
+              555,
+              748,
+              785,
+              789
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理，催化剂纯度打对折，\n产物纯度也打对折。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2300,
+      "image": "frame-02300.png",
+      "audit": {
+        "frame": 2300,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "手性催化剂",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂的 ee →",
+            "bounds": [
+              195,
+              1052,
+              795,
+              1096
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "↑ 产物的 ee",
+            "bounds": [
+              209,
+              512,
+              469,
+              556
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理：成正比",
+            "bounds": [
+              555,
+              748,
+              785,
+              789
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理，催化剂纯度打对折，\n产物纯度也打对折。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2460,
+      "image": "frame-02460.png",
+      "audit": {
+        "frame": 2460,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根：\n不走直线",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂的 ee →",
+            "bounds": [
+              195,
+              1052,
+              795,
+              1096
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "↑ 产物的 ee",
+            "bounds": [
+              209,
+              512,
+              469,
+              556
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理：成正比",
+            "bounds": [
+              555,
+              748,
+              785,
+              789
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂只纯一部分，产物却纯得多，\n叫“正的非线性效应”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2619,
+      "image": "frame-02619.png",
+      "audit": {
+        "frame": 2619,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根：\n不走直线",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂的 ee →",
+            "bounds": [
+              195,
+              1052,
+              795,
+              1096
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "↑ 产物的 ee",
+            "bounds": [
+              209,
+              512,
+              469,
+              556
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理：成正比",
+            "bounds": [
+              555,
+              748,
+              785,
+              789
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "40% → 约69%",
+            "bounds": [
+              455,
+              611.375,
+              755,
+              655.375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "示意曲线：ML₂ 模型，一左一右的组合不干活",
+            "bounds": [
+              75,
+              1150,
+              915,
+              1191
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂只纯一部分，产物却纯得多，\n叫“正的非线性效应”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2620,
+      "image": "frame-02620.png",
+      "audit": {
+        "frame": 2620,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "卡根：\n不走直线",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂的 ee →",
+            "bounds": [
+              195,
+              1052,
+              795,
+              1096
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "↑ 产物的 ee",
+            "bounds": [
+              209,
+              512,
+              469,
+              556
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "按常理：成正比",
+            "bounds": [
+              555,
+              748,
+              785,
+              789
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "40% → 约69%",
+            "bounds": [
+              455,
+              611.375,
+              755,
+              655.375
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "示意曲线：ML₂ 模型，一左一右的组合不干活",
+            "bounds": [
+              75,
+              1150,
+              915,
+              1191
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂只纯一部分，产物却纯得多，\n叫“正的非线性效应”。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2850,
+      "image": "frame-02850.png",
+      "audit": {
+        "frame": 2850,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "为什么？\n配对罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂：左 14 · 右 6（ee 40%）",
+            "bounds": [
+              75,
+              470,
+              915,
+              519
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "一左一右：罢工",
+            "bounds": [
+              512.587890625,
+              999.5,
+              817.4121704101562,
+              1063
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "左左、右右能干活；\n一左一右配成的对，罢工。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 3078,
+      "image": "frame-03078.png",
+      "audit": {
+        "frame": 3078,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "为什么？\n配对罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂：左 14 · 右 6（ee 40%）",
+            "bounds": [
+              75,
+              470,
+              915,
+              519
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "一左一右：罢工",
+            "bounds": [
+              515,
+              1000,
+              815,
+              1062.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "干活的：左左 5 对 vs 右右 1 对\n产物 ee ≈ 67%",
+            "bounds": [
+              105,
+              1110,
+              885,
+              1246
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "少数的右手大多被拖去罢工，\n干活的几乎都是左手。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 3079,
+      "image": "frame-03079.png",
+      "audit": {
+        "frame": 3079,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "为什么？\n配对罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "催化剂：左 14 · 右 6（ee 40%）",
+            "bounds": [
+              75,
+              470,
+              915,
+              519
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "一左一右：罢工",
+            "bounds": [
+              515,
+              1000,
+              815,
+              1062.5
+            ],
+            "screenFont": 34,
+            "withinSafe": true
+          },
+          {
+            "text": "干活的：左左 5 对 vs 右右 1 对\n产物 ee ≈ 67%",
+            "bounds": [
+              105,
+              1110,
+              885,
+              1246
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "少数的右手大多被拖去罢工，\n干活的几乎都是左手。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 3217,
+      "image": "frame-03217.png",
+      "audit": {
+        "frame": 3217,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "下集预告",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "产物自己当催化剂？",
+            "bounds": [
+              285,
+              500,
+              705,
+              565
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "那能不能让产物自己当催化剂，\n越造越纯？",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 3353,
+      "image": "frame-03353.png",
+      "audit": {
+        "frame": 3353,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 上集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "下集预告",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "产物自己当催化剂？",
+            "bounds": [
+              285,
+              500,
+              705,
+              565
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "下集：硖合宪三的“自我复制”反应\n点关注，别错过",
+            "bounds": [
+              105,
+              1100,
+              885,
+              1236
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "下集：硖合宪三的“自我复制”反应！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}

@@ -354,8 +354,8 @@
     "title": "分子的左右手·上集：手性与卡根的非线性效应",
     "subject": "chemistry",
     "template": "molecule-lab",
-    "stage": "draft",
-    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "stage": "published",
+    "status": "正式版",
     "seconds": 111.80000000000003,
     "cover": "ChiralEp1Cover",
     "narrated": true,
@@ -377,7 +377,11 @@
       "src/kits/rod-board",
       "src/kits/molecule",
       "src/kits/episode-shell"
-    ]
+    ],
+    "preview": "previews/chiral-ep1.mp4",
+    "smallPreview": "previews/chiral-ep1-small.mp4",
+    "previewCover": "previews/chiral-ep1-cover.png",
+    "subtitles": "previews/chiral-ep1.srt"
   },
   {
     "key": "chiral-ep2",
@@ -385,8 +389,8 @@
     "title": "分子的左右手·下集：硖合宪三的自我复制反应",
     "subject": "chemistry",
     "template": "molecule-lab",
-    "stage": "draft",
-    "status": "草稿：画面与时间轴为字数估算，待生成真实配音",
+    "stage": "published",
+    "status": "正式版",
     "seconds": 83.83333333333334,
     "cover": "ChiralEp2Cover",
     "narrated": true,
@@ -408,6 +412,10 @@
       "src/kits/rod-board",
       "src/kits/molecule",
       "src/kits/episode-shell"
-    ]
+    ],
+    "preview": "previews/chiral-ep2.mp4",
+    "smallPreview": "previews/chiral-ep2-small.mp4",
+    "previewCover": "previews/chiral-ep2-cover.png",
+    "subtitles": "previews/chiral-ep2.srt"
   }
 ]

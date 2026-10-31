@@ -1,0 +1,1603 @@
+{
+  "id": "ChiralEp2",
+  "sourceSignature": "65be270edf51820537a27b2478b38f0927aec5279b14fcdef9691dfacdd80d6e",
+  "frames": [
+    {
+      "frame": 0,
+      "image": "frame-00000.png",
+      "audit": {
+        "frame": 0,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两百万个里\n只多1个",
+            "bounds": [
+              75,
+              220,
+              915,
+              431.1875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "左 1,000,001右 1,000,000",
+            "bounds": [
+              115,
+              680,
+              875,
+              739
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "起点：左边只多 1 个",
+            "bounds": [
+              266.93719482421875,
+              790.25,
+              723.062744140625,
+              854.75
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 135,
+      "image": "frame-00135.png",
+      "audit": {
+        "frame": 135,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两百万个里\n只多1个",
+            "bounds": [
+              75,
+              220,
+              915,
+              431.1875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "左 1,000,001右 1,000,000",
+            "bounds": [
+              115,
+              680,
+              875,
+              739
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "起点：左边只多 1 个",
+            "bounds": [
+              265,
+              790,
+              725,
+              855
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "三轮反应后，几乎全成了左手！\n这就是硖合反应。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 268,
+      "image": "frame-00268.png",
+      "audit": {
+        "frame": 268,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "两百万个里\n只多1个",
+            "bounds": [
+              75,
+              220,
+              915,
+              431.1875
+            ],
+            "screenFont": 96,
+            "withinSafe": true
+          },
+          {
+            "text": "左 100%右 0%",
+            "bounds": [
+              115,
+              680,
+              875,
+              739
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮：ee >99.5%",
+            "bounds": [
+              265,
+              790,
+              725,
+              855
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "硖合反应（2026 诺贝尔化学奖）",
+            "bounds": [
+              105,
+              1120,
+              885,
+              1204
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "三轮反应后，几乎全成了左手！\n这就是硖合反应。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 269,
+      "image": "frame-00269.png",
+      "audit": {
+        "frame": 269,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "上集回顾",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              820,
+              885,
+              912
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 425,
+      "image": "frame-00425.png",
+      "audit": {
+        "frame": 425,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "上集回顾",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              800,
+              885,
+              892
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "1 ÷ 2,000,001\n≈ 0.00005%",
+            "bounds": [
+              105,
+              930,
+              885,
+              983.1875
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "两百万个里多1个，\nee只有0.00005%。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 579,
+      "image": "frame-00579.png",
+      "audit": {
+        "frame": 579,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "上集回顾",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              800,
+              885,
+              892
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "1 ÷ 2,000,001\n≈ 0.00005%",
+            "bounds": [
+              105,
+              930,
+              885,
+              983.1875
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "两百万个里多1个，\nee只有0.00005%。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 580,
+      "image": "frame-00580.png",
+      "audit": {
+        "frame": 580,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "上集回顾",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "ee =（多的 − 少的）÷ 总数",
+            "bounds": [
+              105,
+              800,
+              885,
+              892
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          },
+          {
+            "text": "1 ÷ 2,000,001\n≈ 0.00005%",
+            "bounds": [
+              105,
+              930,
+              885,
+              983.1875
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "两百万个里多1个，\nee只有0.00005%。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 730,
+      "image": "frame-00730.png",
+      "audit": {
+        "frame": 730,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "自催化：\n自己造自己",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "产物 = 催化剂",
+            "bounds": [
+              334.99993896484375,
+              480,
+              655.0001220703125,
+              545
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左手造左手，右手造右手",
+            "bounds": [
+              105,
+              1080,
+              885,
+              1164
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "左手产物帮着造左手，\n右手产物帮着造右手。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 878,
+      "image": "frame-00878.png",
+      "audit": {
+        "frame": 878,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "自催化：\n自己造自己",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "产物 = 催化剂",
+            "bounds": [
+              335,
+              480,
+              655,
+              545
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左手造左手，右手造右手",
+            "bounds": [
+              105,
+              1060,
+              885,
+              1144
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "左手产物帮着造左手，\n右手产物帮着造右手。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 879,
+      "image": "frame-00879.png",
+      "audit": {
+        "frame": 879,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "自催化：\n自己造自己",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "产物 = 催化剂",
+            "bounds": [
+              335,
+              480,
+              655,
+              545
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左手造左手，右手造右手",
+            "bounds": [
+              105,
+              1060,
+              885,
+              1144
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "左手产物帮着造左手，\n右手产物帮着造右手。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1043,
+      "image": "frame-01043.png",
+      "audit": {
+        "frame": 1043,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "问题来了",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左 51右 49",
+            "bounds": [
+              115,
+              760,
+              875,
+              819
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "ee 2.0%",
+            "bounds": [
+              375,
+              850,
+              615,
+              915
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "51∶49，翻倍后102∶98，\n比例没变。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1205,
+      "image": "frame-01205.png",
+      "audit": {
+        "frame": 1205,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "问题来了",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左 102右 98",
+            "bounds": [
+              115,
+              760,
+              875,
+              819
+            ],
+            "screenFont": 44,
+            "withinSafe": true
+          },
+          {
+            "text": "ee 2.0%",
+            "bounds": [
+              375,
+              850,
+              615,
+              915
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "翻倍后比例没变 ✕",
+            "bounds": [
+              305,
+              960,
+              685,
+              1025
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "51∶49，翻倍后102∶98，\n比例没变。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1206,
+      "image": "frame-01206.png",
+      "audit": {
+        "frame": 1206,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "关键：\n一左一右会罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左 51右 49",
+            "bounds": [
+              115,
+              760,
+              875,
+              815
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "起点ee 2.0%",
+            "bounds": [
+              115,
+              830,
+              875,
+              879
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左右之差：2 → 2，只翻倍、不抵消",
+            "bounds": [
+              115,
+              920,
+              875,
+              969
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "简化示意：每轮先翻倍，再让八成少数派配对罢工",
+            "bounds": [
+              75,
+              1150,
+              915,
+              1191
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1430,
+      "image": "frame-01430.png",
+      "audit": {
+        "frame": 1430,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "关键：\n一左一右会罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左 16右 8",
+            "bounds": [
+              115,
+              760,
+              875,
+              815
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第2轮 · 配对罢工 32 对ee 33%",
+            "bounds": [
+              115,
+              830,
+              875,
+              879
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左右之差：2 → 8，只翻倍、不抵消",
+            "bounds": [
+              115,
+              920,
+              875,
+              969
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "简化示意：每轮先翻倍，再让八成少数派配对罢工",
+            "bounds": [
+              75,
+              1150,
+              915,
+              1191
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "每次配对，左右各少一个，\n两边的差却一点不少。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1653,
+      "image": "frame-01653.png",
+      "audit": {
+        "frame": 1653,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "关键：\n一左一右会罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左 65右 1",
+            "bounds": [
+              115,
+              760,
+              875,
+              815
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第5轮 · 配对罢工 3 对ee 97%",
+            "bounds": [
+              115,
+              830,
+              875,
+              879
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左右之差：2 → 64，只翻倍、不抵消",
+            "bounds": [
+              115,
+              900,
+              875,
+              949
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "简化示意：每轮先翻倍，再让八成少数派配对罢工",
+            "bounds": [
+              75,
+              1150,
+              915,
+              1191
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "少数派越来越少，偏差就被放大了。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1654,
+      "image": "frame-01654.png",
+      "audit": {
+        "frame": 1654,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "关键：\n一左一右会罢工",
+            "bounds": [
+              75,
+              220,
+              915,
+              413.625
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "左 65右 1",
+            "bounds": [
+              115,
+              760,
+              875,
+              815
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第5轮 · 配对罢工 3 对ee 97%",
+            "bounds": [
+              115,
+              830,
+              875,
+              879
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "左右之差：2 → 64，只翻倍、不抵消",
+            "bounds": [
+              115,
+              900,
+              875,
+              949
+            ],
+            "screenFont": 36,
+            "withinSafe": true
+          },
+          {
+            "text": "简化示意：每轮先翻倍，再让八成少数派配对罢工",
+            "bounds": [
+              75,
+              1150,
+              915,
+              1191
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "少数派越来越少，偏差就被放大了。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1484
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1823,
+      "image": "frame-01823.png",
+      "audit": {
+        "frame": 1823,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "真实数据",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "起点",
+            "bounds": [
+              115,
+              554.5,
+              245,
+              605.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "约0.00005%",
+            "bounds": [
+              287,
+              552.5,
+              507.15625,
+              607.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第1轮",
+            "bounds": [
+              115,
+              674.5,
+              245,
+              725.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "57%",
+            "bounds": [
+              557.546875,
+              677.5,
+              637.609375,
+              722.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第2轮",
+            "bounds": [
+              115,
+              814.5,
+              245,
+              865.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "99%",
+            "bounds": [
+              281,
+              817.5,
+              361.0625,
+              862.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮",
+            "bounds": [
+              115,
+              934.5,
+              245,
+              985.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": ">99.5%",
+            "bounds": [
+              281,
+              937.5,
+              417.78125,
+              982.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "数据：Sato、Soai 等，2003 年（对映体过量 ee）",
+            "bounds": [
+              75,
+              1040,
+              915,
+              1081
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1991,
+      "image": "frame-01991.png",
+      "audit": {
+        "frame": 1991,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "真实数据",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "起点",
+            "bounds": [
+              115,
+              554.5,
+              245,
+              605.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "约0.00005%",
+            "bounds": [
+              287,
+              552.5,
+              507.15625,
+              607.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第1轮",
+            "bounds": [
+              115,
+              674.5,
+              245,
+              725.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "57%",
+            "bounds": [
+              566,
+              677.5,
+              646.0625,
+              722.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第2轮",
+            "bounds": [
+              115,
+              794.5,
+              245,
+              845.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "99%",
+            "bounds": [
+              776,
+              797.5,
+              856.0625,
+              842.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "第3轮",
+            "bounds": [
+              115,
+              914.5,
+              236.65625,
+              965.5
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": ">99.5%",
+            "bounds": [
+              738.21875,
+              917.5,
+              875,
+              962.5
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "数据：Sato、Soai 等，2003 年（对映体过量 ee）",
+            "bounds": [
+              75,
+              1040,
+              915,
+              1081
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 1992,
+      "image": "frame-01992.png",
+      "audit": {
+        "frame": 1992,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "这有什么用？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "一点偏差→ 自己放大 →几乎全部",
+            "bounds": [
+              105,
+              660,
+              885,
+              716
+            ],
+            "screenFont": 42,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2254,
+      "image": "frame-02254.png",
+      "audit": {
+        "frame": 2254,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "这有什么用？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "蛋白质里的氨基酸：几乎都是 L 型",
+            "bounds": [
+              75,
+              720,
+              915,
+              771
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "一种可能的解释，生命单一手性的起源仍在研究中",
+            "bounds": [
+              75,
+              800,
+              915,
+              841
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "生命里的氨基酸几乎都是左手型，\n这种放大是一种可能的解释。",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    },
+    {
+      "frame": 2514,
+      "image": "frame-02514.png",
+      "audit": {
+        "frame": 2514,
+        "labels": [
+          {
+            "text": "科学实验室诺奖解读 · 下集",
+            "bounds": [
+              75,
+              168,
+              915,
+              212
+            ],
+            "screenFont": 32,
+            "withinSafe": true
+          },
+          {
+            "text": "这有什么用？",
+            "bounds": [
+              75,
+              220,
+              915,
+              316.8125
+            ],
+            "screenFont": 88,
+            "withinSafe": true
+          },
+          {
+            "text": "蛋白质里的氨基酸：几乎都是 L 型",
+            "bounds": [
+              75,
+              720,
+              915,
+              771
+            ],
+            "screenFont": 38,
+            "withinSafe": true
+          },
+          {
+            "text": "一种可能的解释，生命单一手性的起源仍在研究中",
+            "bounds": [
+              75,
+              800,
+              915,
+              841
+            ],
+            "screenFont": 30,
+            "withinSafe": true
+          },
+          {
+            "text": "最初那一点偏差从哪来？评论区聊聊",
+            "bounds": [
+              105,
+              1100,
+              885,
+              1184
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          },
+          {
+            "text": "最初那一点偏差从哪来？\n至今还在研究。评论区聊聊！",
+            "bounds": [
+              75,
+              1360,
+              915,
+              1486
+            ],
+            "screenFont": 40,
+            "withinSafe": true
+          }
+        ],
+        "titleCount": 1
+      },
+      "requiresVisualReview": true
+    }
+  ],
+  "automaticChecks": "instrumented",
+  "note": "自动坐标检查不能代替逐帧查看图形、事实、遮挡与节奏。"
+}
