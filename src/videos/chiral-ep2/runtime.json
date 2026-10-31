@@ -1,50 +1,196 @@
 {
-  "timingMode": "planned",
-  "estimate": "3.8 字/秒估算，未配音",
-  "duration": 91.26666666666667,
-  "durationInFrames": 2738,
+  "providers": [
+    "edge-tts"
+  ],
+  "narrationSource": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+5%",
+    "scenes": [
+      {
+        "id": "01",
+        "plannedSeconds": 9.1,
+        "cues": [
+          {
+            "id": "s01-01",
+            "text": "两百万个分子里，左手只多1个。",
+            "voiceText": "两百万个分子里，左手只多一个。"
+          },
+          {
+            "id": "s01-02",
+            "text": "三轮反应后，几乎全成了左手！\n这就是硖合反应。",
+            "voiceText": "三轮反应后，几乎全成了左手！这就是硖合反应。"
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "plannedSeconds": 11.47,
+        "cues": [
+          {
+            "id": "s02-01",
+            "text": "上集说到：分子有左右手，\nee表示偏了多少。",
+            "voiceText": "上集说到，分子有左右手，ee表示偏了多少。"
+          },
+          {
+            "id": "s02-02",
+            "text": "两百万个里多1个，\nee只有0.00005%。",
+            "voiceText": "两百万个里只多一个，ee只有百分之零点零零零零五。"
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "plannedSeconds": 10.13,
+        "cues": [
+          {
+            "id": "s03-01",
+            "text": "硖合发现：这个反应的产物，\n自己就是催化剂。",
+            "voiceText": "硖合发现，这个反应的产物，自己就是催化剂。"
+          },
+          {
+            "id": "s03-02",
+            "text": "左手产物帮着造左手，\n右手产物帮着造右手。",
+            "voiceText": "左手产物帮着造左手，右手产物帮着造右手。"
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "plannedSeconds": 12.5,
+        "cues": [
+          {
+            "id": "s04-01",
+            "text": "可左右手按同样速度复制，\n比例根本不会变！",
+            "voiceText": "可如果左右手按同样速度复制，比例根本不会变！"
+          },
+          {
+            "id": "s04-02",
+            "text": "51∶49，翻倍后102∶98，\n比例没变。",
+            "voiceText": "五十一比四十九，翻倍后是一百零二比九十八，比例一点没变。"
+          }
+        ]
+      },
+      {
+        "id": "05",
+        "plannedSeconds": 16.07,
+        "cues": [
+          {
+            "id": "s05-01",
+            "text": "关键：左右手会配对，\n一左一右配成的对就“罢工”。",
+            "voiceText": "关键在于，左右手会配对，一左一右配成的对就罢工了。"
+          },
+          {
+            "id": "s05-02",
+            "text": "每次配对，左右各少一个，\n两边的差却一点不少。",
+            "voiceText": "每次配对，左右各少一个，两边的差却一点不少。"
+          },
+          {
+            "id": "s05-03",
+            "text": "少数派越来越少，偏差就被放大了。",
+            "voiceText": "少数派越来越少，偏差就被一轮轮放大了。"
+          }
+        ]
+      },
+      {
+        "id": "06",
+        "plannedSeconds": 13.03,
+        "cues": [
+          {
+            "id": "s06-01",
+            "text": "2003年的实验：从约0.00005%出发，",
+            "voiceText": "二零零三年的实验，从约百分之零点零零零零五出发，"
+          },
+          {
+            "id": "s06-02",
+            "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
+            "voiceText": "第一轮百分之五十七，第二轮九十九，第三轮超过九十九点五！"
+          }
+        ]
+      },
+      {
+        "id": "07",
+        "plannedSeconds": 18.97,
+        "cues": [
+          {
+            "id": "s07-01",
+            "text": "一点点偏差，靠反应自己\n就能放大成几乎全部。",
+            "voiceText": "这说明一点点偏差，靠反应自己就能放大成几乎全部。"
+          },
+          {
+            "id": "s07-02",
+            "text": "生命里的氨基酸几乎都是左手型，\n这种放大是一种可能的解释。",
+            "voiceText": "生命里的氨基酸几乎都是左手型，这种放大是一种可能的解释。"
+          },
+          {
+            "id": "s07-03",
+            "text": "最初那一点偏差从哪来？\n至今还在研究。评论区聊聊！",
+            "voiceText": "最初那一点偏差从哪来？至今还在研究，评论区聊聊！"
+          }
+        ]
+      }
+    ]
+  },
+  "timingMode": "measured",
+  "duration": 83.83333333333334,
+  "durationInFrames": 2515,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+5%",
   "scenes": [
     {
       "id": "01",
-      "start": 0.0,
-      "end": 9.1,
-      "durationInFrames": 273
+      "start": 0,
+      "end": 8.966666666666667,
+      "durationInFrames": 269,
+      "audioDuration": 8.304,
+      "charactersPerSecond": 3.85
     },
     {
       "id": "02",
-      "start": 9.1,
-      "end": 20.566666666666666,
-      "durationInFrames": 344
+      "start": 8.966666666666667,
+      "end": 19.333333333333336,
+      "durationInFrames": 311,
+      "audioDuration": 9.696000000000002,
+      "charactersPerSecond": 4.23
     },
     {
       "id": "03",
-      "start": 20.566666666666666,
-      "end": 30.7,
-      "durationInFrames": 304
+      "start": 19.333333333333336,
+      "end": 29.300000000000004,
+      "durationInFrames": 299,
+      "audioDuration": 9.288,
+      "charactersPerSecond": 3.88
     },
     {
       "id": "04",
-      "start": 30.7,
-      "end": 43.2,
-      "durationInFrames": 375
+      "start": 29.300000000000004,
+      "end": 40.2,
+      "durationInFrames": 327,
+      "audioDuration": 10.224,
+      "charactersPerSecond": 4.4
     },
     {
       "id": "05",
-      "start": 43.2,
-      "end": 59.266666666666666,
-      "durationInFrames": 482
+      "start": 40.2,
+      "end": 55.13333333333334,
+      "durationInFrames": 448,
+      "audioDuration": 14.112,
+      "charactersPerSecond": 4.11
     },
     {
       "id": "06",
-      "start": 59.266666666666666,
-      "end": 72.3,
-      "durationInFrames": 391
+      "start": 55.13333333333334,
+      "end": 66.4,
+      "durationInFrames": 338,
+      "audioDuration": 10.608,
+      "charactersPerSecond": 4.43
     },
     {
       "id": "07",
-      "start": 72.3,
-      "end": 91.26666666666667,
-      "durationInFrames": 569
+      "start": 66.4,
+      "end": 83.83333333333334,
+      "durationInFrames": 523,
+      "audioDuration": 16.608,
+      "charactersPerSecond": 4.15
     }
   ],
   "captions": [
@@ -54,143 +200,175 @@
       "voiceText": "两百万个分子里，左手只多一个。",
       "scene": "01",
       "start": 0.22,
-      "end": 3.6410526315789475,
-      "audio": null
+      "end": 3.508,
+      "duration": 3.288,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s01-01-10a2853dfdab045a.mp3"
     },
     {
       "id": "s01-02",
       "text": "三轮反应后，几乎全成了左手！\n这就是硖合反应。",
       "voiceText": "三轮反应后，几乎全成了左手！这就是硖合反应。",
       "scene": "01",
-      "start": 3.7910526315789475,
-      "end": 8.791052631578948,
-      "audio": null
+      "start": 3.658,
+      "end": 8.674,
+      "duration": 5.016,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s01-02-137e6cc213e4b796.mp3"
     },
     {
       "id": "s02-01",
       "text": "上集说到：分子有左右手，\nee表示偏了多少。",
       "voiceText": "上集说到，分子有左右手，ee表示偏了多少。",
       "scene": "02",
-      "start": 9.32,
-      "end": 14.056842105263158,
-      "audio": null
+      "start": 9.186666666666667,
+      "end": 13.674666666666667,
+      "duration": 4.488,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s02-01-2853ef0722930626.mp3"
     },
     {
       "id": "s02-02",
       "text": "两百万个里多1个，\nee只有0.00005%。",
       "voiceText": "两百万个里只多一个，ee只有百分之零点零零零零五。",
       "scene": "02",
-      "start": 14.20684210526316,
-      "end": 20.25947368421053,
-      "audio": null
+      "start": 13.824666666666669,
+      "end": 19.03266666666667,
+      "duration": 5.208,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s02-02-966d386a628f9c75.mp3"
     },
     {
       "id": "s03-01",
       "text": "硖合发现：这个反应的产物，\n自己就是催化剂。",
       "voiceText": "硖合发现，这个反应的产物，自己就是催化剂。",
       "scene": "03",
-      "start": 20.786666666666665,
-      "end": 25.523508771929823,
-      "audio": null
+      "start": 19.553333333333335,
+      "end": 24.113333333333333,
+      "duration": 4.56,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s03-01-32306d0f00a76152.mp3"
     },
     {
       "id": "s03-02",
       "text": "左手产物帮着造左手，\n右手产物帮着造右手。",
       "voiceText": "左手产物帮着造左手，右手产物帮着造右手。",
       "scene": "03",
-      "start": 25.673508771929825,
-      "end": 30.410350877192982,
-      "audio": null
+      "start": 24.263333333333335,
+      "end": 28.991333333333337,
+      "duration": 4.728,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s03-02-b827c27a02453d6d.mp3"
     },
     {
       "id": "s04-01",
       "text": "可左右手按同样速度复制，\n比例根本不会变！",
       "voiceText": "可如果左右手按同样速度复制，比例根本不会变！",
       "scene": "04",
-      "start": 30.919999999999998,
-      "end": 36.18315789473684,
-      "audio": null
+      "start": 29.520000000000003,
+      "end": 33.96,
+      "duration": 4.44,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s04-01-a5e6e850f313ef25.mp3"
     },
     {
       "id": "s04-02",
       "text": "51∶49，翻倍后102∶98，\n比例没变。",
       "voiceText": "五十一比四十九，翻倍后是一百零二比九十八，比例一点没变。",
       "scene": "04",
-      "start": 36.33315789473684,
-      "end": 42.9121052631579,
-      "audio": null
+      "start": 34.11000000000001,
+      "end": 39.894000000000005,
+      "duration": 5.784,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s04-02-f30786723e6ee1b2.mp3"
     },
     {
       "id": "s05-01",
       "text": "关键：左右手会配对，\n一左一右配成的对就“罢工”。",
       "voiceText": "关键在于，左右手会配对，一左一右配成的对就罢工了。",
       "scene": "05",
-      "start": 43.42,
-      "end": 49.20947368421053,
-      "audio": null
+      "start": 40.42,
+      "end": 45.772000000000006,
+      "duration": 5.352,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s05-01-88c140cfb0f921fb.mp3"
     },
     {
       "id": "s05-02",
       "text": "每次配对，左右各少一个，\n两边的差却一点不少。",
       "voiceText": "每次配对，左右各少一个，两边的差却一点不少。",
       "scene": "05",
-      "start": 49.35947368421053,
-      "end": 54.35947368421053,
-      "audio": null
+      "start": 45.922000000000004,
+      "end": 50.53,
+      "duration": 4.608,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s05-02-dbcd8db996392b5f.mp3"
     },
     {
       "id": "s05-03",
       "text": "少数派越来越少，偏差就被放大了。",
       "voiceText": "少数派越来越少，偏差就被一轮轮放大了。",
       "scene": "05",
-      "start": 54.509473684210526,
-      "end": 58.98315789473684,
-      "audio": null
+      "start": 50.68000000000001,
+      "end": 54.83200000000001,
+      "duration": 4.152,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s05-03-409c1693bc17d940.mp3"
     },
     {
       "id": "s06-01",
       "text": "2003年的实验：从约0.00005%出发，",
       "voiceText": "二零零三年的实验，从约百分之零点零零零零五出发，",
       "scene": "06",
-      "start": 59.486666666666665,
-      "end": 65.27614035087718,
-      "audio": null
+      "start": 55.35333333333334,
+      "end": 60.29733333333334,
+      "duration": 4.944,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s06-01-a8b21822eae974e6.mp3"
     },
     {
       "id": "s06-02",
       "text": "第一轮57%，第二轮99%，\n第三轮超过99.5%！",
       "voiceText": "第一轮百分之五十七，第二轮九十九，第三轮超过九十九点五！",
       "scene": "06",
-      "start": 65.42614035087719,
-      "end": 72.00508771929825,
-      "audio": null
+      "start": 60.44733333333334,
+      "end": 66.11133333333333,
+      "duration": 5.664,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s06-02-37cd546484e3de95.mp3"
     },
     {
       "id": "s07-01",
       "text": "一点点偏差，靠反应自己\n就能放大成几乎全部。",
       "voiceText": "这说明一点点偏差，靠反应自己就能放大成几乎全部。",
       "scene": "07",
-      "start": 72.52,
-      "end": 78.30947368421052,
-      "audio": null
+      "start": 66.62,
+      "end": 71.828,
+      "duration": 5.208,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s07-01-9b64fd443c0b79a9.mp3"
     },
     {
       "id": "s07-02",
       "text": "生命里的氨基酸几乎都是左手型，\n这种放大是一种可能的解释。",
       "voiceText": "生命里的氨基酸几乎都是左手型，这种放大是一种可能的解释。",
       "scene": "07",
-      "start": 78.45947368421052,
-      "end": 85.30157894736841,
-      "audio": null
+      "start": 71.97800000000001,
+      "end": 77.906,
+      "duration": 5.928,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s07-02-a31ffda1b0af18c9.mp3"
     },
     {
       "id": "s07-03",
       "text": "最初那一点偏差从哪来？\n至今还在研究。评论区聊聊！",
       "voiceText": "最初那一点偏差从哪来？至今还在研究，评论区聊聊！",
       "scene": "07",
-      "start": 85.45157894736842,
-      "end": 90.9778947368421,
-      "audio": null
+      "start": 78.05600000000001,
+      "end": 83.528,
+      "duration": 5.472,
+      "provider": "edge-tts",
+      "audio": "assets/chiral-ep2/audio/s07-03-3f4fde44d09b05f2.mp3"
     }
   ]
 }
